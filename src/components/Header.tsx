@@ -11,7 +11,10 @@ function Header() {
     <HeaderContainer>
       <Logo src={LetterG} alt="Logo" />
       <Button>
-        <Link href="#" target="_blank">
+        <Link 
+          href="https://drive.google.com/file/d/1le7L2Zs5mk2UsD5Qphx6Ig1Tokq3DYqM/view" 
+          target="_blank"
+        >
           Resume
         </Link>
       </Button>

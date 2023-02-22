@@ -8,6 +8,11 @@ const Button = styled.button`
   border-radius: 5px;
   position: relative;
   cursor: pointer;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    background-color: ${({theme}) => theme.colors.greenTint};
+  }
 `;
 
 export default Button;
