@@ -44,6 +44,10 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
   }
+  // Element Styles
+  body {
+    background-color: ${({theme}) => theme.colors.navy};
+  }
 `;
 
 export default GlobalStyles;
