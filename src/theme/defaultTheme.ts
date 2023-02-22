@@ -15,6 +15,10 @@ export interface Theme {
     pink: string;
     blue: string;
   };
+  fonts: {
+    primary: string;
+    secondary: string;
+  }
 }
 
 export const defaultTheme = {
@@ -33,5 +37,9 @@ export const defaultTheme = {
     greenTint: "rgba(100,255,218,0.1)",
     pink: "#f57dff",
     blue: "#57cbff",
+  },
+  fonts: {
+    primary: "'Inter', sans-serif",
+    secondary: "'Roboto Mono', monospace",
   }
 }
