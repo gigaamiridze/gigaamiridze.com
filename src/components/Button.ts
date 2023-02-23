@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-const Button = styled.button`
+const Button = styled(motion.button)`
   width: 82px;
   height: 38px;
   background-color: transparent;
@@ -8,8 +9,7 @@ const Button = styled.button`
   border-radius: 5px;
   position: relative;
   cursor: pointer;
-  transition: all 0.25s ease-in-out;
-
+  
   &:hover {
     background-color: ${({theme}) => theme.colors.greenTint};
   }
