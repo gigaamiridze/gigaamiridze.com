@@ -18,7 +18,8 @@ export interface Theme {
   fonts: {
     primary: string;
     secondary: string;
-  }
+  };
+  transition: string;
 }
 
 export const defaultTheme = {
@@ -41,5 +42,6 @@ export const defaultTheme = {
   fonts: {
     primary: "'Inter', sans-serif",
     secondary: "'Roboto Mono', monospace",
-  }
+  },
+  transition: "all 0.25s ease-in-out",
 }
