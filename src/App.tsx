@@ -6,6 +6,7 @@ import { defaultTheme } from "./theme/defaultTheme";
 import GlobalStyles from "./assets/styles/Global";
 import Header from "./components/Header"; 
 import SocialIcons from "./components/SocialIcons";
+import MailBox from "./components/MailBox";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         </Helmet>
         <Header />
         <SocialIcons />
+        <MailBox />
       </HelmetProvider>
     </ThemeProvider>
   )
