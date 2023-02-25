@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { VerticalBlockProps } from "../types/verticalBlock";
+import { VerticalBlockProps } from "../interfaces/verticalBlock";
 
 const VerticalBlock = styled.div<VerticalBlockProps>`
   display: flex;
