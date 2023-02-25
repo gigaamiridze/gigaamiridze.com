@@ -6,9 +6,9 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { RxTwitterLogo } from "react-icons/rx";
 import { SlSocialFacebook } from "react-icons/sl";
 // Importing Components
-import VerticalBlock from "./VerticalBlock";
-import VerticalLine from "./VerticalLine";
-import IconWrapper from "./IconWrapper";
+import VerticalBlock from "../VerticalBlock";
+import VerticalLine from "../VerticalLine";
+import IconWrapper from "../wrappers/IconWrapper";
 
 function SocialIcons() {
   return (

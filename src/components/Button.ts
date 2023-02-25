@@ -13,6 +13,7 @@ const Button = styled(motion.button)`
   border-radius: 5px;
   font-size: 13px;
   letter-spacing: 0.5px;
+  outline: none;
   cursor: pointer;
   
   &:hover {

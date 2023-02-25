@@ -1,11 +1,11 @@
 import React from "react";
-import LetterG from "../assets/svg/letter-g.svg";
-import { fadeIn } from "../utilities/variants";
+import LetterG from "../../assets/svg/letter-g.svg";
+import { fadeIn } from "../../utilities/variants";
 // Importing Components
-import HeaderContainer from "./HeaderContainer";
-import Logo from "./Logo";
-import Button from "./Button";
-import BtnLinkWrapper from "./BtnLinkWrapper";
+import HeaderContainer from "../containers/HeaderContainer";
+import Logo from "../Logo";
+import Button from "../Button";
+import LinkBtnWrapper from "../wrappers/LinkBtnWrapper";
 
 function Header() {
   return (
@@ -17,7 +17,7 @@ function Header() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
       />
-      <BtnLinkWrapper
+      <LinkBtnWrapper
         href="https://drive.google.com/file/d/1le7L2Zs5mk2UsD5Qphx6Ig1Tokq3DYqM/view" 
         target="_blank"
       >
@@ -28,7 +28,7 @@ function Header() {
         >
           Resume
         </Button>
-      </BtnLinkWrapper>
+      </LinkBtnWrapper>
     </HeaderContainer>
   )
 }

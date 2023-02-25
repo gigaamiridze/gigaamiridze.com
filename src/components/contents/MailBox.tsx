@@ -1,8 +1,8 @@
 import React from "react";
 // Importing Components
-import VerticalBlock from "./VerticalBlock";
-import VerticalLine from "./VerticalLine";
-import MailLink from "./MailLink";
+import VerticalBlock from "../VerticalBlock";
+import VerticalLine from "../VerticalLine";
+import MailLink from "../MailLink";
 
 function MailBox() {
   return (

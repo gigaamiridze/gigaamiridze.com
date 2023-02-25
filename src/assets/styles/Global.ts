@@ -48,6 +48,16 @@ const GlobalStyles = createGlobalStyle`
   body {
     background-color: ${({theme}) => theme.colors.navy};
   }
+
+  .fullname {
+    ${({theme}) => `
+      color: ${theme.colors.lightestSlate};
+      font-family: ${theme.fonts.primary};
+    `}
+    font-size: 65px;
+    font-weight: 700;
+    margin: 30px 0 20px;
+  }
 `;
 
 export default GlobalStyles;
