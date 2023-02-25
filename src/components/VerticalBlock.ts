@@ -6,7 +6,7 @@ const VerticalBlock = styled.div<VerticalBlockProps>`
   flex-direction: column;
   align-items: center;
   position: fixed;
-  ${props => props.orientation}: 50px;
+  ${props => props.orientation}: 40px;
   bottom: 0;
 `;
 
