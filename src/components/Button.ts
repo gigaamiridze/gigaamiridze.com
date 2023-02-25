@@ -2,12 +2,17 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 const Button = styled(motion.button)`
+  ${({theme}) => `
+    color: ${theme.colors.green};
+    font-family: ${theme.fonts.secondary};
+    border: 1px solid ${theme.colors.green};
+  `}
   width: 82px;
   height: 38px;
   background-color: transparent;
-  border: 1px solid ${({theme}) => theme.colors.green};
   border-radius: 5px;
-  position: relative;
+  font-size: 13px;
+  letter-spacing: 0.5px;
   cursor: pointer;
   
   &:hover {

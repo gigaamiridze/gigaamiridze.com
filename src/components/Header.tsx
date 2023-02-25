@@ -5,7 +5,7 @@ import { fadeIn } from "../utilities/variants";
 import HeaderContainer from "./HeaderContainer";
 import Logo from "./Logo";
 import Button from "./Button";
-import Link from "./Link";
+import BtnLinkWrapper from "./BtnLinkWrapper";
 
 function Header() {
   return (
@@ -17,18 +17,18 @@ function Header() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
       />
-      <Button
-        variants={fadeIn("down", 0)}
-        initial="hidden"
-        animate="show"
+      <BtnLinkWrapper
+        href="https://drive.google.com/file/d/1le7L2Zs5mk2UsD5Qphx6Ig1Tokq3DYqM/view" 
+        target="_blank"
       >
-        <Link 
-          href="https://drive.google.com/file/d/1le7L2Zs5mk2UsD5Qphx6Ig1Tokq3DYqM/view" 
-          target="_blank"
+        <Button
+          variants={fadeIn("down", 0)}
+          initial="hidden"
+          animate="show"
         >
           Resume
-        </Link>
-      </Button>
+        </Button>
+      </BtnLinkWrapper>
     </HeaderContainer>
   )
 }
