@@ -7,7 +7,7 @@ import { RxTwitterLogo } from "react-icons/rx";
 import { SlSocialFacebook } from "react-icons/sl";
 // Importing Components
 import VerticalBlock from "../VerticalBlock";
-import VerticalLine from "../VerticalLine";
+import VerticalLine from "../lines/VerticalLine";
 import IconWrapper from "../wrappers/IconWrapper";
 
 function SocialIcons() {
