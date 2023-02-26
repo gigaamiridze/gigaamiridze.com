@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import HelloContainer from "../containers/HelloContainer";
 import GreenTitle from "../titles/GreenTitle";
 import WorkTitle from "../titles/WorkTitle";
-import Text from "../Text";
+import { HelloText } from "../Text";
 
 function Hello() {
   return (
@@ -23,10 +23,10 @@ function Hello() {
         className="fullname"
       />
       <WorkTitle>I build things for the web.</WorkTitle>
-      <Text>
+      <HelloText>
         I’m a software engineer specializing in building (and occasionally designing) exceptional digital 
         experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement.
-      </Text>
+      </HelloText>
     </HelloContainer>
   )
 }
