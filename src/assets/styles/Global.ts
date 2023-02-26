@@ -63,6 +63,13 @@ const GlobalStyles = createGlobalStyle`
     }
   }
 
+  ::selection {
+    ${({theme}) => `
+      background-color: ${theme.colors.lightestNavy};
+      color: ${theme.colors.lightestSlate}; 
+    `}
+  }
+
   .fullname {
     ${({theme}) => `
       color: ${theme.colors.lightestSlate};
