@@ -47,6 +47,20 @@ const GlobalStyles = createGlobalStyle`
   // Element Styles
   body {
     background-color: ${({theme}) => theme.colors.navy};
+
+    &::-webkit-scrollbar {
+      width: 12px; 
+    }
+    &::-webkit-scrollbar-track {
+      background-color: ${({theme}) => theme.colors.navy};
+    }
+    &::-webkit-scrollbar-thumb {
+      ${({theme}) => `
+        background-color: ${theme.colors.darkSlate};
+        border: 3px solid ${theme.colors.navy};
+      `}
+      border-radius: 10px;
+    }
   }
 
   .fullname {
