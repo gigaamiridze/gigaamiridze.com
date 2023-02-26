@@ -7,6 +7,7 @@ const MailLink = styled.a`
     transition: ${theme.transition};
   `}
   font-size: 12px;
+  font-weight: 300;
   letter-spacing: 1px;
   padding: 10px;
   writing-mode: vertical-lr;

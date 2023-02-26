@@ -5,8 +5,8 @@ const GreenNumber = styled.span`
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary}; 
   `}
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
   margin-right: 10px;
 `;
 

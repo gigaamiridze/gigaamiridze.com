@@ -17,7 +17,7 @@ export const defaultTheme = {
   },
   fonts: {
     primary: "'Inter', sans-serif",
-    secondary: "'Roboto Mono', monospace",
+    secondary: "'Martian Mono', monospace",
   },
   transition: "all 0.25s ease-in-out",
 }

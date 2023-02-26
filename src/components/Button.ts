@@ -11,7 +11,8 @@ const Button = styled(motion.button)`
   height: 38px;
   background-color: transparent;
   border-radius: 5px;
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: 300;
   letter-spacing: 0.5px;
   outline: none;
   cursor: pointer;

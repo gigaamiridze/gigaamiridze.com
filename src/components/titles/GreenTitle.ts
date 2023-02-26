@@ -5,8 +5,8 @@ const GreenTitle = styled.h4`
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary};
   `}
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 300;
   margin-left: 3px;
 `;
 
