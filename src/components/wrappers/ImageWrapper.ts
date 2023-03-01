@@ -22,6 +22,21 @@ const ImageWrapper = styled.div`
     top: 18px;
     left: 18px;
     z-index: -1;
+    transition: ${({theme}) => theme.transition};
+  }
+
+  &:hover {
+    background-color: inherit;
+  }
+
+  &:hover img {
+    mix-blend-mode: inherit;
+    filter: inherit;
+  }
+
+  &:hover::after {
+    top: 13px;
+    left: 13px;
   }
 `;
 
