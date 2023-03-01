@@ -1,6 +1,7 @@
 import React from "react";
 import uuid from "react-uuid";
 import { texts } from "../../data/aboutTexts";
+import ProfileImg from "../../assets/images/profile.jpg";
 // Importing Components
 import AboutContainer from "../containers/AboutContainer";
 import { FlexBox, FlexBlock } from "../Flex";
@@ -9,6 +10,8 @@ import SectionTitle from "../titles/SectionTitle";
 import HorizontalLine from "../lines/HorizontalLine";
 import TextContainer from "../containers/TextContainer";
 import { AboutText } from "../Text";
+import ImageWrapper from "../wrappers/ImageWrapper";
+import ProfileImage from "../ProfileImage";
 
 function About() {
   return (
@@ -30,6 +33,9 @@ function About() {
             )
           })}
         </TextContainer>
+        <ImageWrapper>
+          <ProfileImage src={ProfileImg} alt="Profile" />
+        </ImageWrapper>
       </FlexBlock>
     </AboutContainer>
   )
