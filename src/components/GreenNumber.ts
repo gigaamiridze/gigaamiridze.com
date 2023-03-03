@@ -1,13 +1,14 @@
 import styled from "styled-components";
+import { GreenNumberProps } from "../interfaces/greenNumber";
 
-const GreenNumber = styled.span`
+const GreenNumber = styled.span<GreenNumberProps>`
   ${({theme}) => `
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary}; 
   `}
-  font-size: 18px;
+  font-size: ${props => props.fontSize};
   font-weight: 300;
-  margin-right: 10px;
+  margin-right: ${props => props.marginRight};
 `;
 
 export default GreenNumber;

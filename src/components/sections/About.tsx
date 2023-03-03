@@ -17,7 +17,7 @@ function About() {
   return (
     <AboutContainer>
       <FlexBox>
-        <GreenNumber>01.</GreenNumber>
+        <GreenNumber fontSize="18px" marginRight="10px">01.</GreenNumber>
         <SectionTitle>About Me</SectionTitle>
         <HorizontalLine />
       </FlexBox>
