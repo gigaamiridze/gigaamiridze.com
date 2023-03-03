@@ -13,10 +13,15 @@ const NavContainer = styled.nav`
       cursor: pointer;
       padding: 10px 0;
 
+      &:hover a {
+        color: ${({theme}) => theme.colors.green};
+      }
+
       a {
         ${({theme}) => `
           color: ${theme.colors.lightestSlate};
           font-family: ${theme.fonts.secondary};
+          transition: ${theme.transition};
         `}
         font-size: 12px;
         font-weight: 300;
