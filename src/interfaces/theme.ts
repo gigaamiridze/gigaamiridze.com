@@ -12,6 +12,7 @@ export interface Theme {
     white: string;
     green: string;
     greenTint: string;
+    headerBg: string;
     pink: string;
     blue: string;
   };
