@@ -21,4 +21,5 @@ export const defaultTheme = {
     secondary: "'Martian Mono', monospace",
   },
   transition: "all 0.25s ease-in-out",
+  boxShadow: "0 10px 30px -10px rgba(2, 12, 27, 0.7)",
 }

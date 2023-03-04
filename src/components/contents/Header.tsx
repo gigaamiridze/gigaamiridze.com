@@ -1,6 +1,7 @@
 import React from "react";
 import LetterG from "../../assets/svg/letter-g.svg";
 import { fadeIn } from "../../utilities/variants";
+import { useScrollPosition } from "../../hooks/useScrollPosition";
 // Importing Components
 import HeaderContainer from "../containers/HeaderContainer";
 import Logo from "../Logo";
@@ -10,8 +11,10 @@ import Navigation from "./Navigation";
 import LinkBtnWrapper from "../wrappers/LinkBtnWrapper";
 
 function Header() {
+  const isScroll = useScrollPosition();
+
   return (
-    <HeaderContainer>
+    <HeaderContainer isScroll={isScroll}>
       <Logo
         src={LetterG}
         alt="Logo"

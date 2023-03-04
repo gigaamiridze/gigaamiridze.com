@@ -21,4 +21,5 @@ export interface Theme {
     secondary: string;
   };
   transition: string;
+  boxShadow: string;
 }
