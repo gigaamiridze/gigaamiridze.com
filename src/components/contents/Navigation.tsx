@@ -1,5 +1,7 @@
 import React from "react";
+import uuid from "react-uuid";
 import { Link } from "react-scroll";
+import { navLinks } from "../../data/navLinks";
 // Importing Components
 import NavContainer from "../containers/NavContainer";
 import GreenNumber from "../GreenNumber";
@@ -8,18 +10,24 @@ function Navigation() {
   return (
     <NavContainer>
       <ul>
-        <li>
-          <Link to="hello">
-            <GreenNumber fontSize="11px" marginRight="5px">01.</GreenNumber>
-            Hello
-          </Link>
-        </li>
-        <li>
-          <Link to="about">
-            <GreenNumber fontSize="11px" marginRight="5px">02.</GreenNumber>
-            About
-          </Link>
-        </li>
+        {navLinks.map((item) => {
+          const { queueNumber, address, title } = item;
+          const id = uuid();
+
+          return (
+            <li key={id}>
+              <Link to={address}>
+                <GreenNumber
+                  fontSize="11px"
+                  marginRight="5px"
+                >
+                  {queueNumber}
+                </GreenNumber>
+                {title}
+              </Link>
+            </li>
+          )
+        })}
       </ul>
     </NavContainer>
   )
