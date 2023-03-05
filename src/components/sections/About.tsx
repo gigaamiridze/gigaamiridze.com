@@ -15,7 +15,7 @@ import ProfileImage from "../ProfileImage";
 
 function About() {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <FlexBox>
         <GreenNumber fontSize="18px" marginRight="10px">01.</GreenNumber>
         <SectionTitle>About Me</SectionTitle>

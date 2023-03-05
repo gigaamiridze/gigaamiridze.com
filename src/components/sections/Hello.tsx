@@ -8,7 +8,7 @@ import { HelloText } from "../Text";
 
 function Hello() {
   return (
-    <HelloContainer>
+    <HelloContainer id="hello">
       <GreenTitle>Hi, my name is</GreenTitle>
       <TypeAnimation 
         sequence={[

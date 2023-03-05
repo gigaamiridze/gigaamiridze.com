@@ -79,6 +79,10 @@ const GlobalStyles = createGlobalStyle`
     font-weight: 700;
     margin: 30px 0 20px;
   }
+
+  .active {
+    color: ${({theme}) => theme.colors.green};
+  }
 `;
 
 export default GlobalStyles;

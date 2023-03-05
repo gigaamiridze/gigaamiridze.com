@@ -16,7 +16,13 @@ function Navigation() {
 
           return (
             <li key={id}>
-              <Link to={address}>
+              <Link 
+                to={address} 
+                activeClass="active" 
+                spy={true} 
+                smooth={true}
+                duration={500}
+              >
                 <GreenNumber
                   fontSize="11px"
                   marginRight="5px"
