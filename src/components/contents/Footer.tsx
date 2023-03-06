@@ -23,10 +23,12 @@ function Footer() {
     fetchUser();
   }, []);
 
+  const { html_url, public_repos } = user;
+
   return (
     <FooterContainer>
       <GitHubLink
-        href="https://github.com/justtfelix"
+        href={`${html_url}`}
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -34,7 +36,7 @@ function Footer() {
         <GitHubStats>
           <FlexBox>
             <RiGitRepositoryLine title="Repositories" fontSize={14} />
-            <span style={{ marginLeft: 5 }}>43</span>
+            <span style={{ marginLeft: 5 }}>{public_repos}</span>
           </FlexBox>
           <FlexBox>
             <FiGitCommit title="Commits" fontSize={14} />
