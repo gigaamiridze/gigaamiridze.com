@@ -1,21 +1,25 @@
 import styled from "styled-components";
 
-const MailLink = styled.a`
+export const Link = styled.a`
   ${({theme}) => `
     color: ${theme.colors.lightSlate};
     font-family: ${theme.fonts.secondary};
     transition: ${theme.transition};
   `}
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 300; 
   padding: 10px;
-  writing-mode: vertical-lr;
 
   &:hover {
     color: ${({theme}) => theme.colors.green};
-    transform: translateY(-3px);
   }
 `;
 
-export default MailLink;
+export const MailLink = styled(Link)`
+  letter-spacing: 1px;
+  writing-mode: vertical-lr;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+`;

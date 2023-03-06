@@ -5,6 +5,7 @@ import SocialIcons from "./SocialIcons";
 import MailBox from "./MailBox";
 import MainContent from "../MainContent";
 import Sections from "../sections/Sections";
+import Footer from "./Footer";
 
 function Portfolio() {
   return (
@@ -15,6 +16,7 @@ function Portfolio() {
       <MainContent>
         <Sections />
       </MainContent>
+      <Footer />
     </>
   )
 }

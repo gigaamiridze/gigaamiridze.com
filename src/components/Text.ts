@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const HelloText = styled.p`
+export const HelloText = styled.p`
   ${({theme}) => `
     color: ${theme.colors.slate};
     font-family: ${theme.fonts.primary};
@@ -11,9 +11,7 @@ const HelloText = styled.p`
   margin-top: 30px;
 `;
 
-const AboutText = styled(HelloText)`
+export const AboutText = styled(HelloText)`
   max-width: 100%;
   margin-top: 0;
 `;
-
-export { HelloText, AboutText };
