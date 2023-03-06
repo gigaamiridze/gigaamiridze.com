@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 // Importing Icons
 import { RiGitRepositoryLine } from "react-icons/ri";
 import { FiGitCommit } from "react-icons/fi";
@@ -9,6 +10,18 @@ import GitHubStats from "../GitHubStats";
 import { FlexBox } from "../Flex";
 
 function Footer() {
+  const [user, setUser] = useState();
+
+  const fetchUser = async () => {
+    const response = await axios.get('https://api.github.com/users/justtfelix');
+    const data = await response.data;
+    setUser(data);
+  }
+
+  useEffect(() => {
+    fetchUser();
+  }, []);
+
   return (
     <FooterContainer>
       <GitHubLink
