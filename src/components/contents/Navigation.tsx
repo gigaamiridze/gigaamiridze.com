@@ -18,10 +18,11 @@ function Navigation() {
             <li key={id}>
               <Link 
                 to={address} 
-                activeClass="active" 
+                activeClass="active"
                 spy={true} 
                 smooth={true}
-                duration={500}
+                offset={-130}
+                duration={1000}
               >
                 <GreenNumber
                   fontSize="11px"
