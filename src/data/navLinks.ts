@@ -9,4 +9,9 @@ export const navLinks = [
     address: "about",
     title: "About",
   },
+  {
+    queueNumber: "03.",
+    address: "contact",
+    title: "Contact",
+  },
 ]
