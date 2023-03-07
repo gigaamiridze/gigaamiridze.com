@@ -2,14 +2,14 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 // Importing Components
 import HelloContainer from "../containers/HelloContainer";
-import GreenTitle from "../titles/GreenTitle";
+import { HelloTitle } from "../titles/GreenTitle";
 import WorkTitle from "../titles/WorkTitle";
 import { HelloText } from "../Text";
 
 function Hello() {
   return (
     <HelloContainer>
-      <GreenTitle>Hi, my name is</GreenTitle>
+      <HelloTitle>Hi, my name is</HelloTitle>
       <TypeAnimation 
         sequence={[
           "Giga Amiridze.",

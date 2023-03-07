@@ -5,9 +5,14 @@ const GreenTitle = styled.h4`
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary};
   `}
-  font-size: 14px;
   font-weight: 300;
+`;
+
+export const HelloTitle = styled(GreenTitle)`
+  font-size: 14px;
   margin-left: 3px;
 `;
 
-export default GreenTitle;
+export const ContactTitle = styled(GreenTitle)`
+  font-size: 13px;
+`;
