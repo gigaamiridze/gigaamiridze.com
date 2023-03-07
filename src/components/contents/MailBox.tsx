@@ -7,7 +7,9 @@ import { MailLink } from "../Link";
 function MailBox() {
   return (
     <VerticalBlock orientation="right">
-      <MailLink href="mailto:justttfelix@gmail.com">justttfelix@gmail.com</MailLink>
+      <MailLink href="mailto:justttfelix@gmail.com" rel="noopener noreferrer">
+        justttfelix@gmail.com
+      </MailLink>
       <VerticalLine />
     </VerticalBlock>
   )

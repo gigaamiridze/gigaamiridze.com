@@ -5,7 +5,7 @@ import { useScrollPosition } from "../../hooks/useScrollPosition";
 // Importing Components
 import HeaderContainer from "../containers/HeaderContainer";
 import Logo from "../Logo";
-import Button from "../Button";
+import { ResumeButton } from "../Button";
 import { FlexBox } from "../Flex";
 import Navigation from "./Navigation";
 import LinkBtnWrapper from "../wrappers/LinkBtnWrapper";
@@ -28,13 +28,14 @@ function Header() {
           href="https://drive.google.com/file/d/1le7L2Zs5mk2UsD5Qphx6Ig1Tokq3DYqM/view"
           target="_blank"
         >
-          <Button
+          <ResumeButton
+            type="button"
             variants={fadeIn("down", 0)}
             initial="hidden"
             animate="show"
           >
             Resume
-          </Button>
+          </ResumeButton>
         </LinkBtnWrapper>
       </FlexBox>
     </HeaderContainer>

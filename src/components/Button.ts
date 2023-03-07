@@ -7,8 +7,6 @@ const Button = styled(motion.button)`
     font-family: ${theme.fonts.secondary};
     border: 1px solid ${theme.colors.green};
   `}
-  width: 82px;
-  height: 38px;
   background-color: transparent;
   border-radius: 5px;
   font-size: 12px;
@@ -22,4 +20,14 @@ const Button = styled(motion.button)`
   }
 `;
 
-export default Button;
+export const ResumeButton = styled(Button)`
+  width: 82px;
+  height: 38px;
+`;
+
+export const SectionButton = styled(Button)`
+  width: 135px;
+  height: 55px;
+  margin-top: 50px;
+  transition: ${({theme}) => theme.transition};
+`;

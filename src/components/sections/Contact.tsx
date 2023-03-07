@@ -5,6 +5,7 @@ import { ContactTitle } from "../titles/GreenTitle";
 import TouchTitle from "../titles/TouchTitle";
 import GreenNumber from "../GreenNumber";
 import { Text } from "../Text";
+import { SectionButton } from "../Button";
 
 function Contact() {
   return (
@@ -18,6 +19,9 @@ function Contact() {
         Although I’m not currently looking for any new opportunities, my inbox is always open. Whether 
         you have a question or just want to say hi, I’ll try my best to get back to you!
       </Text>
+      <a href="mailto:justttfelix@gmail.com" rel="noopener noreferrer">
+        <SectionButton type="button">Say Hello</SectionButton>
+      </a>
     </ContactContainer>
   )
 }
