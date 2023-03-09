@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export function useScrollPosition() {
+function useScrollPosition() {
   const [isScroll, setIsScroll] = useState<boolean>(false);
 
   useEffect(() => {
@@ -21,3 +21,5 @@ export function useScrollPosition() {
 
   return isScroll;
 }
+
+export default useScrollPosition;

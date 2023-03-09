@@ -1,10 +1,9 @@
 import React from "react";
 import uuid from "react-uuid";
 import { Link } from "react-scroll";
-import { navLinks } from "../../data/navLinks";
+import { navLinks } from "../data";
 // Importing Components
-import NavContainer from "../containers/NavContainer";
-import GreenNumber from "../GreenNumber";
+import { NavContainer, GreenNumber } from "../components";
 
 function Navigation() {
   return (

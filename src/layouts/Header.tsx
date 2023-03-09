@@ -1,14 +1,10 @@
 import React from "react";
-import LetterG from "../../assets/svg/letter-g.svg";
-import { fadeIn } from "../../utilities/variants";
-import { useScrollPosition } from "../../hooks/useScrollPosition";
+import { LetterG } from "../assets";
+import { fadeIn } from "../utilities";
+import { useScrollPosition } from "../hooks";
 // Importing Components
-import HeaderContainer from "../containers/HeaderContainer";
-import Logo from "../Logo";
-import { ResumeButton } from "../Button";
-import { FlexBox } from "../Flex";
+import { HeaderContainer, Logo, ResumeButton, FlexBox, LinkBtnWrapper } from "../components";
 import Navigation from "./Navigation";
-import LinkBtnWrapper from "../wrappers/LinkBtnWrapper";
 
 function Header() {
   const isScroll = useScrollPosition();

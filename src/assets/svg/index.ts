@@ -1,0 +1,1 @@
+export { default as LetterG } from "./letter-g.svg";

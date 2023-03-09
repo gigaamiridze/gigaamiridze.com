@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { User } from "../../interfaces/user";
+import { User } from "../interfaces";
 // Importing Icons
 import { RiGitRepositoryLine } from "react-icons/ri";
 import { FiGitCommit } from "react-icons/fi";
 // Importing Components
-import FooterContainer from "../containers/FooterContainer";
-import { Link as GitHubLink } from "../Link";
-import GitHubStats from "../GitHubStats";
-import { FlexBox } from "../Flex";
+import { FooterContainer, Link as GitHubLink, GitHubStats, FlexBox } from "../components";
 
 function Footer() {
   const [user, setUser] = useState({} as User);

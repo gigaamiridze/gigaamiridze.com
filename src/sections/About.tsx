@@ -1,17 +1,13 @@
 import React from "react";
 import uuid from "react-uuid";
-import { texts } from "../../data/aboutTexts";
-import ProfileImg from "../../assets/images/profile.jpg";
+import { texts } from "../data";
+import { Profile } from "../assets";
 // Importing Components
-import AboutContainer from "../containers/AboutContainer";
-import { FlexBox, FlexBlock } from "../Flex";
-import GreenNumber from "../GreenNumber";
-import SectionTitle from "../titles/SectionTitle";
-import HorizontalLine from "../lines/HorizontalLine";
-import TextContainer from "../containers/TextContainer";
-import { AboutText } from "../Text";
-import ImageWrapper from "../wrappers/ImageWrapper";
-import ProfileImage from "../ProfileImage";
+import { 
+  AboutContainer, FlexBox, FlexBlock, 
+  GreenNumber, SectionTitle, HorizontalLine, 
+  TextContainer, AboutText, ImageWrapper, ProfileImage 
+} from "../components";
 
 function About() {
   return (
@@ -34,7 +30,7 @@ function About() {
           })}
         </TextContainer>
         <ImageWrapper>
-          <ProfileImage src={ProfileImg} alt="Profile" />
+          <ProfileImage src={Profile} alt="Profile" />
         </ImageWrapper>
       </FlexBlock>
     </AboutContainer>

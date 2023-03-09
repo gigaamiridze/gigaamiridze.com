@@ -1,11 +1,8 @@
 import React from "react";
 // Importing Components
-import Header from "./Header";
-import SocialIcons from "./SocialIcons";
-import MailBox from "./MailBox";
-import MainContent from "../MainContent";
-import Sections from "../sections/Sections";
-import Footer from "./Footer";
+import { Header, SocialIcons, MailBox, Footer } from "../layouts";
+import { MainContent } from "../components";
+import { Sections } from "../sections";
 
 function Portfolio() {
   return (

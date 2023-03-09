@@ -1,11 +1,6 @@
 import React from "react";
 // Importing Components
-import ContactContainer from "../containers/ContactContainer";
-import { ContactTitle } from "../titles/GreenTitle";
-import TouchTitle from "../titles/TouchTitle";
-import GreenNumber from "../GreenNumber";
-import { Text } from "../Text";
-import { SectionButton } from "../Button";
+import { ContactContainer, ContactTitle, TouchTitle, GreenNumber, Text, SectionButton } from "../components";
 
 function Contact() {
   return (

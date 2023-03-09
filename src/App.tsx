@@ -3,8 +3,8 @@ import { ThemeProvider } from "styled-components";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { defaultTheme } from "./theme/defaultTheme";
 // Importing Components
-import GlobalStyles from "./assets/styles/Global";
-import Portfolio from "./components/contents/Portfolio";
+import { GlobalStyles } from "./assets";
+import { Portfolio } from "./layouts";
 
 function App() {
   return (
