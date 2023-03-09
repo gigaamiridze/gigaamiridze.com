@@ -4,19 +4,15 @@ import { texts } from "../data";
 import { Profile } from "../assets";
 // Importing Components
 import { 
-  AboutContainer, FlexBox, FlexBlock, 
-  GreenNumber, SectionTitle, HorizontalLine, 
-  TextContainer, AboutText, ImageWrapper, ProfileImage 
+  AboutContainer, FlexBlock, TextContainer,
+  AboutText, ImageWrapper, ProfileImage
 } from "../components";
+import { HeadTitle } from "../layouts";
 
 function About() {
   return (
     <AboutContainer id="about">
-      <FlexBox>
-        <GreenNumber fontSize="18px" marginRight="10px">02.</GreenNumber>
-        <SectionTitle>About Me</SectionTitle>
-        <HorizontalLine />
-      </FlexBox>
+      <HeadTitle queueNumber={2} title="About Me" />
       <FlexBlock>
         <TextContainer>
           {texts.map((item) => {

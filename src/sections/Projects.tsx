@@ -1,15 +1,12 @@
 import React from "react";
 // Importing Components
-import { ProjectsContainer, FlexBox, GreenNumber, SectionTitle, HorizontalLine } from "../components";
+import { ProjectsContainer } from "../components";
+import { HeadTitle } from "../layouts";
 
 function Projects() {
   return (
     <ProjectsContainer id="projects">
-      <FlexBox>
-        <GreenNumber fontSize="18px" marginRight="10px">04.</GreenNumber>
-        <SectionTitle>Some Things I’ve Built</SectionTitle>
-        <HorizontalLine />
-      </FlexBox>
+      <HeadTitle queueNumber={4} title="Some Things I’ve Built" />
     </ProjectsContainer>
   )
 }
