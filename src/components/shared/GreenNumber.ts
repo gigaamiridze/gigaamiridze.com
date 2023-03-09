@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { GreenNumberProps } from "../interfaces/greenNumber";
+import { GreenNumberProps } from "../../interfaces"; 
 
 const GreenNumber = styled.span<GreenNumberProps>`
   ${({theme}) => `

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { HeaderProps } from "../../interfaces/header";
+import { HeaderProps } from "../../interfaces";
 
 const HeaderContainer = styled.header<HeaderProps>`
   ${({isScroll, theme}) => `
