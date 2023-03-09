@@ -23,7 +23,7 @@ const NavContainer = styled.nav`
           font-family: ${theme.fonts.secondary};
           transition: ${theme.transition};
         `}
-        font-size: 12px;
+        font-size: 11.5px;
         font-weight: 300;
         padding: 10px;
       }

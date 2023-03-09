@@ -6,7 +6,7 @@ function Contact() {
   return (
     <ContactContainer id="contact">
       <ContactTitle>
-        <GreenNumber fontSize="12px" marginRight="10px">03.</GreenNumber>
+        <GreenNumber fontSize="12px" marginRight="10px">05.</GreenNumber>
         What’s Next?
       </ContactTitle>
       <TouchTitle>Get In Touch</TouchTitle>

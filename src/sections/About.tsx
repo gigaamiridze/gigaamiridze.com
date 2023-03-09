@@ -13,7 +13,7 @@ function About() {
   return (
     <AboutContainer id="about">
       <FlexBox>
-        <GreenNumber fontSize="18px" marginRight="10px">01.</GreenNumber>
+        <GreenNumber fontSize="18px" marginRight="10px">02.</GreenNumber>
         <SectionTitle>About Me</SectionTitle>
         <HorizontalLine />
       </FlexBox>

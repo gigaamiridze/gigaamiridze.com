@@ -11,6 +11,16 @@ export const navLinks = [
   },
   {
     queueNumber: "03.",
+    address: "skills",
+    title: "Skills",
+  },
+  {
+    queueNumber: "04.",
+    address: "projects",
+    title: "Projects",
+  },
+  {
+    queueNumber: "05.",
     address: "contact",
     title: "Contact",
   },

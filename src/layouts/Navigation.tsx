@@ -24,7 +24,7 @@ function Navigation() {
                 duration={1000}
               >
                 <GreenNumber
-                  fontSize="11px"
+                  fontSize="10.5px"
                   marginRight="5px"
                 >
                   {queueNumber}

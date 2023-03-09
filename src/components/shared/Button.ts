@@ -9,9 +9,7 @@ const Button = styled(motion.button)`
   `}
   background-color: transparent;
   border-radius: 5px;
-  font-size: 12px;
   font-weight: 300;
-  letter-spacing: 0.5px;
   outline: none;
   cursor: pointer;
   
@@ -23,11 +21,14 @@ const Button = styled(motion.button)`
 export const ResumeButton = styled(Button)`
   width: 82px;
   height: 38px;
+  font-size: 11.5px;
 `;
 
 export const SectionButton = styled(Button)`
   width: 135px;
   height: 55px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
   margin-top: 50px;
   transition: ${({theme}) => theme.transition};
 `;
