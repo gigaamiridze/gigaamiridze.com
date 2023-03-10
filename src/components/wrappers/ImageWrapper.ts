@@ -3,12 +3,24 @@ import styled from "styled-components";
 const ImageWrapper = styled.div`
   ${({theme}) => `
     background-color: ${theme.colors.green};
-    box-shadow: 0 10px 30px -15px ${theme.colors.navyShadow};
+    box-shadow: ${theme.boxShadow};
   `}
+  border-radius: 5px;
+
+  &:hover {
+    background-color: inherit;
+  }
+
+  &:hover img {
+    mix-blend-mode: inherit;
+    filter: inherit;
+  }
+`;
+
+export const ProfileImgWrapper = styled(ImageWrapper)`
   max-width: 300px;
   width: 100%;
   height: 300px;
-  border-radius: 5px;
   position: relative;
 
   &::after {
@@ -25,19 +37,16 @@ const ImageWrapper = styled.div`
     transition: ${({theme}) => theme.transition};
   }
 
-  &:hover {
-    background-color: inherit;
-  }
-
-  &:hover img {
-    mix-blend-mode: inherit;
-    filter: inherit;
-  }
-
   &:hover::after {
     top: 13px;
     left: 13px;
   }
 `;
 
-export default ImageWrapper;
+export const ProjectImgWrapper = styled(ImageWrapper)`
+  width: 560px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+`;

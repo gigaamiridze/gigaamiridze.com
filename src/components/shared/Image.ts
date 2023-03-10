@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ProfileImage = styled.img`
+const Image = styled.img`
   width: calc(100% + 1px);
   height: 100%;
   border-radius: 4px;
@@ -10,4 +10,4 @@ const ProfileImage = styled.img`
   transition: ${({theme}) => theme.transition};
 `;
 
-export default ProfileImage;
+export default Image;

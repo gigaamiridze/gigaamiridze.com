@@ -5,7 +5,7 @@ import { Profile } from "../assets";
 // Importing Components
 import { 
   AboutContainer, FlexBlock, TextContainer,
-  AboutText, ImageWrapper, ProfileImage
+  AboutText, ProfileImgWrapper, Image
 } from "../components";
 import { HeadTitle } from "../layouts";
 
@@ -25,9 +25,9 @@ function About() {
             )
           })}
         </TextContainer>
-        <ImageWrapper>
-          <ProfileImage src={Profile} alt="Profile" />
-        </ImageWrapper>
+        <ProfileImgWrapper>
+          <Image src={Profile} alt="Profile" />
+        </ProfileImgWrapper>
       </FlexBlock>
     </AboutContainer>
   )
