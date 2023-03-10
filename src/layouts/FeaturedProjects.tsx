@@ -1,10 +1,13 @@
 import React from "react";
 import { ProjectImg } from "../assets";
+// Importing Icons
+import { RiGithubLine } from "react-icons/ri";
+import { HiOutlineExternalLink } from "react-icons/hi";
 // Importing Components
 import { 
   ProjectsBlock, Project, ProjectImgWrapper, ProjectLink,
   Image, ProjectContent, FeaturedTitle, ProjectTitle,
-  TextBox, ProjectDescription, ProjectTechList 
+  TextBox, ProjectDescription, ProjectTechList, ProjectLinks 
 } from "../components";
 
 function FeauturedProjects() {
@@ -32,6 +35,14 @@ function FeauturedProjects() {
             <li>iTerm2</li>
             <li>Hyper</li>
           </ProjectTechList>
+          <ProjectLinks>
+            <a href="#" rel="noopener noreferrer" target="_blank">
+              <RiGithubLine title="GitHub" />
+            </a>
+            <a href="#" rel="noopener noreferrer" target="_blank">
+              <HiOutlineExternalLink title="External Link" />
+            </a>
+          </ProjectLinks>
         </ProjectContent>
       </Project>
     </ProjectsBlock>
