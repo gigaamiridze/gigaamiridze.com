@@ -5,3 +5,4 @@ export { default as ProjectLink } from "./ProjectLink";
 export { default as ProjectTitle } from "./ProjectTitle";
 export { default as TextBox } from "./TextBox";
 export { default as ProjectDescription } from "./ProjectDescription";
+export { default as ProjectTechList } from "./ProjectTechList";

@@ -4,7 +4,7 @@ import { ProjectImg } from "../assets";
 import { 
   ProjectsBlock, Project, ProjectImgWrapper, ProjectLink,
   Image, ProjectContent, FeaturedTitle, ProjectTitle,
-  TextBox, ProjectDescription 
+  TextBox, ProjectDescription, ProjectTechList 
 } from "../components";
 
 function FeauturedProjects() {
@@ -25,6 +25,13 @@ function FeauturedProjects() {
               Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
             </ProjectDescription>
           </TextBox>
+          <ProjectTechList>
+            <li>VS Code</li>
+            <li>Sublime Text</li>
+            <li>Atom</li>
+            <li>iTerm2</li>
+            <li>Hyper</li>
+          </ProjectTechList>
         </ProjectContent>
       </Project>
     </ProjectsBlock>
