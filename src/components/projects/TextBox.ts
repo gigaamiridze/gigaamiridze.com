@@ -7,6 +7,7 @@ const TextBox = styled.div`
   `}
   padding: 25px;
   border-radius: 4px;
+  margin-top: 25px;
 `;
 
 export default TextBox;

@@ -5,6 +5,7 @@ const ProjectTechList = styled.ul`
   justify-content: flex-end;
   align-items: center;
   column-gap: 20px;
+  margin: 25px 0 10px;
 
   li {
     ${({theme}) => `

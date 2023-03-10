@@ -19,4 +19,5 @@ export const ContactTitle = styled(GreenTitle)`
 
 export const FeaturedTitle = styled(GreenTitle)`
   font-size: 12px;
+  margin-bottom: 12px;
 `;
