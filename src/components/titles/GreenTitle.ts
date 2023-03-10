@@ -16,3 +16,7 @@ export const HelloTitle = styled(GreenTitle)`
 export const ContactTitle = styled(GreenTitle)`
   font-size: 13px;
 `;
+
+export const FeaturedTitle = styled(GreenTitle)`
+  font-size: 12px;
+`;

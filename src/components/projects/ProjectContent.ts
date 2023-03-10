@@ -3,7 +3,6 @@ import styled from "styled-components";
 const ProjectContent = styled.div`
   width: 480px;
   height: 280px;
-  background-color: red;
   text-align: right;
   position: absolute;
   top: 50%;
