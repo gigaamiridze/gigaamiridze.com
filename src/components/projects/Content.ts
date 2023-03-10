@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ProjectContent = styled.div`
+const Content = styled.div`
   width: 480px;
   text-align: right;
   position: absolute;
@@ -10,4 +10,4 @@ const ProjectContent = styled.div`
   z-index: 10;
 `;
 
-export default ProjectContent;
+export default Content;

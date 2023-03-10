@@ -4,5 +4,5 @@ export { default as Navigation } from "./Navigation";
 export { default as SocialIcons } from "./SocialIcons";
 export { default as MailBox } from "./MailBox";
 export { default as HeadTitle } from "./HeadTitle";
-export { default as FeaturedProjects } from "./FeaturedProjects";
 export { default as Footer } from "./Footer";
+export * from "./projects";
