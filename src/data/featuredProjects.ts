@@ -8,6 +8,7 @@ export const featuredProjects = [
     designLink: "https://nokak.github.io/Web-edition-of-Sandro-s-book",
     githubLink: "https://github.com/justtfelix/Web-edition-of-Sandro-s-book",
     techList: ["JavaScript", "HTML", "SCSS"],
+    isLeft: false,
   },
   {
     image: TipCalculator,
@@ -16,6 +17,7 @@ export const featuredProjects = [
     designLink: "https://tip-calculator-rc.vercel.app",
     githubLink: "https://github.com/justtfelix/tip-calculator",
     techList: ["React", "TypeScript", "Styled Components", "HTML"],
+    isLeft: true,
   },
   {
     image: TodoList,
@@ -24,5 +26,6 @@ export const featuredProjects = [
     designLink: "https://todo-list-rc.vercel.app",
     githubLink: "https://github.com/justtfelix/todo-list",
     techList: ["React", "JavaScript", "HTML", "SCSS"],
+    isLeft: false,
   }
 ]

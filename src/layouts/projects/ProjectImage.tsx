@@ -1,13 +1,15 @@
 import React from "react";
-import { ProjectImg } from "../../assets";
+import { ProjectImageProps } from "../../interfaces";
 // Importing Components
 import { ProjectImgWrapper, ProjectLink, Image,  } from "../../components";
 
-function ProjectImage() {
+function ProjectImage(props: ProjectImageProps) {
+  const { designLink, image, isLeft } = props;
+
   return (
     <ProjectImgWrapper>
-      <ProjectLink href="#" rel="noopener noreferrer" target="_blank">
-        <Image src={ProjectImg} alt="Project" />
+      <ProjectLink href={designLink} rel="noopener noreferrer" target="_blank">
+        <Image src={image} alt="Project" />
       </ProjectLink>
     </ProjectImgWrapper>
   )
