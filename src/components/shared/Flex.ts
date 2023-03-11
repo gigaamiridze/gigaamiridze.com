@@ -12,5 +12,8 @@ export const FlexBox = styled(Flex)`
 export const FlexBlock = styled(Flex)`
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 40px;
+`;
+
+export const SectionTitleBox = styled(FlexBox)`
+  margin-bottom: 40px;
 `;

@@ -1,17 +1,17 @@
 import React from "react";
 import { HeadTitleProps } from "../interfaces";
 // Importing Components
-import { FlexBox, GreenNumber, SectionTitle, HorizontalLine } from "../components";
+import { SectionTitleBox, GreenNumber, SectionTitle, HorizontalLine } from "../components";
 
 function HeadTitle(props: HeadTitleProps) {
   const { queueNumber, title } = props;
 
   return (
-    <FlexBox>
+    <SectionTitleBox>
       <GreenNumber fontSize="18px" marginRight="10px">0{queueNumber}.</GreenNumber>
       <SectionTitle>{title}</SectionTitle>
       <HorizontalLine />
-    </FlexBox>
+    </SectionTitleBox>
   )
 }
 
