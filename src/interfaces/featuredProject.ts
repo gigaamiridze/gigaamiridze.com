@@ -1,6 +1,7 @@
 export interface ProjectImageProps {
   designLink: string;
   image: string;
+  title: string;
   isLeft: boolean;
 }
 

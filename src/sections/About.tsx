@@ -26,7 +26,7 @@ function About() {
           })}
         </TextContainer>
         <ProfileImgWrapper>
-          <Image src={Profile} alt="Profile" />
+          <Image src={Profile} isFullWidth={false} alt="Profile" />
         </ProfileImgWrapper>
       </FlexBlock>
     </AboutContainer>

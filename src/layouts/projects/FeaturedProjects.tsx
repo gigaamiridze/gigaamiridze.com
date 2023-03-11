@@ -18,6 +18,7 @@ function FeauturedProjects() {
             <ProjectImage 
               designLink={designLink}
               image={image}
+              title={title}
               isLeft={isLeft}
             />
             <ProjectContent 
