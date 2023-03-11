@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { ContentPosition } from "../../interfaces";
 
-const ProjectLinks = styled.div`
+const ProjectLinks = styled.div<ContentPosition>`
   display: flex;
-  justify-content: flex-end;
+  justify-content: ${props => props.isLeft ? "flex-start" : "flex-end"};
   align-items: center;
 
   a {
@@ -13,8 +14,12 @@ const ProjectLinks = styled.div`
     font-size: 23px;
     padding: 10px;
 
+    &:first-child {
+      padding-left: ${props => props.isLeft ? 0 : "10px"};
+    }
+
     &:last-child {
-      padding-right: 0;
+      padding-right: ${props => props.isLeft ? "10px" : 0};
     }
 
     &:hover {

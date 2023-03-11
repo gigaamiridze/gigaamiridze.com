@@ -14,7 +14,7 @@ function ProjectContent(props: ProjectContentProps) {
   const { title, description, designLink, githubLink, techList, isLeft } = props;
 
   return (
-    <Content>
+    <Content isLeft={isLeft}>
       <FeaturedTitle>Featured Project</FeaturedTitle>
       <ProjectTitle 
         href={designLink} 
@@ -26,7 +26,7 @@ function ProjectContent(props: ProjectContentProps) {
       <TextBox>
         <ProjectDescription>{description}</ProjectDescription>
       </TextBox>
-      <ProjectTechList>
+      <ProjectTechList isLeft={isLeft}>
         {techList.map((tech) => {
           const id = uuid();
           
@@ -35,7 +35,7 @@ function ProjectContent(props: ProjectContentProps) {
           )
         })}
       </ProjectTechList>
-      <ProjectLinks>
+      <ProjectLinks isLeft={isLeft}>
         <a href={githubLink} rel="noopener noreferrer" target="_blank">
           <RiGithubLine title="GitHub" />
         </a>

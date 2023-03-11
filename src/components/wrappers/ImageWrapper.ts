@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ContentPosition } from "../../interfaces";
 
 const ImageWrapper = styled.div`
   ${({theme}) => `
@@ -43,10 +44,10 @@ export const ProfileImgWrapper = styled(ImageWrapper)`
   }
 `;
 
-export const ProjectImgWrapper = styled(ImageWrapper)`
+export const ProjectImgWrapper = styled(ImageWrapper)<ContentPosition>`
   width: 560px;
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
+  ${props => !props.isLeft ? "left" : "right"}: 0;
 `;

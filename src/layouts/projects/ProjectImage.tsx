@@ -7,7 +7,7 @@ function ProjectImage(props: ProjectImageProps) {
   const { designLink, image, title, isLeft } = props;
 
   return (
-    <ProjectImgWrapper>
+    <ProjectImgWrapper isLeft={isLeft}>
       <ProjectLink href={designLink} rel="noopener noreferrer" target="_blank">
         <Image src={image} isFullWidth alt={title} />
       </ProjectLink>

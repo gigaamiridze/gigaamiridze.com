@@ -1,3 +1,4 @@
+export * from "./contentPosition";
 export * from "./featuredProject";
 export * from "./verticalBlock";
 export * from "./greenNumber";

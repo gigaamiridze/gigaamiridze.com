@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { ContentPosition } from "../../interfaces";
 
-const ProjectTechList = styled.ul`
+const ProjectTechList = styled.ul<ContentPosition>`
   display: flex;
-  justify-content: flex-end;
+  justify-content: ${props => props.isLeft ? "flex-start" : "flex-end"};
   align-items: center;
   column-gap: 20px;
   margin: 25px 0 10px;
