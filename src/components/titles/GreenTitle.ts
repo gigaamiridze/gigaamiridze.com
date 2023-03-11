@@ -21,3 +21,8 @@ export const FeaturedTitle = styled(GreenTitle)`
   font-size: 12px;
   margin-bottom: 12px;
 `;
+
+export const ArchiveTitle = styled(GreenTitle)`
+  font-size: 12px;
+  margin-top: 20px;
+`;

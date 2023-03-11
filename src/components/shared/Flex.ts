@@ -17,3 +17,8 @@ export const FlexBlock = styled(Flex)`
 export const SectionTitleBox = styled(FlexBox)`
   margin-bottom: 40px;
 `;
+
+export const OtherTitleBox = styled(SectionTitleBox)`
+  justify-content: center;
+  flex-direction: column;
+`;

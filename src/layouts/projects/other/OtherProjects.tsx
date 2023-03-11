@@ -1,8 +1,13 @@
 import React from "react";
+// Importing Components
+import { SectionTitle, ArchiveTitle, OtherTitleBox } from "../../../components";
 
 function OtherProjects() {
   return (
-    <>Other Projects</>
+    <OtherTitleBox>
+      <SectionTitle>Other Noteworthy Projects</SectionTitle>
+      <ArchiveTitle>view the archive</ArchiveTitle>
+    </OtherTitleBox>
   )
 }
 
