@@ -25,4 +25,21 @@ export const FeaturedTitle = styled(GreenTitle)`
 export const ArchiveTitle = styled(GreenTitle)`
   font-size: 12px;
   margin-top: 20px;
+
+  &:hover::after {
+    width: 100%;
+  }
+
+  &::after {
+    ${({theme}) => `
+      background-color: ${theme.colors.green};
+      transition: ${theme.transition};
+    `}
+    content: "";
+    display: block;
+    width: 0;
+    height: 1.5px;
+    opacity: 0.5;
+    margin-top: 2px;
+  }
 `;
