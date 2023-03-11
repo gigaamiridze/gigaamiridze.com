@@ -1,9 +1,9 @@
 import React from "react";
-import { LetterG } from "../assets";
-import { fadeIn } from "../utilities";
-import { useScrollPosition } from "../hooks";
+import { LetterG } from "../../assets";
+import { fadeIn } from "../../utilities";
+import { useScrollPosition } from "../../hooks";
 // Importing Components
-import { HeaderContainer, Logo, ResumeButton, FlexBox, LinkBtnWrapper } from "../components";
+import { HeaderContainer, Logo, ResumeButton, FlexBox, LinkBtnWrapper } from "../../components";
 import Navigation from "./Navigation";
 
 function Header() {

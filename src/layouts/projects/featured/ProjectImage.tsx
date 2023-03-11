@@ -1,7 +1,7 @@
 import React from "react";
-import { ProjectImageProps } from "../../interfaces";
+import { ProjectImageProps } from "../../../interfaces";
 // Importing Components
-import { ProjectImgWrapper, ProjectLink, Image } from "../../components";
+import { ProjectImgWrapper, ProjectLink, Image } from "../../../components";
 
 function ProjectImage(props: ProjectImageProps) {
   const { designLink, image, title, isLeft } = props;

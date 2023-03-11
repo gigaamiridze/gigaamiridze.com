@@ -1,6 +1,6 @@
 import React from "react";
 import uuid from "react-uuid";
-import { ProjectContentProps } from "../../interfaces";
+import { ProjectContentProps } from "../../../interfaces";
 // Importing Icons
 import { RiGithubLine } from "react-icons/ri";
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -8,7 +8,7 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 import { 
   Content, FeaturedTitle, ProjectTitle, TextBox,
   ProjectDescription, ProjectTechList, ProjectLinks 
-} from "../../components";
+} from "../../../components";
 
 function ProjectContent(props: ProjectContentProps) {
   const { title, description, designLink, githubLink, techList, isLeft } = props;
