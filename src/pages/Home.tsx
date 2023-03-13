@@ -1,7 +1,7 @@
 import React from "react";
 import { Hello, About, Projects, Contact } from "../sections";
 
-function Sections() {
+function Home() {
   return (
     <>
       <Hello />
@@ -12,4 +12,4 @@ function Sections() {
   )
 }
 
-export default Sections;
+export default Home;
