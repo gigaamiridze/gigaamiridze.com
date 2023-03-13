@@ -1,5 +1,4 @@
 import React from "react";
-// Importing Components
 import { ContactContainer, ContactTitle, TouchTitle, GreenNumber, Text, SectionButton } from "../components";
 
 function Contact() {

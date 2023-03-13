@@ -2,7 +2,6 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { defaultTheme } from "./theme/defaultTheme";
-// Importing Components
 import { GlobalStyles } from "./assets";
 import { Portfolio } from "./layouts";
 

@@ -1,4 +1,3 @@
-// Importing Icons
 import { TbBrandGithub } from "react-icons/tb";
 import { FiLinkedin } from "react-icons/fi";
 import { AiOutlineInstagram } from "react-icons/ai";

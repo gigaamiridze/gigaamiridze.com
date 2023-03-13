@@ -1,7 +1,6 @@
 import React from "react";
 import uuid from "react-uuid";
 import { featuredProjects } from "../../../data";
-// Importing Components
 import { ProjectsBlock, Project } from "../../../components";
 import ProjectImage from "./ProjectImage";
 import ProjectContent from "./ProjectContent";

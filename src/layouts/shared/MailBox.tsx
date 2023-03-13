@@ -1,5 +1,4 @@
 import React from "react";
-// Importing Components
 import { VerticalBlock, VerticalLine, MailLink } from "../../components";
 
 function MailBox() {

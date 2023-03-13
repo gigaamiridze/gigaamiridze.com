@@ -1,5 +1,4 @@
 import React from "react";
-// Importing Components
 import { ProjectsContainer } from "../components";
 import { HeadTitle, FeaturedProjects, OtherProjects } from "../layouts";
 

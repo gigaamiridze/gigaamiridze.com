@@ -1,6 +1,5 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-// Importing Components
 import { HelloContainer, HelloTitle, WorkTitle, HelloText } from "../components";
 
 function Hello() {

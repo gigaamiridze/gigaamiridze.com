@@ -2,7 +2,6 @@ import React from "react";
 import uuid from "react-uuid";
 import { texts } from "../data";
 import { Profile } from "../assets";
-// Importing Components
 import { 
   AboutContainer, FlexBlock, TextContainer,
   AboutText, ProfileImgWrapper, Image

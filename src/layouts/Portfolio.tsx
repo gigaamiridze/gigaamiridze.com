@@ -1,5 +1,4 @@
 import React from "react";
-// Importing Components
 import { Header, SocialIcons, MailBox, Footer } from "../layouts";
 import { MainContent } from "../components";
 import { Sections } from "../sections";

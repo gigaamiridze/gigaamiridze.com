@@ -1,5 +1,4 @@
 import React from "react";
-// Importing Components
 import { SectionTitle, ArchiveTitle, OtherTitleBox } from "../../../components";
 
 function OtherProjects() {

@@ -1,7 +1,6 @@
 import React from "react";
 import uuid from "react-uuid";
 import { icons } from "../../data";
-// Importing Components
 import { VerticalBlock, VerticalLine, IconWrapper } from "../../components";
 
 function SocialIcons() {

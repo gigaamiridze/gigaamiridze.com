@@ -1,5 +1,4 @@
 import React from "react";
-// Importing Sections
 import { Hello, About, Projects, Contact } from "../sections";
 
 function Sections() {

@@ -1,6 +1,5 @@
 import React from "react";
 import { ProjectImageProps } from "../../../interfaces";
-// Importing Components
 import { ProjectImgWrapper, ProjectLink, Image } from "../../../components";
 
 function ProjectImage(props: ProjectImageProps) {

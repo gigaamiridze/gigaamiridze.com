@@ -1,6 +1,5 @@
 import React from "react";
 import { HeadTitleProps } from "../../interfaces";
-// Importing Components
 import { SectionTitleBox, GreenNumber, SectionTitle, HorizontalLine } from "../../components";
 
 function HeadTitle(props: HeadTitleProps) {
