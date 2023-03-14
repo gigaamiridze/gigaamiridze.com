@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { SectionTitle, ArchiveTitle, OtherTitleBox } from "../../../components";
+import { SectionTitle, ViewArchiveTitle, OtherTitleBox } from "../../../components";
 
 function OtherProjects() {
   return (
     <OtherTitleBox>
       <SectionTitle>Other Noteworthy Projects</SectionTitle>
       <Link to="archive">
-        <ArchiveTitle>view the archive</ArchiveTitle>
+        <ViewArchiveTitle>view the archive</ViewArchiveTitle>
       </Link>
     </OtherTitleBox>
   )

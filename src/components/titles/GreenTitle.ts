@@ -22,7 +22,7 @@ export const FeaturedTitle = styled(GreenTitle)`
   margin-bottom: 12px;
 `;
 
-export const ArchiveTitle = styled(GreenTitle)`
+export const ViewArchiveTitle = styled(GreenTitle)`
   font-size: 12px;
   margin-top: 20px;
 
@@ -42,4 +42,9 @@ export const ArchiveTitle = styled(GreenTitle)`
     opacity: 0.5;
     margin-top: 2px;
   }
+`;
+
+export const ArchiveSubtitle = styled(GreenTitle)`
+  font-size: 14px;
+  margin-top: 27px;
 `;
