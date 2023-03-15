@@ -8,13 +8,24 @@ const Table = styled.table`
   font-size: 16.5px;
   font-weight: 700;
   width: 100%;
+  transform: translateX(-20px);
 
   th, td {
     padding: 15px; 
     text-align: left;
+    cursor: default;
 
     &:first-child {
       padding-left: 20px;
+    }
+  }
+
+  tbody tr {
+    &:hover {
+      ${({ theme }) => `
+        background-color: ${theme.colors.lightNavy};
+        transition: ${theme.transition};
+      `}
     }
   }
 
