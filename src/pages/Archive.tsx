@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { RiGithubLine } from "react-icons/ri";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { tabTitle } from "../utilities";
+import { columnTitles } from "../data";
 import { 
   TitlesBox, ArchiveTitle, ArchiveSubtitle, Table, 
   Year, Title, MadeAt, BuiltWith, Links 
@@ -21,11 +22,13 @@ function Archive() {
       <Table>
         <thead>
           <tr>
-            <th>Year</th>
-            <th>Title</th>
-            <th>Made at</th>
-            <th>Built with</th>
-            <th>Link</th>
+            {columnTitles.map((item) => {
+              const { id, title } = item;
+
+              return (
+                <th key={id}>{title}</th>
+              )
+            })}
           </tr>
         </thead>
         <tbody>
