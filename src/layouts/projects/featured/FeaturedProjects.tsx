@@ -1,5 +1,4 @@
 import React from "react";
-import uuid from "react-uuid";
 import { featuredProjects } from "../../../data";
 import { ProjectsBlock, Project } from "../../../components";
 import ProjectImage from "./ProjectImage";
@@ -9,8 +8,7 @@ function FeauturedProjects() {
   return (
     <ProjectsBlock>
       {featuredProjects.map((project) => {
-        const { image, title, description, designLink, githubLink, techList, isLeft } = project;
-        const id = uuid();
+        const { id, image, title, description, designLink, githubLink, techList, isLeft } = project;
 
         return (
           <Project key={id}>

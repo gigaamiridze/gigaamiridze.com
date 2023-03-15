@@ -1,5 +1,4 @@
 import React from "react";
-import uuid from "react-uuid";
 import { icons } from "../../data";
 import { VerticalBlock, VerticalLine, IconWrapper } from "../../components";
 
@@ -7,8 +6,7 @@ function SocialIcons() {
   return (
     <VerticalBlock orientation="left">
       {icons.map((item) => {
-        const { url, icon, title } = item;
-        const id = uuid();
+        const { id, url, icon, title } = item;
         const Icon = icon;
 
         return (

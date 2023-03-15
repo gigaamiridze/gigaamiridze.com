@@ -1,12 +1,11 @@
 import React from "react";
-import uuid from "react-uuid";
 import { texts } from "../data";
 import { Profile } from "../assets";
+import { HeadTitle } from "../layouts";
 import { 
   AboutContainer, FlexBlock, TextContainer,
   AboutText, ProfileImgWrapper, Image
 } from "../components";
-import { HeadTitle } from "../layouts";
 
 function About() {
   return (
@@ -15,11 +14,11 @@ function About() {
       <FlexBlock>
         <TextContainer>
           {texts.map((item) => {
-            const id = uuid();
+            const { id, text } = item;
 
             return (
               <AboutText key={id}>
-                {item.text}
+                {text}
               </AboutText>
             )
           })}

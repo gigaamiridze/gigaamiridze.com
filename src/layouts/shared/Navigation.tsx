@@ -1,5 +1,4 @@
 import React from "react";
-import uuid from "react-uuid";
 import { Link } from "react-scroll";
 import { navLinks } from "../../data";
 import { NavContainer, GreenNumber } from "../../components";
@@ -9,8 +8,7 @@ function Navigation() {
     <NavContainer>
       <ul>
         {navLinks.map((item) => {
-          const { queueNumber, address, title } = item;
-          const id = uuid();
+          const { id, queueNumber, address, title } = item;
 
           return (
             <li key={id}>

@@ -2,6 +2,7 @@ import { ElBook, TipCalculator, TodoList } from "../assets";
 
 export const featuredProjects = [
   {
+    id: 1,
     image: ElBook,
     title: "Sandro's Book",
     description: "This book is an online edition of the book. The stories told in this book are about technology and the magical abilities of modern man. There is no printed version of this book, the stories told in the book can be read and heard only thanks to technology.",
@@ -11,6 +12,7 @@ export const featuredProjects = [
     isLeft: false,
   },
   {
+    id: 2,
     image: TipCalculator,
     title: "Tip Calculator",
     description: "The purpose of the project is to take values from the input fields and select the tip percentage by pressing a button. After completion, the amount to be paid based on the entered value will be displayed.",
@@ -20,6 +22,7 @@ export const featuredProjects = [
     isLeft: true,
   },
   {
+    id: 3,
     image: TodoList,
     title: "Todo List",
     description: "Todo List App is a kind of app that is generally used to maintain our day-to-day tasks or list everything that we have to do. It helps plan our daily schedules.",
