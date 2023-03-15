@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 const Button = styled(motion.button)`
-  ${({theme}) => `
+  ${({ theme }) => `
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary};
     border: 1px solid ${theme.colors.green};
@@ -14,7 +14,7 @@ const Button = styled(motion.button)`
   cursor: pointer;
   
   &:hover {
-    background-color: ${({theme}) => theme.colors.greenTint};
+    background-color: ${({ theme }) => theme.colors.greenTint};
   }
 `;
 
@@ -30,5 +30,5 @@ export const SectionButton = styled(Button)`
   font-size: 12px;
   letter-spacing: 0.5px;
   margin-top: 50px;
-  transition: ${({theme}) => theme.transition};
+  transition: ${({ theme }) => theme.transition};
 `;

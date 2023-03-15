@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const GreenTitle = styled.h4`
-  ${({theme}) => `
+  ${({ theme }) => `
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary};
   `}
@@ -31,7 +31,7 @@ export const ViewArchiveTitle = styled(GreenTitle)`
   }
 
   &::after {
-    ${({theme}) => `
+    ${({ theme }) => `
       background-color: ${theme.colors.green};
       transition: ${theme.transition};
     `}

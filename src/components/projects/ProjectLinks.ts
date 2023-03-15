@@ -7,7 +7,7 @@ const ProjectLinks = styled.div<ContentPosition>`
   align-items: center;
 
   a {
-    ${({theme}) => `
+    ${({ theme }) => `
       color: ${theme.colors.lightestSlate};
       transition: ${theme.transition};
     `}
@@ -23,7 +23,7 @@ const ProjectLinks = styled.div<ContentPosition>`
     }
 
     &:hover {
-      color: ${({theme}) => theme.colors.green};
+      color: ${({ theme }) => theme.colors.green};
     }
   }
 `;

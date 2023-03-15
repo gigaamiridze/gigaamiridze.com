@@ -9,7 +9,7 @@ const ProjectTechList = styled.ul<ContentPosition>`
   margin: 25px 0 10px;
 
   li {
-    ${({theme}) => `
+    ${({ theme }) => `
       color: ${theme.colors.lightSlate};
       font-family: ${theme.fonts.secondary};
     `}

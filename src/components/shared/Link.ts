@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Link = styled.a`
-  ${({theme}) => `
+  ${({ theme }) => `
     color: ${theme.colors.lightSlate};
     font-family: ${theme.fonts.secondary};
     transition: ${theme.transition};
@@ -11,7 +11,7 @@ export const Link = styled.a`
   padding: 10px;
 
   &:hover {
-    color: ${({theme}) => theme.colors.green};
+    color: ${({ theme }) => theme.colors.green};
   }
 `;
 

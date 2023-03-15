@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { ContentPosition } from "../../interfaces";
 
 const ImageWrapper = styled.div`
-  ${({theme}) => `
+  ${({ theme }) => `
     background-color: ${theme.colors.green};
     box-shadow: ${theme.boxShadow};
   `}
@@ -30,12 +30,12 @@ export const ProfileImgWrapper = styled(ImageWrapper)`
     width: 100%;
     height: 100%;
     border-radius: 4px;
-    outline: 2px solid ${({theme}) => theme.colors.green};
+    outline: 2px solid ${({ theme }) => theme.colors.green};
     position: absolute;
     top: 18px;
     left: 18px;
     z-index: -1;
-    transition: ${({theme}) => theme.transition};
+    transition: ${({ theme }) => theme.transition};
   }
 
   &:hover::after {
@@ -44,7 +44,7 @@ export const ProfileImgWrapper = styled(ImageWrapper)`
   }
 `;
 
-export const ProjectImgWrapper = styled(ImageWrapper)<ContentPosition>`
+export const ProjectImgWrapper = styled(ImageWrapper) <ContentPosition>`
   width: 560px;
   height: 100%;
   position: absolute;

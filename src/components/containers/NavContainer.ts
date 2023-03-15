@@ -14,11 +14,11 @@ const NavContainer = styled.nav`
       padding: 10px 0;
 
       &:hover a {
-        color: ${({theme}) => theme.colors.green};
+        color: ${({ theme }) => theme.colors.green};
       }
 
       a {
-        ${({theme}) => `
+        ${({ theme }) => `
           color: ${theme.colors.lightestSlate};
           font-family: ${theme.fonts.secondary};
           transition: ${theme.transition};

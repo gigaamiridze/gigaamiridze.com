@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
-const WorkTitle = styled.h3`
+const MadeAt = styled.td`
   ${({ theme }) => `
     color: ${theme.colors.slate};
     font-family: ${theme.fonts.primary};
   `}
-  font-size: 65px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 400;
+  width: 125px;
 `;
 
-export default WorkTitle;
+export default MadeAt;

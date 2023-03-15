@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ProjectDescription = styled.p`
-  ${({theme}) => `
+  ${({ theme }) => `
     color: ${theme.colors.lightSlate};
     font-family: ${theme.fonts.primary};
   `}

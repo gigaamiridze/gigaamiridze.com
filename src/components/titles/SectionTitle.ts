@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SectionTitle = styled.h2`
-  ${({theme}) => `
+  ${({ theme }) => `
     color: ${theme.colors.lightestSlate};
     font-family: ${theme.fonts.primary};
   `}
