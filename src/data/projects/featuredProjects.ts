@@ -1,4 +1,4 @@
-import { ElBook, TipCalculator, TodoList } from "../assets";
+import { ElBook, TipCalculator, TodoList } from "../../assets";
 
 export const featuredProjects = [
   {
