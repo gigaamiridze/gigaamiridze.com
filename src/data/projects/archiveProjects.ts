@@ -122,7 +122,7 @@ export const archiveProjects = [
     title: "Paradise",
     madeAt: "Unilab",
     techs: "Python · Flask · SQLAlchemy · JavaScript · HTML · SCSS",
-    designLink: "#",
+    designLink: undefined,
     githubLink: "https://github.com/justtfelix/Paradise",
   },
   {
@@ -131,7 +131,7 @@ export const archiveProjects = [
     title: "Photolens",
     madeAt: "—",
     techs: "Python · Flask · JavaScript · HTML · SCSS",
-    designLink: "#",
+    designLink: undefined,
     githubLink: "https://github.com/justtfelix/Photolens",
   },
   {
@@ -149,7 +149,7 @@ export const archiveProjects = [
     title: "Hortensia",
     madeAt: "Unilab",
     techs: "Python · Flask · SQLAlchemy · JavaScript · HTML · SCSS",
-    designLink: "#",
+    designLink: undefined,
     githubLink: "https://github.com/justtfelix/AI_HortensIA/tree/back",
   },
   {
@@ -185,7 +185,7 @@ export const archiveProjects = [
     title: "Vaccination API",
     madeAt: "Unilab",
     techs: "Python · Flask · SQLAlchemy · Flask-RESTful",
-    designLink: "#",
+    designLink: undefined,
     githubLink: "https://github.com/justtfelix/Vaccination-API",
   },
   {
@@ -194,7 +194,7 @@ export const archiveProjects = [
     title: "Magazine Manager API",
     madeAt: "Unilab",
     techs: "Python · Flask · SQLAlchemy · Flask-RESTful",
-    designLink: "#",
+    designLink: undefined,
     githubLink: "https://github.com/justtfelix/Manager-API",
   },
   {
@@ -203,7 +203,7 @@ export const archiveProjects = [
     title: "Genius API",
     madeAt: "Unilab",
     techs: "Python · Flask · SQLAlchemy · Flask-RESTful",
-    designLink: "#",
+    designLink: undefined,
     githubLink: "https://github.com/justtfelix/Genius-API",
   },
 ]
