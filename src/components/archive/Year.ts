@@ -7,7 +7,6 @@ const Year = styled.td`
   `}
   font-size: 14px;
   font-weight: 300;
-  width: 70px;
 `;
 
 export default Year;

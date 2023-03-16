@@ -7,6 +7,7 @@ const ArchiveTitle = styled.h1`
   `}
   font-size: 65px;
   font-weight: 700;
+  padding-top: 100px;
 `;
 
 export default ArchiveTitle;

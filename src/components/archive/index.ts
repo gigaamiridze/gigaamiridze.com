@@ -1,4 +1,4 @@
-export { default as TitlesBox } from "./TitlesBox";
+export { default as ArchiveTitle } from "./ArchiveTitle";
 export { default as Table } from "./Table";
 export { default as Year } from "./Year";
 export { default as Title } from "./Title";

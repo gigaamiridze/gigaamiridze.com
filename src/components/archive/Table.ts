@@ -9,6 +9,7 @@ const Table = styled.table`
   font-weight: 700;
   width: 100%;
   transform: translateX(-20px);
+  margin: 100px 0;
 
   th, td {
     padding: 15px; 

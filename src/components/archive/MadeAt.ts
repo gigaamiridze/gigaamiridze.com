@@ -7,7 +7,6 @@ const MadeAt = styled.td`
   `}
   font-size: 15px;
   font-weight: 400;
-  width: 125px;
 `;
 
 export default MadeAt;

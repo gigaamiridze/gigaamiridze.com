@@ -8,7 +8,6 @@ const Title = styled.td`
   font-size: 16px;
   font-weight: 700;
   line-height: 1.3;
-  width: 290px;
 `;
 
 export default Title;
