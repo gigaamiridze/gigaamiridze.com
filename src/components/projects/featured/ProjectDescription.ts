@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const ProjectDescription = styled.p`
-  ${({ theme }) => `
+  ${({ theme }) => css`
     color: ${theme.colors.lightSlate};
     font-family: ${theme.fonts.primary};
   `}

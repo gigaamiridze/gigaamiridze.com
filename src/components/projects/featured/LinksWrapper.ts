@@ -1,13 +1,13 @@
-import styled from "styled-components";
-import { ContentPosition } from "../../interfaces";
+import styled, { css } from "styled-components";
+import { ContentPosition } from "../../../interfaces";
 
-const ProjectLinks = styled.div<ContentPosition>`
+const LinksWrapper = styled.div<ContentPosition>`
   display: flex;
   justify-content: ${props => props.isLeft ? "flex-start" : "flex-end"};
   align-items: center;
 
   a {
-    ${({ theme }) => `
+    ${({ theme }) => css`
       color: ${theme.colors.lightestSlate};
       transition: ${theme.transition};
     `}
@@ -28,4 +28,4 @@ const ProjectLinks = styled.div<ContentPosition>`
   }
 `;
 
-export default ProjectLinks;
+export default LinksWrapper;

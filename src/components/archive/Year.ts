@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const Year = styled.td`
-  ${({ theme }) => `
+  ${({ theme }) => css`
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary};
   `}

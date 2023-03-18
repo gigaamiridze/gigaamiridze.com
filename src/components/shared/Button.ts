@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { motion } from "framer-motion";
 
 const Button = styled(motion.button)`
-  ${({ theme }) => `
+  ${({ theme }) => css`
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary};
     border: 1px solid ${theme.colors.green};

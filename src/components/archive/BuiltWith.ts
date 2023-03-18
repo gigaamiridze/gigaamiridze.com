@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const BuiltWith = styled.td`
-  ${({ theme }) => `
+  ${({ theme }) => css`
     color: ${theme.colors.slate};
     font-family: ${theme.fonts.secondary};
   `}

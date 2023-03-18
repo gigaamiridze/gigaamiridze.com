@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { ContentPosition } from "../../interfaces";
+import styled, { css } from "styled-components";
+import { ContentPosition } from "../../../interfaces";
 
 const Content = styled.div<ContentPosition>`
-  ${({ isLeft }) => `
+  ${({ isLeft }) => css`
     text-align: ${isLeft ? "left" : "right"};
     ${isLeft ? "left" : "right"}: 0;
   `}

@@ -1,15 +1,15 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-const Links = styled.div`
+const ProjectLinksWrapper = styled.div`
   display: flex;
   align-items: center;
 
   a {
-    ${({ theme }) => `
+    ${({ theme }) => css`
       color: ${theme.colors.slate};
       transition: ${theme.transition};
     `}
-    font-size: 22px;
+    font-size: 23px;
 
     &:first-child {
       margin-right: 10px;
@@ -21,4 +21,4 @@ const Links = styled.div`
   }
 `;
 
-export default Links;
+export default ProjectLinksWrapper;

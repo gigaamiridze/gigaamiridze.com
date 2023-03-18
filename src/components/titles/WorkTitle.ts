@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const WorkTitle = styled.h3`
-  ${({ theme }) => `
+  ${({ theme }) => css`
     color: ${theme.colors.slate};
     font-family: ${theme.fonts.primary};
   `}

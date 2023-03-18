@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { HeaderProps } from "../../interfaces";
 
 const HeaderContainer = styled.header<HeaderProps>`
-  ${({ isScroll, theme }) => `
+  ${({ isScroll, theme }) => css`
     background-color: ${isScroll ? theme.colors.headerBg : theme.colors.navy};
     box-shadow: ${isScroll ? theme.boxShadow : "none"};
     height: ${isScroll ? "70px" : "100px"};

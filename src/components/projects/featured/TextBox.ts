@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const TextBox = styled.div`
-  ${({theme}) => `
+  ${({theme}) => css`
     background-color: ${theme.colors.lightNavy};
     box-shadow: ${theme.boxShadow};
   `}

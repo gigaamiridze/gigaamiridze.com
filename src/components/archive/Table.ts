@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const Table = styled.table`
-  ${({ theme }) => `
+  ${({ theme }) => css`
     color: ${theme.colors.slate};
     font-family: ${theme.fonts.primary};
   `}
@@ -23,7 +23,7 @@ const Table = styled.table`
 
   tbody tr {
     &:hover {
-      ${({ theme }) => `
+      ${({ theme }) => css`
         background-color: ${theme.colors.lightNavy};
         transition: ${theme.transition};
       `}

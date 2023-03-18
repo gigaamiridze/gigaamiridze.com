@@ -1,8 +1,7 @@
 import React from "react";
-import { RiGithubLine } from "react-icons/ri";
-import { HiOutlineExternalLink } from "react-icons/hi";
 import { columnTitles, archiveProjects } from "../../data";
-import { Table, Year, Title, MadeAt, BuiltWith, Links } from "../../components";
+import { Table, Year, Title, MadeAt, BuiltWith } from "../../components";
+import { ProjectLinks } from "../../layouts";
 
 function ProjectsTable() {
   return (
@@ -29,19 +28,7 @@ function ProjectsTable() {
               <MadeAt>{madeAt}</MadeAt>
               <BuiltWith>{techs}</BuiltWith>
               <td>
-                <Links>
-                  {designLink === undefined
-                    ? null
-                    : (
-                      <a href={designLink} rel="noopener noreferrer" target="_blank">
-                        <HiOutlineExternalLink title="External Link" />
-                      </a>
-                    )
-                  }
-                  <a href={githubLink} rel="noopener noreferrer" target="_blank">
-                    <RiGithubLine title="GitHub" />
-                  </a>
-                </Links>
+                <ProjectLinks githubLink={githubLink} designLink={designLink} />
               </td>
             </tr>
           )

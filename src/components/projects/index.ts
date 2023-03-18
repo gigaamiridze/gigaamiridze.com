@@ -1,9 +1,2 @@
-export { default as ProjectsBlock } from "./ProjectsBlock";
-export { default as Project } from "./Project";
-export { default as Content } from "./Content";
-export { default as ProjectLink } from "./ProjectLink";
-export { default as ProjectTitle } from "./ProjectTitle";
-export { default as TextBox } from "./TextBox";
-export { default as ProjectDescription } from "./ProjectDescription";
-export { default as ProjectTechList } from "./ProjectTechList";
-export { default as ProjectLinks } from "./ProjectLinks";
+export * from "./featured";
+export * from "./others";

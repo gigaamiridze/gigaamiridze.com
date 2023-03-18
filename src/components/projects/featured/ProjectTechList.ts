@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { ContentPosition } from "../../interfaces";
+import styled, { css } from "styled-components";
+import { ContentPosition } from "../../../interfaces";
 
 const ProjectTechList = styled.ul<ContentPosition>`
   display: flex;
@@ -9,7 +9,7 @@ const ProjectTechList = styled.ul<ContentPosition>`
   margin: 25px 0 10px;
 
   li {
-    ${({ theme }) => `
+    ${({ theme }) => css`
       color: ${theme.colors.lightSlate};
       font-family: ${theme.fonts.secondary};
     `}

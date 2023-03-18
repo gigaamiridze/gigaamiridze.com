@@ -2,6 +2,7 @@ export * from "./contentPosition";
 export * from "./featuredProject";
 export * from "./verticalBlock";
 export * from "./greenNumber";
+export * from "./projectLink";
 export * from "./headTitle";
 export * from "./header";
 export * from "./theme";

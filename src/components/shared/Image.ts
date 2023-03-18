@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const Image = styled.img<{ isFullWidth: boolean }>`
-  ${({ theme, isFullWidth }) => `
+  ${({ theme, isFullWidth }) => css`
     transition: ${theme.transition};
     width: ${isFullWidth ? "100%" : "calc(100% + 1px)"};
   `}

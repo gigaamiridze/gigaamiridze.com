@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Link = styled.a`
-  ${({ theme }) => `
+  ${({ theme }) => css`
     color: ${theme.colors.lightSlate};
     font-family: ${theme.fonts.secondary};
     transition: ${theme.transition};

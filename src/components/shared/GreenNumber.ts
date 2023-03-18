@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { GreenNumberProps } from "../../interfaces";
 
 const GreenNumber = styled.span<GreenNumberProps>`
-  ${({ theme }) => `
+  ${({ theme }) => css`
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary}; 
   `}

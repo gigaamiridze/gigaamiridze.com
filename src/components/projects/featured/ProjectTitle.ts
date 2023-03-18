@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const ProjectTitle = styled.a`
-  ${({ theme }) => `
+  ${({ theme }) => css`
     color: ${theme.colors.lightestSlate};
     font-family: ${theme.fonts.primary};
     transition: ${theme.transition};

@@ -5,7 +5,7 @@ import { RiGithubLine } from "react-icons/ri";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { 
   Content, FeaturedTitle, ProjectTitle, TextBox,
-  ProjectDescription, ProjectTechList, ProjectLinks 
+  ProjectDescription, ProjectTechList, LinksWrapper 
 } from "../../../components";
 
 function ProjectContent(props: ProjectContentProps) {
@@ -33,14 +33,14 @@ function ProjectContent(props: ProjectContentProps) {
           )
         })}
       </ProjectTechList>
-      <ProjectLinks isLeft={isLeft}>
+      <LinksWrapper isLeft={isLeft}>
         <a href={githubLink} rel="noopener noreferrer" target="_blank">
           <RiGithubLine title="GitHub" />
         </a>
         <a href={designLink} rel="noopener noreferrer" target="_blank">
           <HiOutlineExternalLink title="External Link" />
         </a>
-      </ProjectLinks>
+      </LinksWrapper>
     </Content>
   )
 }

@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { ContentPosition } from "../../interfaces";
 
 const ImageWrapper = styled.div`
-  ${({ theme }) => `
+  ${({ theme }) => css`
     background-color: ${theme.colors.green};
     box-shadow: ${theme.boxShadow};
   `}

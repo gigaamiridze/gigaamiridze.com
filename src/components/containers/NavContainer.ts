@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const NavContainer = styled.nav`
   margin-right: 20px;
@@ -18,7 +18,7 @@ const NavContainer = styled.nav`
       }
 
       a {
-        ${({ theme }) => `
+        ${({ theme }) => css`
           color: ${theme.colors.lightestSlate};
           font-family: ${theme.fonts.secondary};
           transition: ${theme.transition};
