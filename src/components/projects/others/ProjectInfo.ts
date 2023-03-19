@@ -6,7 +6,7 @@ const ProjectInfo = styled.div`
     box-shadow: ${theme.boxShadow};
     transition: ${theme.transition};
   `}
-  width: 313px;
+  width: 312px;
   padding: 2rem 1.75rem;
   border-radius: 4px;
 `;
