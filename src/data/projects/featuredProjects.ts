@@ -1,6 +1,6 @@
 import { ElBook, TipCalculator, TodoList } from "../../assets";
 
-export const featuredProjects = [
+const featuredProjects = [
   {
     id: 1,
     image: ElBook,
@@ -32,3 +32,5 @@ export const featuredProjects = [
     isLeft: false,
   }
 ]
+
+export default featuredProjects;

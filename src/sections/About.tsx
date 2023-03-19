@@ -1,5 +1,5 @@
 import React from "react";
-import { texts } from "../data";
+import aboutInfo from "../data/aboutInfo.json";
 import { Profile } from "../assets";
 import { HeadTitle } from "../layouts";
 import { 
@@ -13,7 +13,7 @@ function About() {
       <HeadTitle queueNumber={2} title="About Me" />
       <FlexBlock>
         <TextContainer>
-          {texts.map((item) => {
+          {aboutInfo.map((item) => {
             const { id, text } = item;
 
             return (

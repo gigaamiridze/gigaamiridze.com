@@ -1,4 +1,4 @@
-export const archiveProjects = [
+const archiveProjects = [
   {
     id: 1,
     year: "2022",
@@ -207,3 +207,5 @@ export const archiveProjects = [
     githubLink: "https://github.com/justtfelix/Genius-API",
   },
 ]
+
+export default archiveProjects;

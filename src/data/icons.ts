@@ -4,7 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { RxTwitterLogo } from "react-icons/rx";
 import { SlSocialFacebook } from "react-icons/sl";
 
-export const icons = [
+const icons = [
   {
     id: 1,
     url: "https://github.com/justtfelix",
@@ -36,3 +36,5 @@ export const icons = [
     title: "Facebook",
   },
 ]
+
+export default icons;
