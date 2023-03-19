@@ -4,7 +4,7 @@ import { CiFolderOn } from "react-icons/ci";
 import { ProjectLinks } from "../../shared";
 import {
   SectionTitle, ViewArchiveTitle, OtherTitleBox,
-  ProjectBoxes, ProjectInfo, TopArea, OtherProjectTitle, OtherDescription 
+  ProjectBoxes, ProjectInfo, TopArea, OtherProjectTitle, OtherDescription, OtherTechList 
 } from "../../../components";
 
 function OtherProjects() {
@@ -32,6 +32,11 @@ function OtherProjects() {
           <OtherDescription>
             Todo List App is a kind of app that is generally used to maintain our day-to-day tasks or list.
           </OtherDescription>
+          <OtherTechList>
+            <li>Algolia</li>
+            <li>WordPress</li>
+            <li>PHP</li>
+          </OtherTechList>
         </ProjectInfo>
       </ProjectBoxes>
     </>

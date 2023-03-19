@@ -5,7 +5,7 @@ import { RiGithubLine } from "react-icons/ri";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import {
   Content, FeaturedTitle, TextBox, FeaturedDescription,
-  ProjectTechList, LinksWrapper, FeaturedProjectTitle
+  FeaturedTechList, LinksWrapper, FeaturedProjectTitle
 } from "../../../components";
 
 function ProjectContent(props: ProjectContentProps) {
@@ -24,7 +24,7 @@ function ProjectContent(props: ProjectContentProps) {
       <TextBox>
         <FeaturedDescription>{description}</FeaturedDescription>
       </TextBox>
-      <ProjectTechList isLeft={isLeft}>
+      <FeaturedTechList isLeft={isLeft}>
         {techList.map((tech) => {
           const id = uuid();
 
@@ -32,7 +32,7 @@ function ProjectContent(props: ProjectContentProps) {
             <li key={id}>{tech}</li>
           )
         })}
-      </ProjectTechList>
+      </FeaturedTechList>
       <LinksWrapper isLeft={isLeft}>
         <a href={githubLink} rel="noopener noreferrer" target="_blank">
           <RiGithubLine title="GitHub" />

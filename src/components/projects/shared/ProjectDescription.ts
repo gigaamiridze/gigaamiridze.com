@@ -16,5 +16,5 @@ export const FeaturedDescription = styled(ProjectDescription)`
 export const OtherDescription = styled(ProjectDescription)`
   font-size: 14px;
   line-height: 20px;
-  margin-top: 10px;
+  margin: 10px 0 30px;
 `;
