@@ -6,7 +6,6 @@ const ProjectTitle = styled.a`
     font-family: ${theme.fonts.primary};
     transition: ${theme.transition};
   `}
-  font-size: 24px;
   font-weight: 700;
 
   &:hover {
@@ -14,4 +13,11 @@ const ProjectTitle = styled.a`
   }
 `;
 
-export default ProjectTitle;
+export const FeaturedProjectTitle = styled(ProjectTitle)`
+  font-size: 24px;
+`;
+
+export const OtherProjectTitle = styled(ProjectTitle)`
+  font-size: 18px;
+  line-height: 1.4;
+`;

@@ -5,9 +5,16 @@ const ProjectDescription = styled.p`
     color: ${theme.colors.lightSlate};
     font-family: ${theme.fonts.primary};
   `}
-  font-size: 14.8px;
   font-weight: 400;
+`;
+
+export const FeaturedDescription = styled(ProjectDescription)`
+  font-size: 14.8px;
   line-height: 23px;
 `;
 
-export default ProjectDescription;
+export const OtherDescription = styled(ProjectDescription)`
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+`;
