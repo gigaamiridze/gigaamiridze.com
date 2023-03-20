@@ -1,17 +1,20 @@
 import React from "react";
 import uuid from "react-uuid";
 import { CiFolderOn } from "react-icons/ci";
-import { ProjectLinks } from "../../shared";
 import { otherProjects } from "../../../data";
+import { ProjectsProps } from "../../../interfaces";
+import { ProjectLinks } from "../../shared";
 import {
   ProjectBoxes, ProjectInfo, TopArea,
   OtherProjectTitle, OtherDescription, OtherTechList
 } from "../../../components";
 
-function Projects() {
+function Projects(props: ProjectsProps) {
+  const { visible } = props;
+
   return (
     <ProjectBoxes>
-      {otherProjects.map((project) => {
+      {otherProjects.slice(0, visible).map((project) => {
         const { id, title, description, designLink, githubLink, techList } = project;
 
         return (

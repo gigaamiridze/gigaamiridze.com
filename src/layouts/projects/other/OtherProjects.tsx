@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { otherProjects } from "../../../data";
 import Projects from "./Projects";
 import { SectionTitle, ViewArchiveTitle, OtherTitleBox, ShowButton } from "../../../components";
 
 function OtherProjects() {
+  const [visible, setVisible] = useState<number>(6);
+  
+  const showMoreAndLess = () => {
+    if (visible === 6) {
+      setVisible(otherProjects.length);
+    } else {
+      setVisible(6);
+    }
+  }
+
   return (
     <>
       <OtherTitleBox>
@@ -12,9 +23,11 @@ function OtherProjects() {
           <ViewArchiveTitle>view the archive</ViewArchiveTitle>
         </Link>
       </OtherTitleBox>
-      <Projects />
+      <Projects visible={visible} />
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <ShowButton>Show More</ShowButton>
+        <ShowButton onClick={showMoreAndLess}>
+          {visible === 6 ? "Show More" : "Show Less"}
+        </ShowButton>
       </div>
     </>
   )

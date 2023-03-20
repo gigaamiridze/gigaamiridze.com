@@ -4,6 +4,7 @@ export * from "./verticalBlock";
 export * from "./greenNumber";
 export * from "./projectLink";
 export * from "./headTitle";
+export * from "./projects";
 export * from "./header";
 export * from "./theme";
 export * from "./user";
