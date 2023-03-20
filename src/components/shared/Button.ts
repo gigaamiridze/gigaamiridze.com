@@ -32,3 +32,7 @@ export const SectionButton = styled(Button)`
   margin-top: 50px;
   transition: ${({ theme }) => theme.transition};
 `;
+
+export const ShowButton = styled(SectionButton)`
+  margin-top: 60px;
+`;

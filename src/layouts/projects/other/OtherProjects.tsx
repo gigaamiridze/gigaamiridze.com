@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Projects from "./Projects";
-import { SectionTitle, ViewArchiveTitle, OtherTitleBox } from "../../../components";
+import { SectionTitle, ViewArchiveTitle, OtherTitleBox, ShowButton } from "../../../components";
 
 function OtherProjects() {
   return (
@@ -13,6 +13,9 @@ function OtherProjects() {
         </Link>
       </OtherTitleBox>
       <Projects />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <ShowButton>Show More</ShowButton>
+      </div>
     </>
   )
 }
