@@ -19,8 +19,8 @@ function ProjectsTable() {
         </tr>
       </thead>
       <tbody>
-        {archiveProjects.map((item) => {
-          const { id, year, title, madeAt, techs, designLink, githubLink } = item;
+        {archiveProjects.map((project) => {
+          const { id, year, title, madeAt, techs, designLink, githubLink } = project;
 
           return (
             <tr key={id}>

@@ -13,7 +13,7 @@ const otherProjects = [
     description: "This is a shopping cart website where various products are placed. The user can add the product to the cart, if desired, increase its quantity, and dynamically understand the current price of the product.",
     designLink: "https://shopping-cart-rc.vercel.app/store",
     githubLink: "https://github.com/justtfelix/shopping-cart-rc",
-    techList: ["React", "React Router", "TypeScript", "HTML", "Bootstrap"],
+    techList: ["React", "React Router", "TypeScript"],
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const otherProjects = [
     description: "Registration form through which the user enters data. Errors occur if invalid data is entered.",
     designLink: "https://registration-form-rc.vercel.app",
     githubLink: "https://github.com/justtfelix/registration-form",
-    techList: ["React", "React Hook Form", "JavaScript", "HTML", "CSS"],
+    techList: ["React", "React Hook Form", "JS", "HTML"],
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ const otherProjects = [
     description: "The app uses the Advice Slip API to generate random quotes of advice.",
     designLink: "https://slip-advice-generator.vercel.app",
     githubLink: "https://github.com/justtfelix/advice-generator",
-    techList: ["React", "TypeScript", "Styled Components", "Framer Motion", "HTML"],
+    techList: ["React", "Styled Comp.", "Framer Mot."],
   },
   {
     id: 10,
@@ -85,7 +85,7 @@ const otherProjects = [
     description: "Paradise is a music streaming website where users can register, login and add music if they want or listen to music added by others. Users can also view their statistics on the page. For example, how much music he listened to or uploaded. The website is under development.",
     designLink: undefined,
     githubLink: "https://github.com/justtfelix/Paradise",
-    techList: ["Python", "Flask", "SQLAlchemy", "JavaScript", "HTML", "SCSS"],
+    techList: ["Python", "Flask", "SQLAlchemy", "JS"],
   },
   {
     id: 12,

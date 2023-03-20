@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 const ProjectBoxes = styled.div`
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 15px;
 `;
 

@@ -24,6 +24,7 @@ export const FeaturedTechList = styled(ProjectTechList)<ContentPosition>`
 
 export const OtherTechList = styled(ProjectTechList)`
   column-gap: 15px;
+  padding-top: 30px;
 
   li {
     color: ${({ theme }) => theme.colors.slate};

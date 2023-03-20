@@ -11,8 +11,8 @@ const ProjectLinksWrapper = styled.div`
     `}
     font-size: 23px;
 
-    &:first-child {
-      margin-right: 10px;
+    &:nth-child(2) {
+      margin-left: 10px;
     }
 
     &:hover {

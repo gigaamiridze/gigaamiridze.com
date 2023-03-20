@@ -7,8 +7,13 @@ const ProjectInfo = styled.div`
     transition: ${theme.transition};
   `}
   width: 312px;
+  height: 100%;
   padding: 2rem 1.75rem;
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 
   &:hover {
     transform: translateY(-7px);
