@@ -1,4 +1,4 @@
-export const defaultTheme = {
+const defaultTheme = {
   colors: {
     darkNavy: "#020c1b",
     navy: "#0a192f",
@@ -23,3 +23,5 @@ export const defaultTheme = {
   transition: "all 0.25s ease-in-out",
   boxShadow: "0 10px 30px -10px rgba(2, 12, 27, 0.7)",
 }
+
+export default defaultTheme;

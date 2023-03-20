@@ -1,2 +1,2 @@
-export * from "./variants";
-export * from "./tabTitle";
+export { default as variants } from "./variants";
+export { default as tabTitle } from "./tabTitle";

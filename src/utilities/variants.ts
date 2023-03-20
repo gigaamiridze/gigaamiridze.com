@@ -1,4 +1,4 @@
-export const fadeIn = (direction: string, delay: number) => {
+const fadeIn = (direction: string, delay: number) => {
   return {
     hidden: {
       opacity: 0,
@@ -16,5 +16,7 @@ export const fadeIn = (direction: string, delay: number) => {
         ease: "easeInOut",
       },
     },
-  };
-};
+  }
+}
+
+export default fadeIn;

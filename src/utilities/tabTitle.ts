@@ -1,3 +1,5 @@
-export const tabTitle = (title: string) => {
+const tabTitle = (title: string) => {
   document.title = title;
 }
+
+export default tabTitle;
