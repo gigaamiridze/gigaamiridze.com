@@ -1,4 +1,4 @@
-import { ElBook, TipCalculator, TodoList } from "../../assets";
+import { ElBook, TipCalculator, Devfinder } from "../../assets";
 
 const featuredProjects = [
   {
@@ -23,12 +23,12 @@ const featuredProjects = [
   },
   {
     id: 3,
-    image: TodoList,
-    title: "Todo List",
-    description: "Todo List App is a kind of app that is generally used to maintain our day-to-day tasks or list everything that we have to do. It helps plan our daily schedules.",
-    designLink: "https://todo-list-rc.vercel.app",
-    githubLink: "https://github.com/justtfelix/todo-list",
-    techList: ["React", "JavaScript", "HTML", "SCSS"],
+    image: Devfinder,
+    title: "Devfinder",
+    description: "The project with dark and light theme modes, where you can find registered users on GitHub. This app uses the GitHub API.",
+    designLink: "https://github-devfinder-rc.vercel.app",
+    githubLink: "https://github.com/justtfelix/github-user-search-app",
+    techList: ["React", "TypeScript", "HTML", "SCSS", "GitHub API"],
     isLeft: false,
   }
 ]
