@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import navLinks from "../../data/navLinks.json";
+import { navLinks } from "../../data";
 import { NavContainer, GreenNumber } from "../../components";
 
 function Navigation() {

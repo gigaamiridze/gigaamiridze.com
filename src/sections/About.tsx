@@ -1,6 +1,5 @@
 import React from "react";
-import aboutInfo from "../data/aboutInfo.json";
-import { skills } from "../data";
+import { aboutInfo, skills } from "../data";
 import { Profile } from "../assets";
 import { HeadTitle } from "../layouts";
 import { 
