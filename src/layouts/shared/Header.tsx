@@ -1,9 +1,9 @@
 import React from "react";
-import { useLocation, Link } from "react-router-dom";
-import { LetterG } from "../../assets";
+import { useLocation } from "react-router-dom";
 import { fadeIn } from "../../utilities";
 import { useScrollPosition } from "../../hooks";
-import { HeaderContainer, Logo, ResumeButton, FlexBox, LinkBtnWrapper } from "../../components";
+import { HeaderContainer, ResumeButton, FlexBox, LinkBtnWrapper } from "../../components";
+import { Logo } from "../../layouts";
 import Navigation from "./Navigation";
 
 function Header() {
@@ -12,15 +12,7 @@ function Header() {
 
   return (
     <HeaderContainer isScroll={isScroll}>
-      <Link to="/">
-        <Logo
-          src={LetterG}
-          alt="Logo"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, ease: "easeOut" }}
-        />
-      </Link>
+      <Logo />
       <FlexBox>
         {location.pathname === '/'
           ? <Navigation />
