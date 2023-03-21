@@ -2,6 +2,7 @@
 export * from "./archive";
 
 // Section Components
+export * from "./hello";
 export * from "./about";
 export * from "./projects";
 
