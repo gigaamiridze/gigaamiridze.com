@@ -12,13 +12,9 @@ const Button = styled(motion.button)`
   font-weight: 300;
   outline: none;
   cursor: pointer;
-  
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.greenTint};
-  }
 `;
 
-export const ResumeButton = styled(Button)`
+export const ResumeBtn = styled(Button)`
   width: 82px;
   height: 38px;
   font-size: 11.5px;
@@ -31,8 +27,16 @@ export const SectionButton = styled(Button)`
   letter-spacing: 0.5px;
   margin-top: 50px;
   transition: ${({ theme }) => theme.transition};
+  
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.greenTint};
+  }
 `;
 
 export const ShowButton = styled(SectionButton)`
   margin-top: 60px;
+
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.greenTint};
+  }
 `;

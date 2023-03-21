@@ -1,8 +1,8 @@
 import React from "react";
 import uuid from "react-uuid";
-import { ProjectContentProps } from "../../../interfaces";
 import { RiGithubLine } from "react-icons/ri";
 import { HiOutlineExternalLink } from "react-icons/hi";
+import { ProjectContentProps } from "../../../interfaces";
 import {
   Content, FeaturedTitle, TextBox, FeaturedDescription,
   FeaturedTechList, LinksWrapper, FeaturedProjectTitle

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const BtnLinkWrapper = styled.a`
+const ResumeBtnWrapper = styled.a`
   transition: ${({ theme }) => theme.transition};
 
   &:hover {
@@ -8,4 +8,4 @@ const BtnLinkWrapper = styled.a`
   }
 `;
 
-export default BtnLinkWrapper;
+export default ResumeBtnWrapper;

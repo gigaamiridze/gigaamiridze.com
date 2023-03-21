@@ -1,8 +1,7 @@
 import React from "react";
 import { featuredProjects } from "../../../data";
 import { ProjectsBlock, Project } from "../../../components";
-import ProjectImage from "./ProjectImage";
-import ProjectContent from "./ProjectContent";
+import { ProjectImage, ProjectContent } from "../../../layouts";
 
 function FeauturedProjects() {
   return (
