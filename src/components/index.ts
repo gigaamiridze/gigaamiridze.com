@@ -1,8 +1,13 @@
-export * from "./containers";
-export * from "./projects";
-export * from "./wrappers";
+// Page Components
 export * from "./archive";
+
+// Section Components
+export * from "./about";
+export * from "./projects";
+
+// Partial Components
+export * from "./containers";
+export * from "./wrappers";
 export * from "./shared";
 export * from "./titles";
 export * from "./lines";
-export * from "./about";

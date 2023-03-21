@@ -1,6 +1,5 @@
 import React from "react";
-import { archiveProjects } from "../../data";
-import columnTitles from "../../data/table.json";
+import { columnTitles, archiveProjects } from "../../data";
 import { Table, Year, Title, MadeAt, BuiltWith } from "../../components";
 import { ProjectLinks } from "../../layouts";
 
