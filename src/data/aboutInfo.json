@@ -1,14 +1,18 @@
 [
   {
     "id": 1,
-    "text": "Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!"
+    "text": "Hello! My name is Giga and I enjoy creating things that live on the internet. My interest in web development started in 2020 when I was a high school student. I'm looking to take on more work and increase my skills as a web developer."
   },
   {
     "id": 2,
-    "text": "Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients."
+    "text": "Something that I love about web development is the opportunity to work with people. The web development life cycle involves interacting with many professionals who are striving towards the same goal."
   },
   {
     "id": 3,
-    "text": "I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React."
+    "text": "I'm looking for a job and I'm open to any challenging developer position and want a highly rewarding career where I can use my skills and knowledge to help the company and my coworkers to be successful at a team level."
+  },
+  {
+    "id": 4,
+    "text": "Here are a few technologies I’ve been working with recently:"
   }
 ]
