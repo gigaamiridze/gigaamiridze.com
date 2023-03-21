@@ -9,8 +9,5 @@ export * from "./projects";
 export * from "./contact";
 export * from "./footer";
 
-// Partial Components
-export * from "./wrappers";
+// Shared Components
 export * from "./shared";
-export * from "./titles";
-export * from "./lines";

@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { ContentPosition } from "../../interfaces";
+import { ContentPosition } from "../../../interfaces";
 
 const ImageWrapper = styled.div`
   ${({ theme }) => css`
