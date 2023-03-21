@@ -1,6 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import aboutInfo from "../data/aboutInfo.json";
+import { skills } from "../data";
 import { Profile } from "../assets";
 import { HeadTitle } from "../layouts";
 import { 
@@ -24,9 +24,17 @@ function About() {
             )
           })}
           <SkillsList>
-            <div>
-              <li>JavaScript (ES6+)</li>
-            </div>
+            {skills.map((item) => {
+              const { id, skillsList } = item;
+
+              return (
+                <ul key={id}>
+                  {skillsList.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                  ))}
+                </ul>
+              )
+            })}
           </SkillsList>
         </TextContainer>
         <ProfileImgWrapper>

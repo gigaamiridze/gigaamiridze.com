@@ -4,7 +4,7 @@ const SkillsList = styled.ul`
   display: flex;
   column-gap: 25px;
 
-  div {
+  ul {
     display: flex;
     flex-direction: column;
     row-gap: 12px;
