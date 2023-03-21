@@ -2,7 +2,7 @@ import React from "react";
 import { RouterProvider } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "./theme/defaultTheme";
+import { defaultTheme } from "./theme";
 import { GlobalStyles } from "./assets";
 import { router } from "./routes";
 

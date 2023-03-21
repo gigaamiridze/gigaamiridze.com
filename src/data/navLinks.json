@@ -2,20 +2,20 @@
   {
     "id": 1,
     "queueNumber": "01.",
-    "address": "hello",
-    "title": "Hello"
-  },
-  {
-    "id": 2,
-    "queueNumber": "02.",
     "address": "about",
     "title": "About"
   },
   {
+    "id": 2,
+    "queueNumber": "02.",
+    "address": "experience",
+    "title": "Experience"
+  },
+  {
     "id": 3,
     "queueNumber": "03.",
-    "address": "skills",
-    "title": "Skills"
+    "address": "education",
+    "title": "Education"
   },
   {
     "id": 4,

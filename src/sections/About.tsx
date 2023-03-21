@@ -10,7 +10,7 @@ import {
 function About() {
   return (
     <AboutContainer id="about">
-      <HeadTitle queueNumber={2} title="About Me" />
+      <HeadTitle queueNumber={1} title="About Me" />
       <FlexBlock>
         <TextContainer>
           {aboutInfo.map((item) => {

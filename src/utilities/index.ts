@@ -1,2 +1,2 @@
-export { default as variants } from "./variants";
+export { default as fadeIn } from "./variants";
 export { default as tabTitle } from "./tabTitle";
