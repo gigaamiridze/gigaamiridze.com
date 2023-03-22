@@ -4,8 +4,8 @@ import { HelmetProvider, Helmet } from "react-helmet-async";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./assets";
 import { defaultTheme } from "./theme";
-import { Cursor } from "./components";
 import { router } from "./routes";
+import { AnimatedCursor } from "./layouts";
 
 function App() {
   return (
@@ -18,9 +18,7 @@ function App() {
           <link rel="icon" type="image/x-icon" href="/favicon.svg" />
         </Helmet>
       </HelmetProvider>
-      <Cursor>
-        <div className="inner"></div>
-      </Cursor>
+      <AnimatedCursor />
     </ThemeProvider>
   )
 }

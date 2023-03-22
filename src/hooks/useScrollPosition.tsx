@@ -14,8 +14,6 @@ function useScrollPosition() {
 
     window.addEventListener("scroll", updateScroll);
 
-    updateScroll();
-
     return () => window.removeEventListener("scroll", updateScroll);
   }, []);
 

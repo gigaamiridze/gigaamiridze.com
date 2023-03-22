@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-const Cursor = styled.div`
+const Cursor = styled(motion.div)`
   height: 28px;
   width: 28px;
   border: 1px solid ${({ theme }) => theme.colors.green};
@@ -12,6 +13,7 @@ const Cursor = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 11;
+  pointer-events: none;
 
   .inner {
     height: 7px;
