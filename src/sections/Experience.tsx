@@ -1,10 +1,12 @@
 import React from "react";
+import { ExperienceContainer } from "../components";
+import { HeadTitle } from "../layouts";
 
 function Experience() {
   return (
-    <>
-      Experience
-    </>
+    <ExperienceContainer>
+      <HeadTitle queueNumber={2} title="My Experience" />
+    </ExperienceContainer>
   )
 }
 
