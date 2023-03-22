@@ -6,7 +6,7 @@ const ImageWrapper = styled.div`
     background-color: ${theme.colors.green};
     box-shadow: ${theme.boxShadow};
   `}
-  border-radius: 5px;
+  border-radius: 4px;
 
   &:hover {
     background-color: inherit;
@@ -44,7 +44,7 @@ export const ProfileImgWrapper = styled(ImageWrapper)`
   }
 `;
 
-export const ProjectImgWrapper = styled(ImageWrapper) <ContentPosition>`
+export const ProjectImgWrapper = styled(ImageWrapper)<ContentPosition>`
   width: 560px;
   height: 100%;
   position: absolute;

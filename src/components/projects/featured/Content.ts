@@ -10,7 +10,6 @@ const Content = styled.div<ContentPosition>`
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10;
 `;
 
 export default Content;

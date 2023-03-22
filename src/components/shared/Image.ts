@@ -9,7 +9,7 @@ const Image = styled.img<{ isFullWidth: boolean }>`
   border-radius: 4px;
   object-fit: cover;
   mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1);
+  filter: grayscale(100%) contrast(0.8);
 `;
 
 export default Image;
