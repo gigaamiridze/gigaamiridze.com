@@ -5,11 +5,11 @@ import { LetterG } from "../../assets";
 import { LogoImage } from "../../components";
 
 function Logo() {
-  const location = useLocation();
+  const { pathname } = useLocation();
 
   return (
     <>
-      {location.pathname === "/"
+      {pathname === "/"
         ? (
           <ScrollLink
             to="hello"

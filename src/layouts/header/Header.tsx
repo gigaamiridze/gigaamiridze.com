@@ -6,13 +6,13 @@ import { Logo, Navigation, ResumeButton } from "../../layouts";
 
 function Header() {
   const isScroll = useScrollPosition();
-  const location = useLocation();
+  const { pathname } = useLocation();
 
   return (
     <HeaderContainer isScroll={isScroll}>
       <Logo />
       <FlexBox>
-        {location.pathname === '/'
+        {pathname === "/"
           ? <Navigation />
           : null
         }
