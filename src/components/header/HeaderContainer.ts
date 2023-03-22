@@ -16,7 +16,7 @@ const HeaderContainer = styled.header<HeaderProps>`
   align-items: center;
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 10;
 `;
 
 export default HeaderContainer;

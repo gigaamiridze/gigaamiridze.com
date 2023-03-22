@@ -2,8 +2,9 @@ import React from "react";
 import { RouterProvider } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "./theme";
 import { GlobalStyles } from "./assets";
+import { defaultTheme } from "./theme";
+import { Cursor } from "./components";
 import { router } from "./routes";
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
           <link rel="icon" type="image/x-icon" href="/favicon.svg" />
         </Helmet>
       </HelmetProvider>
+      <Cursor>
+        <div className="inner"></div>
+      </Cursor>
     </ThemeProvider>
   )
 }
