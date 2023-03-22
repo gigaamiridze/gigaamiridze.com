@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { tabTitle } from "../utilities";
-import { Hello, About, Projects, Contact } from "../sections";
+import { Hello, About, Experience, Projects, Contact } from "../sections";
 
 function Home() {
   useEffect(() => {
@@ -11,6 +11,7 @@ function Home() {
     <>
       <Hello />
       <About />
+      <Experience />
       <Projects />
       <Contact />
     </>
