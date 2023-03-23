@@ -1,10 +1,9 @@
 import React from "react";
-import styled, { css } from "styled-components";
+import { HeadTitle } from "../layouts";
 import { 
   ExperienceContainer, JobsContent, TabList, 
   TabContent, Tab, WorkPosition, Company 
 } from "../components";
-import { HeadTitle } from "../layouts";
 
 function Experience() {
   return (
