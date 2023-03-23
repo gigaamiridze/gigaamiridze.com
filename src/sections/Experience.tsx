@@ -1,5 +1,9 @@
 import React from "react";
-import { ExperienceContainer, JobsContent, TabList, TabContent, Tab } from "../components";
+import styled, { css } from "styled-components";
+import { 
+  ExperienceContainer, JobsContent, TabList, 
+  TabContent, Tab, WorkPosition, Company 
+} from "../components";
 import { HeadTitle } from "../layouts";
 
 function Experience() {
@@ -11,7 +15,18 @@ function Experience() {
           <Tab>Upstatement</Tab>
           <Tab>Scout</Tab>
         </TabList>
-        <TabContent></TabContent>
+        <TabContent>
+          <WorkPosition>
+            Engineer
+            <Company
+              href="https://upstatement.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              @Upstatement
+            </Company>
+          </WorkPosition>
+        </TabContent>
       </JobsContent>  
     </ExperienceContainer>
   )
