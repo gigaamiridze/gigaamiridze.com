@@ -2,7 +2,7 @@ import React from "react";
 import { HeadTitle } from "../layouts";
 import { 
   ExperienceContainer, JobsContent, TabList, 
-  TabContent, Tab, WorkPosition, Company 
+  TabContent, Tab, WorkPosition, Company, Range 
 } from "../components";
 
 function Experience() {
@@ -25,6 +25,7 @@ function Experience() {
               @Upstatement
             </Company>
           </WorkPosition>
+          <Range>May 2018 - Present</Range>
         </TabContent>
       </JobsContent>  
     </ExperienceContainer>
