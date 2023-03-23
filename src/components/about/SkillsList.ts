@@ -21,6 +21,7 @@ const SkillsList = styled.ul`
 
       &::before {
         content: "▹";
+        display: block;
         position: absolute;
         top: 50%;
         left: 0;

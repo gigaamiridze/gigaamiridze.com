@@ -1,7 +1,9 @@
 export { default as ExperienceContainer } from "./ExperienceContainer";
+export { default as WorkDescription } from "./WorkDescription";
 export { default as WorkPosition } from "./WorkPosition";
 export { default as JobsContent } from "./JobsContent";
 export { default as TabContent } from "./TabContent";
+export { default as TextsBlock } from "./TextsBlock";
 export { default as TabList } from "./TabList";
 export { default as Company } from "./Company";
 export { default as Range } from "./Range";

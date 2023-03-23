@@ -1,13 +1,14 @@
 import React from "react";
 import { HeadTitle } from "../layouts";
-import { 
-  ExperienceContainer, JobsContent, TabList, 
-  TabContent, Tab, WorkPosition, Company, Range 
+import {
+  ExperienceContainer, JobsContent, TabList,
+  TabContent, Tab, WorkPosition, Company, Range,
+  WorkDescription, TextsBlock 
 } from "../components";
 
 function Experience() {
   return (
-    <ExperienceContainer>
+    <ExperienceContainer id="experience">
       <HeadTitle queueNumber={2} title="My Experience" />
       <JobsContent>
         <TabList>
@@ -26,8 +27,20 @@ function Experience() {
             </Company>
           </WorkPosition>
           <Range>May 2018 - Present</Range>
+          <TextsBlock>
+            <WorkDescription>
+              Write modern, performant, maintainable code for a diverse array of client and internal projects
+            </WorkDescription>
+            <WorkDescription>
+              Work with a variety of different languages, platforms, frameworks, and content management 
+              systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify
+            </WorkDescription>
+            <WorkDescription>
+              Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+            </WorkDescription>
+          </TextsBlock>
         </TabContent>
-      </JobsContent>  
+      </JobsContent>
     </ExperienceContainer>
   )
 }
