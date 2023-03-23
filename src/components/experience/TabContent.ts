@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const TabContent = styled.div`
   width: 100%;
-  padding: 10px 5px;
+  padding-top: 12px;
 `;
 
 export default TabContent;
