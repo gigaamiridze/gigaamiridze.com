@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const TabList = styled.div`
   position: relative;
-  width: max-content;
+  width: 130px;
 `;
 
 export default TabList;
