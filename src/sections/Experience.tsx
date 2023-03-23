@@ -3,7 +3,7 @@ import { HeadTitle } from "../layouts";
 import {
   ExperienceContainer, JobsContent, TabList,
   TabContent, Tab, WorkPosition, Company, Range,
-  WorkDescription, TextsBlock 
+  WorkDescription, TextsBlock, TabIndicator 
 } from "../components";
 
 function Experience() {
@@ -14,6 +14,7 @@ function Experience() {
         <TabList>
           <Tab>Upstatement</Tab>
           <Tab>Scout</Tab>
+          <TabIndicator />
         </TabList>
         <TabContent>
           <WorkPosition>

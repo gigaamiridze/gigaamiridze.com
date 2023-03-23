@@ -1,5 +1,6 @@
 export { default as ExperienceContainer } from "./ExperienceContainer";
 export { default as WorkDescription } from "./WorkDescription";
+export { default as TabIndicator } from "./TabIndicator";
 export { default as WorkPosition } from "./WorkPosition";
 export { default as JobsContent } from "./JobsContent";
 export { default as TabContent } from "./TabContent";
