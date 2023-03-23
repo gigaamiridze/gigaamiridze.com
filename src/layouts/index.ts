@@ -5,6 +5,7 @@ export * from "./archive";
 export * from "./header";
 export * from "./hello";
 export * from "./about";
+export * from "./experience";
 export * from "./projects";
 export * from "./footer";
 
