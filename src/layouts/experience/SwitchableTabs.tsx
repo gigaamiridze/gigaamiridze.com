@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { jobTabs } from "../../data";
 import { 
   JobsContent, TabList, TabContent, Tab, TabIndicator,
   WorkPosition, Company, Range, TextsBlock, WorkDescription 
@@ -14,8 +15,20 @@ function SwitchableTabs() {
   return (
     <JobsContent>
       <TabList>
-        <Tab dataId={0} activeTab={activeTab} onClick={() => toggleTab(0)}>Upstatement</Tab>
-        <Tab dataId={1} activeTab={activeTab} onClick={() => toggleTab(1)}>Scout</Tab>
+        {jobTabs.map((tab) => {
+          const { id, company } = tab;
+
+          return (
+            <Tab 
+              key={id} 
+              dataId={id} 
+              activeTab={activeTab} 
+              onClick={() => toggleTab(id)}
+            >
+              {company}
+            </Tab>
+          )
+        })}
         <TabIndicator activeTab={activeTab} />
       </TabList>
 
