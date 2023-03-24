@@ -1,9 +1,11 @@
 import styled, { css } from "styled-components";
+import { TabProps } from "../../interfaces";
 
-const TabIndicator = styled.div`
-  ${({ theme }) => css`
+const TabIndicator = styled.div<TabProps>`
+  ${({ activeTab, theme }) => css`
     background-color: ${theme.colors.green};
     transition: ${theme.transition};
+    transform: translateY(calc(${activeTab} * 42px));
   `}
   width: 2px;
   height: 42px;
@@ -12,7 +14,6 @@ const TabIndicator = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateY(calc(0 * 42px));
 `;
 
 export default TabIndicator;

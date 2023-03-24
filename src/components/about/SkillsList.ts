@@ -3,6 +3,7 @@ import styled from "styled-components";
 const SkillsList = styled.ul`
   display: flex;
   column-gap: 25px;
+  margin-top: 7px;
 
   ul {
     display: flex;

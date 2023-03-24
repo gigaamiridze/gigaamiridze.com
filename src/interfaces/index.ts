@@ -8,3 +8,4 @@ export * from "./projects";
 export * from "./header";
 export * from "./theme";
 export * from "./user";
+export * from "./tab";

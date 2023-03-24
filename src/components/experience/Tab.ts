@@ -1,14 +1,15 @@
 import styled, { css } from "styled-components";
+import { TabProps } from "../../interfaces";
 
-const Tab = styled.button`
-  ${({ theme }) => css`
-    color: ${theme.colors.slate};
+const Tab = styled.button<TabProps>`
+  ${({ activeTab, dataId, theme }) => css`
+    background-color: ${activeTab === dataId ? theme.colors.lightNavy : "transparent"};
+    color: ${activeTab === dataId ? theme.colors.green : theme.colors.slate};
     font-family: ${theme.fonts.secondary};
     transition: ${theme.transition};
   `}
   height: 42px;
   width: 100%;
-  background-color: transparent;
   padding: 0 20px;
   outline: none;
   border: none;
