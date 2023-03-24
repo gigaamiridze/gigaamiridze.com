@@ -1,11 +1,11 @@
 const jobTabs = [
   {
     id: 0,
-    company: "Upstatement",
+    company: "Unilab",
   },
   {
     id: 1,
-    company: "Scout",
+    company: "Unilab",
   },
 ]
 

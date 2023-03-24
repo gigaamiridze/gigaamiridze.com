@@ -38,7 +38,7 @@ export const ViewArchiveTitle = styled(GreenTitle)`
     content: "";
     display: block;
     width: 0;
-    height: 1.5px;
+    height: 0.8px;
     opacity: 0.5;
     margin-top: 2px;
   }
