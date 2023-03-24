@@ -63,6 +63,12 @@ const GlobalStyles = createGlobalStyle`
     }
   }
 
+  section {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+  }
+
   ::selection {
     ${({theme}) => `
       background-color: ${theme.colors.lightestNavy};
