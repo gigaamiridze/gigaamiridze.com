@@ -5,7 +5,7 @@ const fadeIn = (direction: string, delay: number) => {
       y: direction === "up" ? 60 : direction === "down" ? -60 : 0,
       x: direction === "left" ? 60 : direction === "right" ? -60 : 0,
     },
-    show: {
+    visible: {
       y: 0,
       x: 0,
       opacity: 1,

@@ -13,7 +13,7 @@ function ResumeButton() {
         type="button"
         variants={fadeIn("down", 0)}
         initial="hidden"
-        animate="show"
+        animate="visible"
       >
         Resume
       </ResumeBtn>

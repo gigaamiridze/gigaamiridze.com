@@ -5,7 +5,7 @@ import { Cursor } from "../../components";
 function AnimatedCursor() {
   const mousePosition = useMousePosition();
 
-  const cursorAnimate = {
+  const cursorVariants = {
     default: {
       x: mousePosition.x,
       y: mousePosition.y,
@@ -17,7 +17,7 @@ function AnimatedCursor() {
 
   return (
     <Cursor
-      variants={cursorAnimate}
+      variants={cursorVariants}
       animate="default"
     >
       <div className="inner" />
