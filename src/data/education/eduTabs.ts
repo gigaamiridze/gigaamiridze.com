@@ -1,23 +1,23 @@
 const eduTabs = [
   {
     id: 0,
-    institution: "IT Step Academy",
+    company: "IT Step Academy",
   },  
   {
     id: 1,
-    institution: "BitCamp",
+    company: "BitCamp",
   },
   {
     id: 2,
-    institution: "Geolab",
+    company: "Geolab",
   },
   {
     id: 3,
-    institution: "Unilab",
+    company: "Unilab",
   },
   {
     id: 4,
-    institution: "Unilab",
+    company: "Unilab",
   },
 ]
 
