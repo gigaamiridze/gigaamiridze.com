@@ -1,7 +1,7 @@
 const eduTabs = [
   {
     id: 0,
-    company: "IT Step Academy",
+    company: "IT Step",
   },  
   {
     id: 1,
