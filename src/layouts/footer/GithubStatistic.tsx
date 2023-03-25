@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { RiGitRepositoryLine } from "react-icons/ri";
-import { FiGitCommit } from "react-icons/fi";
 import axios from "axios";
 import { User } from "../../interfaces";
 import { GitHubStats, FlexBox } from "../../components";
@@ -25,10 +24,6 @@ function GithubStatistic() {
       <FlexBox>
         <RiGitRepositoryLine title="Repositories" fontSize={14} />
         <span style={{ marginLeft: 5 }}>{public_repos}</span>
-      </FlexBox>
-      <FlexBox>
-        <FiGitCommit title="Commits" fontSize={14} />
-        <span style={{ marginLeft: 5 }}>241</span>
       </FlexBox>
     </GitHubStats>
   )
