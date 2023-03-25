@@ -1,10 +1,11 @@
 import React from "react";
 import { ActionContainer } from "../components";
+import { HeadTitle } from "../layouts";
 
 function Education() {
   return (
     <ActionContainer id="education">
-      Education
+      <HeadTitle queueNumber={3} title="Education" />
     </ActionContainer>
   )
 }
