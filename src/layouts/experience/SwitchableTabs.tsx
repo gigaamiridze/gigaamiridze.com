@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import { jobTabs, jobPanels } from "../../data";
+import { SwitchableTabsProps } from "../../interfaces";
 import {
   JobsContent, TabList, TabContent, Tab, TabIndicator,
   WorkPosition, Company, Range, TextsBlock, WorkDescription
 } from "../../components";
 
-function SwitchableTabs() {
+function SwitchableTabs(props: SwitchableTabsProps) {
+  const { tabs, panels } = props;
+
   const [activeTab, setActiveTab] = useState<number>(0);
 
   const toggleTab = (id: number) => {
@@ -15,7 +17,7 @@ function SwitchableTabs() {
   return (
     <JobsContent>
       <TabList>
-        {jobTabs.map((tab) => {
+        {tabs.map((tab) => {
           const { id, company } = tab;
 
           return (
@@ -31,7 +33,7 @@ function SwitchableTabs() {
         })}
         <TabIndicator activeTab={activeTab} />
       </TabList>
-      {jobPanels.map((panel) => {
+      {panels.map((panel) => {
         const { id, position, company, companyLink, range, texts } = panel;
 
         return (
