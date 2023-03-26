@@ -1,9 +1,9 @@
-const fadeIn = (direction: string, delay: number) => {
+const fadeIn = (direction: string, position: number = 60, delay: number = 0) => {
   return {
     hidden: {
       opacity: 0,
-      y: direction === "up" ? 60 : direction === "down" ? -60 : 0,
-      x: direction === "left" ? 60 : direction === "right" ? -60 : 0,
+      y: direction === "up" ? position : direction === "down" ? -position : 0,
+      x: direction === "left" ? position : direction === "right" ? -position : 0,
     },
     visible: {
       y: 0,
@@ -13,7 +13,7 @@ const fadeIn = (direction: string, delay: number) => {
         type: "tween",
         duration: 0.7,
         delay: delay,
-        ease: "easeInOut",
+        ease: "circOut",
       },
     },
   }
