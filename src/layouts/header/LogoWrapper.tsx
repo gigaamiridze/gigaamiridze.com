@@ -1,6 +1,6 @@
 import React from "react";
 import { LetterG } from "../../assets";
-import { logoVariants } from "../../utilities";
+import { logoVariants } from "../../animations";
 import { LogoImage } from "../../components";
 
 function LogoWrapper() {

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { navLinks } from "../../data";
-import { fadeIn } from "../../utilities";
+import { fadeIn } from "../../animations";
 import { NavContainer, GreenNumber } from "../../components";
 
 function Navigation() {

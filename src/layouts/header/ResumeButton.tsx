@@ -1,5 +1,5 @@
 import React from "react";
-import { fadeIn } from "../../utilities";
+import { fadeIn } from "../../animations";
 import { ResumeBtnWrapper, ResumeBtn } from "../../components";
 
 function ResumeButton() {
