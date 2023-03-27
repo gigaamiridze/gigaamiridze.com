@@ -1,4 +1,4 @@
-const fadeIn = (direction: string, position: number = 60, delay: number = 0) => {
+const fadeIn = (direction: string, position: number = 70, delay: number = 0) => {
   return {
     hidden: {
       opacity: 0,

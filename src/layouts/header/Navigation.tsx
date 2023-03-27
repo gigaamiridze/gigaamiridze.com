@@ -6,16 +6,18 @@ import { fadeIn } from "../../animations";
 import { NavContainer, GreenNumber } from "../../components";
 
 function Navigation() {
+  const _ = undefined;
+
   return (
     <NavContainer>
       <ul>
-        {navLinks.map((item) => {
-          const { id, queueNumber, address, title, animateDelay } = item;
+        {navLinks.map((link) => {
+          const { id, queueNumber, address, title, animateDelay } = link;
 
           return (
             <motion.li 
               key={id}
-              variants={fadeIn("down", 70, animateDelay)}
+              variants={fadeIn("down", _, animateDelay)}
               initial="hidden"
               animate="visible"
             >

@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 
-export const Text = styled.p`
+export const Text = styled(motion.p)`
   ${({ theme }) => css`
     color: ${theme.colors.slate};
     font-family: ${theme.fonts.primary};

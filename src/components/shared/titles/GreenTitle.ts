@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 
-const GreenTitle = styled.h4`
+const GreenTitle = styled(motion.h4)`
   ${({ theme }) => css`
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary};

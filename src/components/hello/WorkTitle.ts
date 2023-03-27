@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 
-const WorkTitle = styled.h3`
+const WorkTitle = styled(motion.h3)`
   ${({ theme }) => css`
     color: ${theme.colors.slate};
     font-family: ${theme.fonts.primary};
