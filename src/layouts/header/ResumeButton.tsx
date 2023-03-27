@@ -11,7 +11,7 @@ function ResumeButton() {
     >
       <ResumeBtn
         type="button"
-        variants={fadeIn("down")}
+        variants={fadeIn("down", 70, 0.6)}
         initial="hidden"
         animate="visible"
       >

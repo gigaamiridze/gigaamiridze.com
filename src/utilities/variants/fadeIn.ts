@@ -11,7 +11,7 @@ const fadeIn = (direction: string, position: number = 60, delay: number = 0) => 
       opacity: 1,
       transition: {
         type: "tween",
-        duration: 0.7,
+        duration: 0.5,
         delay: delay,
         ease: "circOut",
       },

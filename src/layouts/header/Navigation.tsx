@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 import { navLinks } from "../../data";
+import { fadeIn } from "../../utilities";
 import { NavContainer, GreenNumber } from "../../components";
 
 function Navigation() {
@@ -8,10 +10,15 @@ function Navigation() {
     <NavContainer>
       <ul>
         {navLinks.map((item) => {
-          const { id, queueNumber, address, title } = item;
+          const { id, queueNumber, address, title, animateDelay } = item;
 
           return (
-            <li key={id}>
+            <motion.li 
+              key={id}
+              variants={fadeIn("down", 70, animateDelay)}
+              initial="hidden"
+              animate="visible"
+            >
               <Link 
                 to={address} 
                 activeClass="active"
@@ -28,7 +35,7 @@ function Navigation() {
                 </GreenNumber>
                 {title}
               </Link>
-            </li>
+            </motion.li>
           )
         })}
       </ul>
