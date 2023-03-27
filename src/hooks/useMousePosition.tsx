@@ -7,7 +7,7 @@ function useMousePosition() {
     const mouseMove = (event: MouseEvent) => {
       setMousePosition({
         x: event.clientX - 14,
-        y: event.clientY - 14
+        y: event.clientY + 14
       });
     }
 

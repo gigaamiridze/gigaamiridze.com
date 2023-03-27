@@ -7,7 +7,7 @@ const Cursor = styled(motion.div)`
   border: 1px solid ${({ theme }) => theme.colors.green};
   border-radius: 50%;
   position: fixed;
-  top: 0;
+  top: -28px;
   left: 0;
   display: flex;
   justify-content: center;
