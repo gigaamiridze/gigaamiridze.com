@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { fadeIn } from "../../animations";
 import { SwitchableTabsProps } from "../../interfaces";
 import {
   JobsContent, TabList, TabContent, Tab, TabIndicator,
@@ -37,7 +38,15 @@ function SwitchableTabs(props: SwitchableTabsProps) {
         const { id, position, company, companyLink, range, texts } = panel;
 
         return (
-          <TabContent key={id} dataId={id} activeTab={activeTab}>
+          <TabContent 
+            key={id} 
+            dataId={id} 
+            activeTab={activeTab}
+            variants={fadeIn("up", 0)}
+            initial="hidden"
+            whileInView={"visible"}
+            viewport={{ once: false }}
+          >
             <WorkPosition>
               {position}
               <Company
