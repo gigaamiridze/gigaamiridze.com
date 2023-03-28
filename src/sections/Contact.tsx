@@ -1,9 +1,16 @@
 import React from "react";
+import { sectionVariants } from "../animations";
 import { ContactContainer, ContactTitle, TouchTitle, GreenNumber, Text, SectionButton } from "../components";
 
 function Contact() {
   return (
-    <ContactContainer id="contact">
+    <ContactContainer 
+      id="contact"
+      variants={sectionVariants}
+      initial="hidden"
+      whileInView={"visible"}
+      viewport={{ once: false }}
+    >
       <ContactTitle>
         <GreenNumber fontSize="12px" marginRight="10px">05.</GreenNumber>
         What’s Next?
