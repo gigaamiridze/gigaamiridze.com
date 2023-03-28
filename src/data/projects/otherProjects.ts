@@ -6,6 +6,7 @@ const otherProjects = [
     designLink: "https://todo-list-rc.vercel.app",
     githubLink: "https://github.com/justtfelix/todo-list",
     techList: ["React", "JavaScript", "HTML", "SCSS"],
+    animateDelay: 0.2,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const otherProjects = [
     designLink: "https://shopping-cart-rc.vercel.app/store",
     githubLink: "https://github.com/justtfelix/shopping-cart-rc",
     techList: ["React", "React Router", "TypeScript"],
+    animateDelay: 0.4,
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const otherProjects = [
     designLink: "https://tic-tac-toe-ox.vercel.app",
     githubLink: "https://github.com/justtfelix/Tic-Tac-Toe",
     techList: ["JavaScript", "HTML", "CSS"],
+    animateDelay: 0.6,
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const otherProjects = [
     designLink: "https://product-shopping-cart.vercel.app",
     githubLink: "https://github.com/justtfelix/Shopping-Cart",
     techList: ["JavaScript", "HTML", "SCSS"],
+    animateDelay: 0.2,
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const otherProjects = [
     designLink: "https://accordion-card-rc.vercel.app",
     githubLink: "https://github.com/justtfelix/accordion-card",
     techList: ["React", "JavaScript", "HTML", "SCSS"],
+    animateDelay: 0.4,
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const otherProjects = [
     designLink: "https://registration-form-rc.vercel.app",
     githubLink: "https://github.com/justtfelix/registration-form",
     techList: ["React", "React Hook Form", "JS", "HTML"],
+    animateDelay: 0.6,
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ const otherProjects = [
     designLink: "https://card-details-rc.vercel.app",
     githubLink: "https://github.com/justtfelix/interactive-card-details-form",
     techList: ["React", "JavaScript", "HTML", "SCSS"],
+    animateDelay: 0.2,
   },
   {
     id: 8,
@@ -62,6 +69,7 @@ const otherProjects = [
     designLink: "https://interactive-rating-component-rc.vercel.app",
     githubLink: "https://github.com/justtfelix/interactive-rating-component",
     techList: ["React", "TypeScript", "HTML", "SCSS"],
+    animateDelay: 0.4,
   },
   {
     id: 9,
@@ -70,6 +78,7 @@ const otherProjects = [
     designLink: "https://slip-advice-generator.vercel.app",
     githubLink: "https://github.com/justtfelix/advice-generator",
     techList: ["React", "Styled Comp.", "Framer Mot."],
+    animateDelay: 0.6,
   },
   {
     id: 10,
@@ -78,6 +87,7 @@ const otherProjects = [
     designLink: "https://nft-preview-card-rc.vercel.app",
     githubLink: "https://github.com/justtfelix/nft-preview-card",
     techList: ["React", "TypeScript", "HTML", "CSS"],
+    animateDelay: 0.2,
   },
   {
     id: 11,
@@ -86,6 +96,7 @@ const otherProjects = [
     designLink: undefined,
     githubLink: "https://github.com/justtfelix/Paradise",
     techList: ["Python", "Flask", "SQLAlchemy", "JS"],
+    animateDelay: 0.4,
   },
   {
     id: 12,
@@ -94,6 +105,7 @@ const otherProjects = [
     designLink: "https://unilab-project.vercel.app",
     githubLink: "https://github.com/justtfelix/Unilab-Project",
     techList: ["JavaScript", "HTML", "SCSS"],
+    animateDelay: 0.6,
   },
   {
     id: 13,
@@ -102,6 +114,7 @@ const otherProjects = [
     designLink: "https://tokyo-tau.vercel.app",
     githubLink: "https://github.com/justtfelix/Tokyo",
     techList: ["JavaScript", "HTML", "SCSS"],
+    animateDelay: 0.2,
   },
   {
     id: 14,
@@ -110,6 +123,7 @@ const otherProjects = [
     designLink: "https://photography-portfolioo.vercel.app",
     githubLink: "https://github.com/justtfelix/Photography-Portfolio",
     techList: ["JavaScript", "HTML", "CSS"],
+    animateDelay: 0.4,
   },
   {
     id: 15,
@@ -118,6 +132,7 @@ const otherProjects = [
     designLink: "https://delux-one.vercel.app",
     githubLink: "https://github.com/justtfelix/Delux",
     techList: ["JavaScript", "HTML", "SCSS"],
+    animateDelay: 0.6,
   },
 ]
 

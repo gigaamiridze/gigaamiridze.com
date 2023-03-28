@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-const Flex = styled.div`
+const Flex = styled(motion.div)`
   display: flex;
 `;
 

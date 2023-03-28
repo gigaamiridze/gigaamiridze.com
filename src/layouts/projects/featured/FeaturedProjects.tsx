@@ -1,4 +1,5 @@
 import React from "react";
+import { fadeIn } from "../../../animations";
 import { featuredProjects } from "../../../data";
 import { ProjectsBlock, Project } from "../../../components";
 import { ProjectImage, ProjectContent } from "../../../layouts";
@@ -10,14 +11,20 @@ function FeauturedProjects() {
         const { id, image, title, description, designLink, githubLink, techList, isLeft } = project;
 
         return (
-          <Project key={id}>
-            <ProjectImage 
+          <Project
+            key={id}
+            variants={fadeIn("up", 100, 0.33)}
+            initial="hidden"
+            whileInView={"visible"}
+            viewport={{ once: true }}
+          >
+            <ProjectImage
               designLink={designLink}
               image={image}
               title={title}
               isLeft={isLeft}
             />
-            <ProjectContent 
+            <ProjectContent
               title={title}
               description={description}
               designLink={designLink}

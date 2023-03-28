@@ -1,6 +1,8 @@
 import React from "react";
 import uuid from "react-uuid";
+import { motion } from "framer-motion";
 import { CiFolderOn } from "react-icons/ci";
+import { fadeIn } from "../../../animations";
 import { otherProjects } from "../../../data";
 import { ProjectsProps } from "../../../interfaces";
 import { ProjectLinks } from "../../shared";
@@ -11,17 +13,22 @@ import {
 
 function Projects(props: ProjectsProps) {
   const { visible } = props;
+  const _ = undefined;
 
   return (
     <ProjectBoxes>
       {otherProjects.slice(0, visible).map((project) => {
-        const { id, title, description, designLink, githubLink, techList } = project;
+        const { id, title, description, designLink, githubLink, techList, animateDelay } = project;
 
         return (
-          <a href={designLink ? designLink : githubLink} 
+          <motion.a href={designLink ? designLink : githubLink} 
             key={id} 
             rel="noopener noreferrer" 
             target="_blank"
+            variants={fadeIn("up", _, animateDelay)}
+            initial="hidden"
+            whileInView={"visible"}
+            viewport={{ once: true }}
           >
             <ProjectInfo>
               <div>
@@ -51,7 +58,7 @@ function Projects(props: ProjectsProps) {
                 </OtherTechList>
               </div>
             </ProjectInfo>
-          </a>
+          </motion.a>
         )
       })}
     </ProjectBoxes>
