@@ -1,6 +1,6 @@
 import React from "react";
-import { fadeIn } from "../animations";
 import { eduTabs, eduPanels } from "../data";
+import { sectionVariants } from "../animations";
 import { ActionContainer } from "../components";
 import { HeadTitle, SwitchableTabs } from "../layouts";
 
@@ -8,7 +8,7 @@ function Education() {
   return (
     <ActionContainer 
       id="education"
-      variants={fadeIn("up", 0, 0.2)}
+      variants={sectionVariants}
       initial="hidden"
       whileInView={"visible"}
       viewport={{ once: false }}
