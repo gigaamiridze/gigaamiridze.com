@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../animations";
 import { columnTitles, archiveProjects } from "../../data";
 import { Table, Year, Title, MadeAt, BuiltWith } from "../../components";
 import { ProjectLinks } from "../../layouts";
@@ -22,7 +24,13 @@ function ProjectsTable() {
           const { id, year, title, madeAt, techs, designLink, githubLink } = project;
 
           return (
-            <tr key={id}>
+            <motion.tr 
+              key={id}
+              variants={fadeIn("up")}
+              initial="hidden"
+              whileInView={"visible"}
+              viewport={{ once: true }}
+            >
               <Year>{year}</Year>
               <Title>{title}</Title>
               <MadeAt>{madeAt}</MadeAt>
@@ -30,7 +38,7 @@ function ProjectsTable() {
               <td>
                 <ProjectLinks githubLink={githubLink} designLink={designLink} />
               </td>
-            </tr>
+            </motion.tr>
           )
         })}
       </tbody>
