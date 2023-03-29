@@ -1,5 +1,6 @@
 // Page Components
 export * from "./archive";
+export * from "./notFound";
 
 // Section Components
 export * from "./header";
