@@ -10,6 +10,7 @@ const ErrorTitle = styled.h4`
 export const OopsTitle = styled(ErrorTitle)`
   font-size: 30px;
   font-weight: 500;
+  margin: 20px 0 10px;
 `;
 
 export const NotFoundTitle = styled(ErrorTitle)`

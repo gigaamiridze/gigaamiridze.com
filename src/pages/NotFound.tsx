@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { tabTitle } from "../utilities";
-import { NotFoundContainer, StatusCode, OopsTitle, NotFoundTitle } from "../components";
+import { NotFoundContainer, StatusCode, OopsTitle, NotFoundTitle, SectionButton } from "../components";
 
 function NotFound() {
   useEffect(() => {
@@ -12,6 +13,9 @@ function NotFound() {
       <StatusCode>404</StatusCode>
       <OopsTitle>Ooops...</OopsTitle>
       <NotFoundTitle>page not found</NotFoundTitle>
+      <Link to="/">
+        <SectionButton>Go Home</SectionButton>
+      </Link>
     </NotFoundContainer>
   )
 }
