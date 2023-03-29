@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { tabTitle } from "../utilities";
-import { NotFoundContainer, StatusCode } from "../components";
+import { NotFoundContainer, StatusCode, OopsTitle, NotFoundTitle } from "../components";
 
 function NotFound() {
   useEffect(() => {
@@ -10,6 +10,8 @@ function NotFound() {
   return (
     <NotFoundContainer>
       <StatusCode>404</StatusCode>
+      <OopsTitle>Ooops...</OopsTitle>
+      <NotFoundTitle>page not found</NotFoundTitle>
     </NotFoundContainer>
   )
 }

@@ -19,6 +19,7 @@ export interface Theme {
   fonts: {
     primary: string;
     secondary: string;
+    third: string;
   };
   transition: string;
   boxShadow: string;
