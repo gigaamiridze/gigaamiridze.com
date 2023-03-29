@@ -4,6 +4,7 @@ export * from "./switchableTabs";
 export * from "./verticalBlock";
 export * from "./greenNumber";
 export * from "./projectLink";
+export * from "./preLoader";
 export * from "./headTitle";
 export * from "./projects";
 export * from "./header";

@@ -1,16 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { RouterProvider } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./assets";
 import { defaultTheme } from "./theme";
 import { router } from "./routes";
-import { AnimatedCursor } from "./layouts";
+import { AnimatedCursor, PreLoader } from "./layouts";
 
 function App() {
+  const [loading, setLoading] = useState<boolean>(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <ThemeProvider theme={defaultTheme}>
-      <RouterProvider router={router} />
+      {loading
+        ? <PreLoader loading={loading} />
+        : <RouterProvider router={router} />
+      }
       <HelmetProvider>
         <GlobalStyles />
         <Helmet>
