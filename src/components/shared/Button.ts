@@ -18,6 +18,12 @@ export const ResumeBtn = styled(Button)`
   width: 82px;
   height: 38px;
   font-size: 11.5px;
+
+  @media (max-width: 900px) {
+    width: 150px;
+    height: 50px;
+    font-size: 12.5px;
+  }
 `;
 
 export const SectionButton = styled(Button)`

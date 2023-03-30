@@ -17,6 +17,10 @@ const HeaderContainer = styled.header<HeaderProps>`
   position: fixed;
   top: 0;
   z-index: 10;
+
+  @media (max-width: 1080px) {
+    padding: 0 40px;
+  }
 `;
 
 export default HeaderContainer;

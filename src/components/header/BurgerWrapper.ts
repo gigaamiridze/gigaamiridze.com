@@ -1,16 +1,21 @@
 import styled, { css } from "styled-components";
 import { motion } from "framer-motion";
-import { BurgerProps } from "../../interfaces";
+import { OpenProps } from "../../interfaces";
 
-const BurgerWrapper = styled(motion.div)<BurgerProps>`
+const BurgerWrapper = styled(motion.div)<OpenProps>`
   width: 36px;
   height: 22px;
   z-index: 20;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
+  cursor: pointer;
   display: none;
+
+  @media (max-width: 900px) {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 
   span {
     ${({ theme }) => css`

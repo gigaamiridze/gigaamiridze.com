@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+import { BurgerProps } from "../../interfaces";
 import { logoVariants } from "../../animations";
 import { BurgerWrapper } from "../../components";
 
-function Burger() {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-
+function Burger(props: BurgerProps) {
+  const { isOpen, setIsOpen } = props;
+  
   return (
     <BurgerWrapper
       isOpen={isOpen} 

@@ -1,24 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useScrollPosition } from "../../hooks";
-import { HeaderContainer, FlexBox } from "../../components";
+import { HeaderContainer, Menu } from "../../components";
 import { Logo, Navigation, ResumeButton, Burger } from "../../layouts";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const isScroll = useScrollPosition();
   const { pathname } = useLocation();
 
   return (
     <HeaderContainer isScroll={isScroll}>
       <Logo />
-      <FlexBox>
+      <Menu isOpen={isOpen}>
         {pathname === "/"
           ? <Navigation />
           : null
         }
         <ResumeButton />
-      </FlexBox>
-      <Burger />
+      </Menu>
+      <Burger isOpen={isOpen} setIsOpen={setIsOpen} />
     </HeaderContainer>
   )
 }
