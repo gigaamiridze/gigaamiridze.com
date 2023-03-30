@@ -11,10 +11,13 @@ export interface Theme {
     lightestSlate: string;
     white: string;
     green: string;
+    darkGreen: string;
     greenTint: string;
     headerBg: string;
     pink: string;
+    purple: string;
     blue: string;
+    lightBlue: string;
   };
   fonts: {
     primary: string;

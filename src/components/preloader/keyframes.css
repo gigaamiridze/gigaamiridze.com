@@ -1,0 +1,26 @@
+@keyframes firstLine {
+  0% {
+    transform: rotateY(70deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateY(70deg) rotateZ(360deg);
+  }
+}
+
+@keyframes secondLine {
+  0% {
+    transform: rotateX(80deg) rotateY(25deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(80deg) rotateY(25deg) rotateZ(360deg);
+  }
+}
+
+@keyframes thirdLine {
+  0% {
+    transform: rotateX(-80deg) rotateY(25deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(-80deg) rotateY(25deg) rotateZ(360deg);
+  }
+}

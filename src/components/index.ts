@@ -13,3 +13,4 @@ export * from "./footer";
 
 // Shared Components
 export * from "./shared";
+export * from "./preloader";

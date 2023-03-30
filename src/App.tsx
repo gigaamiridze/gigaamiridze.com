@@ -13,13 +13,13 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 3000);
   }, []);
 
   return (
     <ThemeProvider theme={defaultTheme}>
       {loading
-        ? <PreLoader loading={loading} />
+        ? <PreLoader />
         : <RouterProvider router={router} />
       }
       <HelmetProvider>

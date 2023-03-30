@@ -1,18 +1,14 @@
 import React from "react";
-import CircleLoader from "react-spinners/CircleLoader";
-import { PreLoaderProps } from "../../interfaces";
-import { LoaderWrapper } from "../../components";
+import { LoaderWrapper, Atom, FirstLine, SecondLine, ThirdLine } from "../../components";
 
-function PreLoader(props: PreLoaderProps) {
-  const { loading } = props;
-
+function PreLoader() {
   return (
     <LoaderWrapper>
-      <CircleLoader
-        size={150}
-        color={"#64ffda"}
-        loading={loading}
-      />
+      <Atom>
+        <FirstLine />
+        <SecondLine />
+        <ThirdLine />
+      </Atom>
     </LoaderWrapper>
   )
 }
