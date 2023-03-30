@@ -7,6 +7,7 @@ export * from "./projectLink";
 export * from "./headTitle";
 export * from "./projects";
 export * from "./header";
+export * from "./burger";
 export * from "./theme";
 export * from "./user";
 export * from "./tab";
