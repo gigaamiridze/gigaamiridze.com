@@ -1,7 +1,8 @@
 import styled, { css } from "styled-components";
+import { motion } from "framer-motion";
 import { BurgerProps } from "../../interfaces";
 
-const BurgerWrapper = styled.div<BurgerProps>`
+const BurgerWrapper = styled(motion.div)<BurgerProps>`
   width: 36px;
   height: 22px;
   z-index: 20;
