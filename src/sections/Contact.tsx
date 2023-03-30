@@ -1,6 +1,9 @@
 import React from "react";
 import { sectionVariants } from "../animations";
-import { ContactContainer, ContactTitle, TouchTitle, GreenNumber, Text, SectionButton } from "../components";
+import { 
+  ContactContainer, ContactTitle, TouchTitle,
+  ContactGreenNumber, Text, SectionButton 
+} from "../components";
 
 function Contact() {
   return (
@@ -12,7 +15,7 @@ function Contact() {
       viewport={{ once: false }}
     >
       <ContactTitle>
-        <GreenNumber fontSize="12px" marginRight="10px">05.</GreenNumber>
+        <ContactGreenNumber>05.</ContactGreenNumber>
         What’s Next?
       </ContactTitle>
       <TouchTitle>Get In Touch</TouchTitle>

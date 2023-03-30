@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { navLinks } from "../../data";
 import { fadeIn } from "../../animations";
-import { NavContainer, GreenNumber } from "../../components";
+import { NavContainer, NavGreenNumber } from "../../components";
 
 function Navigation() {
   const _ = undefined;
@@ -29,12 +29,7 @@ function Navigation() {
                 offset={-130}
                 duration={1000}
               >
-                <GreenNumber
-                  fontSize="10.5px"
-                  marginRight="5px"
-                >
-                  {queueNumber}
-                </GreenNumber>
+                <NavGreenNumber>{queueNumber}</NavGreenNumber>
                 {title}
               </Link>
             </motion.li>

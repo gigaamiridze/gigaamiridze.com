@@ -1,14 +1,29 @@
 import styled, { css } from "styled-components";
-import { GreenNumberProps } from "../../interfaces";
 
-const GreenNumber = styled.span<GreenNumberProps>`
+const GreenNumber = styled.span`
   ${({ theme }) => css`
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary}; 
   `}
-  font-size: ${props => props.fontSize};
   font-weight: 300;
-  margin-right: ${props => props.marginRight};
 `;
 
-export default GreenNumber;
+export const NavGreenNumber = styled(GreenNumber)`
+  font-size: 10.5px;
+  margin-right: 5px;
+
+  @media (max-width: 900px) {
+    font-size: 12px;
+    margin-right: 0;
+  }
+`;
+
+export const SectionGreenNumber = styled(GreenNumber)`
+  font-size: 18px;
+  margin-right: 10px;
+`;
+
+export const ContactGreenNumber = styled(GreenNumber)`
+  font-size: 12px;
+  margin-right: 10px;
+`;
