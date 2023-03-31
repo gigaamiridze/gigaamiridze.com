@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef, MouseEventHandler } from "react";
 import { RouterProvider } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { GlobalStyles } from "./assets";
@@ -9,13 +9,20 @@ import { AnimatedCursor, PreLoader } from "./layouts";
 
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
-  const { isOpen } = useMenu();
+  const backDrop = useRef<HTMLDivElement | null>(null);
+  const { isOpen, setIsOpen } = useMenu();
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
     }, 3000);
   }, []);
+
+  const handleBackDrop: MouseEventHandler<HTMLDivElement> = (event) => {
+    if (event.target === backDrop.current) {
+      setIsOpen(false);
+    }
+  }
 
   return (
     <>
@@ -31,7 +38,11 @@ function App() {
         </Helmet>
       </HelmetProvider>
       <AnimatedCursor />
-      <BackDrop isOpen={isOpen} />
+      <BackDrop 
+        ref={backDrop}
+        isOpen={isOpen}
+        onClick={handleBackDrop}
+      />
     </>
   )
 }

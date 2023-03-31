@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import { navLinks } from "../../data";
 import { fadeIn } from "../../animations";
+import { navLinks } from "../../data";
+import { useMenu } from "../../contexts";
 import { NavContainer, NavGreenNumber } from "../../components";
 
 function Navigation() {
+  const { setIsOpen } = useMenu();
   const _ = undefined;
 
   return (
@@ -28,6 +30,7 @@ function Navigation() {
                 smooth={true}
                 offset={-130}
                 duration={1000}
+                onClick={() => setIsOpen(false)}
               >
                 <NavGreenNumber>{queueNumber}</NavGreenNumber>
                 {title}

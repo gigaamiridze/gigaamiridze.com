@@ -15,7 +15,7 @@ export function MenuContextProvider({ children }: MenuProviderProps) {
   }
 
   return (
-    <MenuContext.Provider value={{ isOpen, toggleMenu }}>
+    <MenuContext.Provider value={{ isOpen, setIsOpen, toggleMenu }}>
       {children}
     </MenuContext.Provider>
   )
