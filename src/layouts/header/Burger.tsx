@@ -5,6 +5,13 @@ import { BurgerWrapper, BurgerButton } from "../../components";
 
 function Burger(props: BurgerProps) {
   const { isOpen, setIsOpen } = props;
+  const body = document.querySelector("body") as HTMLBodyElement;
+
+  if (isOpen) {
+    body.style.overflowY = "hidden";
+  } else {
+    body.style.overflowY = "unset";
+  }
 
   return (
     <BurgerWrapper
