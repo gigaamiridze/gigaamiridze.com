@@ -9,4 +9,5 @@ export * from "./header";
 export * from "./burger";
 export * from "./theme";
 export * from "./user";
+export * from "./menu";
 export * from "./tab";
