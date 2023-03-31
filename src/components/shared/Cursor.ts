@@ -12,7 +12,7 @@ const Cursor = styled(motion.div)`
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 11;
+  z-index: 4;
   pointer-events: none;
 
   .inner {

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const BurgerWrapper = styled(motion.div)`
   padding: 15px 0 15px 15px;
-  z-index: 20;
+  z-index: 3;
   cursor: pointer;
   display: none;
 

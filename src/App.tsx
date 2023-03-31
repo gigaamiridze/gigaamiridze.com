@@ -5,6 +5,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./assets";
 import { defaultTheme } from "./theme";
 import { router } from "./routes";
+import { BackDrop } from "./components";
 import { AnimatedCursor, PreLoader } from "./layouts";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <link rel="icon" type="image/x-icon" href="/favicon.png" />
         </Helmet>
       </HelmetProvider>
+      <BackDrop />
       <AnimatedCursor />
     </ThemeProvider>
   )

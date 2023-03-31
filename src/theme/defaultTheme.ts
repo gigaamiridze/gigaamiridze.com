@@ -13,7 +13,7 @@ const defaultTheme = {
     green: "#64ffda",
     darkGreen: "#40ff9c",
     greenTint: "rgba(100, 255, 218, 0.1)",
-    headerBg: "rgba(10, 25, 47, 0.85)",
+    headerBg: "rgba(10, 25, 47, 0.40)",
     pink: "#f57dff",
     purple: "#c096ff",
     blue: "#57cbff",
