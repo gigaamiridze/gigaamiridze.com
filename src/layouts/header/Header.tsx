@@ -1,13 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { useLocation } from "react-router-dom";
+import { useMenu } from "../../contexts";
 import { useScrollPosition } from "../../hooks";
 import { HeaderContainer, Menu } from "../../components";
 import { Logo, Navigation, ResumeButton, Burger } from "../../layouts";
 
 function Header() {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
   const isScroll = useScrollPosition();
   const { pathname } = useLocation();
+  const { isOpen, toggleMenu } = useMenu();
 
   return (
     <HeaderContainer isScroll={isScroll}>
@@ -19,7 +20,7 @@ function Header() {
         }
         <ResumeButton />
       </Menu>
-      <Burger isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Burger isOpen={isOpen} toggleMenu={toggleMenu} />
     </HeaderContainer>
   )
 }

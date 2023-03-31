@@ -4,7 +4,7 @@ import { logoVariants } from "../../animations";
 import { BurgerWrapper, BurgerButton } from "../../components";
 
 function Burger(props: BurgerProps) {
-  const { isOpen, setIsOpen } = props;
+  const { isOpen, toggleMenu } = props;
   const body = document.querySelector("body") as HTMLBodyElement;
 
   if (isOpen) {
@@ -15,7 +15,7 @@ function Burger(props: BurgerProps) {
 
   return (
     <BurgerWrapper
-      onClick={() => setIsOpen(!isOpen)}
+      onClick={toggleMenu}
       variants={logoVariants}
       initial="hidden"
       animate="visible"

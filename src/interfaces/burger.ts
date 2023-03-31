@@ -3,5 +3,5 @@ export interface OpenProps {
 }
 
 export interface BurgerProps extends OpenProps {
-  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  toggleMenu: () => void;
 }
