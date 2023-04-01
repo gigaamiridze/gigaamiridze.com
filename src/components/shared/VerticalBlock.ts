@@ -9,6 +9,14 @@ const VerticalBlock = styled(motion.div)<VerticalBlockProps>`
   position: fixed;
   ${props => props.orientation}: 40px;
   bottom: 0;
+
+  @media (max-width: 1080px) {
+    ${props => props.orientation}: 20px;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export default VerticalBlock;

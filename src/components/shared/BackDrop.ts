@@ -4,6 +4,7 @@ import { OpenProps } from "../../interfaces";
 const BackDrop = styled.div<OpenProps>`
   ${({ isOpen, theme }) => css`
     background-color: ${theme.colors.headerBg};
+    visibility: ${isOpen ? "visible" : "hidden"};
     opacity: ${isOpen ? 1 : 0};
     transition: ${theme.transition};
   `}
@@ -14,11 +15,6 @@ const BackDrop = styled.div<OpenProps>`
   height: 100vh;
   backdrop-filter: blur(7px);
   z-index: 1;
-  display: none;
-
-  @media (max-width: 900px) {
-    display: block;
-  }
 `;
 
 export default BackDrop;
