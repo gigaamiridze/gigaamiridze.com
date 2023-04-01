@@ -10,6 +10,10 @@ const BurgerWrapper = styled(motion.div)`
   @media (max-width: 900px) {
     display: block;
   }
+
+  @media (max-width: 375px) {
+    padding: 10px 0 10px 10px;
+  }
 `;
 
 export default BurgerWrapper;

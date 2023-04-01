@@ -9,6 +9,11 @@ const BurgerButton = styled.div<OpenProps>`
   justify-content: space-between;
   align-items: flex-end;
 
+  @media (max-width: 375px) {
+    width: 34px;
+    height: 20px;
+  }
+
   span {
     ${({ theme }) => css`
       background-color: ${theme.colors.green};
@@ -23,17 +28,29 @@ const BurgerButton = styled.div<OpenProps>`
         width: ${isOpen ? "30px" : "100%"};
         transform: ${isOpen ? "rotate(45deg)" : "rotate(0)"};
       `}
+
+      @media (max-width: 375px) {
+        width: ${({ isOpen }) => isOpen ? "28px" : "100%"};
+      }
     }
     &:nth-child(2) {
       width: 30px;
       transform: ${({ isOpen }) => isOpen ? "translateX(100%)" : "translateX(0)"};
       opacity: ${({ isOpen }) => isOpen ? 0 : 1};
+
+      @media (max-width: 375px) {
+        width: 28px;
+      }
     }
     &:nth-child(3) {
       ${({ isOpen }) => css`
         width: ${isOpen ? "30px" : "24px"};
         transform: ${isOpen ? "rotate(-45deg)" : "rotate(0)"};
       `}
+
+      @media (max-width: 375px) {
+        width: ${({ isOpen }) => isOpen ? "28px" : "22px"};
+      }
     }
   }
 `;
