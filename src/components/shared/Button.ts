@@ -26,8 +26,14 @@ export const ResumeBtn = styled(Button)`
   }
 
   @media (max-width: 375px) {
-    width: 140px;
+    width: 130px;
     height: 45px;
+  }
+
+  @media (max-width: 320px) {
+    width: 120px;
+    height: 40px;
+    font-size: 11.5px;
   }
 `;
 

@@ -39,7 +39,7 @@ const Menu = styled.div<OpenProps>`
   }
 
   @media (max-width: 320px) {
-    padding: 110px 10px;
+    padding: 115px 10px;
   }
 `;
 
