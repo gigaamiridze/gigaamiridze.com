@@ -10,7 +10,7 @@ const GreenTitle = styled(motion.h4)`
 `;
 
 export const HelloTitle = styled(GreenTitle)`
-  font-size: 14px;
+  font-size: clamp(12px, 4vw, 14px);
   margin-left: 3px;
 `;
 

@@ -7,11 +7,19 @@ export const Text = styled(motion.p)`
     font-family: ${theme.fonts.primary};
   `}
   font-size: 16.5px;
-  line-height: 27px;
+  line-height: 25px;
 `;
 export const HelloText = styled(Text)`
   max-width: 540px;
   margin-top: 30px;
+
+  @media (max-width: 768px) {
+    margin-top: 25px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 14.5px;
+  }
 `;
 
 export const AboutText = styled(Text)`

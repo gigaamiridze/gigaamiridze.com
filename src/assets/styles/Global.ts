@@ -81,9 +81,18 @@ const GlobalStyles = createGlobalStyle`
       color: ${theme.colors.lightestSlate};
       font-family: ${theme.fonts.primary};
     `}
-    font-size: 65px;
+    font-size: clamp(30px, 6.5vw, 65px);
     font-weight: 700;
-    margin: 30px 0 20px;
+    line-height: 1.3;
+    margin: 25px 0 10px;
+
+    @media (max-width: 900px) {
+      margin-top: 20px;
+    }
+
+    @media (max-width: 480px) {
+      margin-top: 15px;
+    }
   }
 
   .active {

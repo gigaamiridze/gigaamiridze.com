@@ -6,8 +6,9 @@ const WorkTitle = styled(motion.h3)`
     color: ${theme.colors.slate};
     font-family: ${theme.fonts.primary};
   `}
-  font-size: 65px;
+  font-size: clamp(30px, 6.5vw, 65px);
   font-weight: 700;
+  line-height: 1;
 `;
 
 export default WorkTitle;
