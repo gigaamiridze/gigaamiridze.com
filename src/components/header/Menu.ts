@@ -21,6 +21,26 @@ const Menu = styled.div<OpenProps>`
     right: 0;
     padding: 70px 10px;
   }
+
+  @media (max-width: 600px) {
+    padding: 80px 10px;
+  }
+
+  @media (max-width: 500px) {
+    padding: 85px 10px;
+  }
+
+  @media (max-width: 420px) {
+    padding: 90px 10px;
+  }
+
+  @media (max-width: 375px) {
+    padding: 100px 10px;
+  }
+
+  @media (max-width: 320px) {
+    padding: 110px 10px;
+  }
 `;
 
 export default Menu;

@@ -19,6 +19,10 @@ const NavContainer = styled.nav`
       row-gap: 15px;
     }
 
+    @media (max-width: 600px) {
+      row-gap: 10px;
+    }
+
     li {
       cursor: pointer;
       padding: 10px 0;
@@ -46,7 +50,11 @@ const NavContainer = styled.nav`
           flex-direction: column;
           align-items: center;
           row-gap: 15px;
-          font-size: clamp(12px, 4vw, 16px);
+          font-size: clamp(12px, 3.5vw, 16px);
+        }
+
+        @media (max-width: 375px) {
+          row-gap: 10px;
         }
       }
     }

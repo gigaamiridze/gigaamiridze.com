@@ -16,6 +16,10 @@ export const NavGreenNumber = styled(GreenNumber)`
     font-size: 12px;
     margin-right: 0;
   }
+
+  @media (max-width: 375px) {
+    font-size: 11px;
+  }
 `;
 
 export const SectionGreenNumber = styled(GreenNumber)`
