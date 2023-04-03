@@ -17,6 +17,18 @@ export const FlexBlock = styled(Flex)`
 
 export const SectionTitleBox = styled(FlexBox)`
   margin-bottom: 40px;
+
+  @media (max-width: 480px) {
+    margin-bottom: 35px;
+  }
+
+  @media (max-width: 375px) {
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 320px) {
+    margin-bottom: 25px;
+  }
 `;
 
 export const OtherTitleBox = styled(SectionTitleBox)`

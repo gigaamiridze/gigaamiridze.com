@@ -23,8 +23,12 @@ export const NavGreenNumber = styled(GreenNumber)`
 `;
 
 export const SectionGreenNumber = styled(GreenNumber)`
-  font-size: 18px;
+  font-size: clamp(14px, 2.7vw, 18px);
   margin-right: 10px;
+
+  @media (max-width: 480px) {
+    margin-right: 5px;
+  }
 `;
 
 export const ContactGreenNumber = styled(GreenNumber)`

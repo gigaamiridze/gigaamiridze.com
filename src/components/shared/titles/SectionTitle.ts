@@ -5,8 +5,9 @@ const SectionTitle = styled.h2`
     color: ${theme.colors.lightestSlate};
     font-family: ${theme.fonts.primary};
   `}
-  font-size: 26px;
+  font-size: clamp(21.5px, 4vw, 26px);
   font-weight: 700;
+  white-space: nowrap;
 `;
 
 export default SectionTitle;
