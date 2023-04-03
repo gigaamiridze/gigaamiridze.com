@@ -24,6 +24,26 @@ export const ProfileImgWrapper = styled(ImageWrapper)`
   height: 300px;
   position: relative;
 
+  @media (max-width: 500px) {
+    max-width: 270px;
+    height: 270px;
+  }
+
+  @media (max-width: 420px) {
+    max-width: 240px;
+    height: 240px;
+  }
+
+  @media (max-width: 375px) {
+    max-width: 220px;
+    height: 220px;
+  }
+
+  @media (max-width: 320px) {
+    max-width: 180px;
+    height: 180px;
+  }
+
   &::after {
     content: "";
     display: block;

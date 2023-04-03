@@ -8,6 +8,10 @@ export const Text = styled(motion.p)`
   `}
   font-size: 16.5px;
   line-height: 25px;
+
+  @media (max-width: 480px) {
+    font-size: 15px;
+  }
 `;
 export const HelloText = styled(Text)`
   max-width: 540px;
@@ -15,10 +19,6 @@ export const HelloText = styled(Text)`
 
   @media (max-width: 768px) {
     margin-top: 25px;
-  }
-
-  @media (max-width: 480px) {
-    font-size: 14.5px;
   }
 `;
 

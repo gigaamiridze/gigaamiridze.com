@@ -5,7 +5,15 @@ const TextContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  row-gap: 15px;
+
+  @media (max-width: 900px) {
+    max-width: inherit;
+  }
+
+  @media (max-width: 375px) {
+    row-gap: 10px;
+  }
 `;
 
 export default TextContainer;
