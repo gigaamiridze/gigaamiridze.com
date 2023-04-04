@@ -34,4 +34,12 @@ export const SectionGreenNumber = styled(GreenNumber)`
 export const ContactGreenNumber = styled(GreenNumber)`
   font-size: 12px;
   margin-right: 10px;
+
+  @media (max-width: 480px) {
+    margin-right: 5px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 11.5px;
+  }
 `;

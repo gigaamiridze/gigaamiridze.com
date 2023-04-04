@@ -16,6 +16,10 @@ export const HelloTitle = styled(GreenTitle)`
 
 export const ContactTitle = styled(GreenTitle)`
   font-size: 13px;
+
+  @media (max-width: 375px) {
+    font-size: 12.5px;
+  }
 `;
 
 export const FeaturedTitle = styled(GreenTitle)`

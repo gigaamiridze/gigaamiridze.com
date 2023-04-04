@@ -48,6 +48,23 @@ export const SectionButton = styled(Button)`
   &:hover {
     background-color: ${({ theme }) => theme.colors.greenTint};
   }
+
+  @media (max-width: 480px) {
+    margin-top: 40px;
+  }
+
+  @media (max-width: 375px) {
+    width: 130px;
+    height: 45px;
+    font-size: 11px;
+    margin-top: 30px;
+  }
+
+  @media (max-width: 320px) {
+    width: 120px;
+    height: 40px;
+    font-size: 10.5px;
+  }
 `;
 
 export const ShowButton = styled(SectionButton)`
