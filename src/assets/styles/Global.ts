@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, css } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
   // Styles Reset Code
@@ -49,13 +49,17 @@ const GlobalStyles = createGlobalStyle`
     background-color: ${({theme}) => theme.colors.navy};
 
     &::-webkit-scrollbar {
-      width: 12px; 
+      width: 12px;
+      
+      @media (max-width: 768px) { width: 11px; }
+      @media (max-width: 480px) { width: 10px; }
+      @media (max-width: 375px) { width: 9px; }
     }
     &::-webkit-scrollbar-track {
       background-color: ${({theme}) => theme.colors.navy};
     }
     &::-webkit-scrollbar-thumb {
-      ${({theme}) => `
+      ${({theme}) => css`
         background-color: ${theme.colors.darkSlate};
         border: 3px solid ${theme.colors.navy};
       `}
@@ -70,14 +74,14 @@ const GlobalStyles = createGlobalStyle`
   }
 
   ::selection {
-    ${({theme}) => `
+    ${({theme}) => css`
       background-color: ${theme.colors.lightestNavy};
       color: ${theme.colors.lightestSlate}; 
     `}
   }
 
   .fullname {
-    ${({theme}) => `
+    ${({theme}) => css`
       color: ${theme.colors.lightestSlate};
       font-family: ${theme.fonts.primary};
     `}
@@ -86,17 +90,12 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1.3;
     margin: 25px 0 10px;
 
-    @media (max-width: 900px) {
-      margin-top: 20px;
-    }
-
-    @media (max-width: 480px) {
-      margin-top: 15px;
-    }
+    @media (max-width: 900px) { margin-top: 20px; }
+    @media (max-width: 480px) { margin-top: 15px; }
   }
 
   .active {
-    color: ${({theme}) => theme.colors.green};
+    color: ${({theme}) => theme.colors.green} !important;
   }
 `;
 
