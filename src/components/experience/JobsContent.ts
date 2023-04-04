@@ -5,6 +5,11 @@ const JobsContent = styled.div`
   min-height: 300px;
   display: flex;
   column-gap: 20px;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 10px 0;
+  }
 `;
 
 export default JobsContent;

@@ -7,7 +7,11 @@ const Range = styled.p`
   `}
   font-size: 11.8px;
   font-weight: 300;
-  margin: 15px 0 25px;
+  margin: 10px 0 25px;
+
+  @media (max-width: 555px) {
+    margin-bottom: 20px;
+  }
 `;
 
 export default Range;

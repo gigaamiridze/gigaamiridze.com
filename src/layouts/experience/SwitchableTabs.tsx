@@ -7,7 +7,7 @@ import {
 } from "../../components";
 
 function SwitchableTabs(props: SwitchableTabsProps) {
-  const { tabs, panels } = props;
+  const { tabs, panels, isJobIndicator } = props;
 
   const [activeTab, setActiveTab] = useState<number>(0);
 
@@ -32,7 +32,7 @@ function SwitchableTabs(props: SwitchableTabsProps) {
             </Tab>
           )
         })}
-        <TabIndicator activeTab={activeTab} />
+        <TabIndicator activeTab={activeTab} isJobIndicator={isJobIndicator} />
       </TabList>
       {panels.map((panel) => {
         const { id, position, company, companyLink, range, texts } = panel;

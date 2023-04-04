@@ -25,6 +25,19 @@ const Tab = styled.button<TabProps>`
       color: ${theme.colors.green};
     `}
   }
+
+  @media (max-width: 768px) {
+    padding: 0 15px;
+    font-size: 11px;
+  }
+
+  @media (max-width: 600px) {
+    max-width: 120px;
+    padding: 0;
+    text-align: center;
+    border-left: inherit;
+    border-bottom: 2px solid ${({ theme }) => theme.colors.lightestNavy};
+  }
 `;
 
 export default Tab;

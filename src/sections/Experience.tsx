@@ -14,7 +14,7 @@ function Experience() {
       viewport={{ once: false }}
     >
       <HeadTitle queueNumber={2} title="My Experience" />
-      <SwitchableTabs tabs={jobTabs} panels={jobPanels} />
+      <SwitchableTabs tabs={jobTabs} panels={jobPanels} isJobIndicator={true} />
     </ActionContainer>
   )
 }

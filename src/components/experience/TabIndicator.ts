@@ -14,6 +14,15 @@ const TabIndicator = styled.div<TabProps>`
   position: absolute;
   top: 0;
   left: 0;
+
+  @media (max-width: 600px) {
+    ${({ isJobIndicator, activeTab }) => css`
+      width: ${isJobIndicator ? "120px" : "calc(100% / 5)"};
+      transform: translateX(calc(${activeTab} * 100%));
+    `}
+    height: 2px;
+    top: 40px;
+  }
 `;
 
 export default TabIndicator;

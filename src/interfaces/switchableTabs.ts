@@ -13,6 +13,7 @@ interface Panels {
 }
 
 export interface SwitchableTabsProps {
-  tabs: Tabs[],
-  panels: Panels[],
+  tabs: Tabs[];
+  panels: Panels[];
+  isJobIndicator: boolean;
 }

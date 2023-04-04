@@ -14,7 +14,7 @@ function Education() {
       viewport={{ once: false }}
     >
       <HeadTitle queueNumber={3} title="Education" />
-      <SwitchableTabs tabs={eduTabs} panels={eduPanels} />
+      <SwitchableTabs tabs={eduTabs} panels={eduPanels} isJobIndicator={false} />
     </ActionContainer>
   )
 }

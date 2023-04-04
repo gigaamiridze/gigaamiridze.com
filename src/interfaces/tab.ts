@@ -1,4 +1,5 @@
 export interface TabProps {
   dataId?: number;
-  activeTab: number; 
+  activeTab: number;
+  isJobIndicator?: boolean;
 }
