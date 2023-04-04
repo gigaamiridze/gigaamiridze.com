@@ -5,7 +5,7 @@ const StatusCode = styled.h3`
     color: ${theme.colors.green};
     font-family: ${theme.fonts.secondary};
   `}
-  font-size: clamp(60px, 12vw, 160px);
+  font-size: clamp(65px, 14vw, 160px);
   font-weight: 600;
   letter-spacing: 5px;
 `;
