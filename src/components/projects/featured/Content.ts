@@ -2,14 +2,11 @@ import styled, { css } from "styled-components";
 import { ContentPosition } from "../../../interfaces";
 
 const Content = styled.div<ContentPosition>`
+  grid-column: 7 / -1;
   ${({ isLeft }) => css`
     text-align: ${isLeft ? "left" : "right"};
-    ${isLeft ? "left" : "right"}: 0;
+    grid-area: ${isLeft ? "1 / 1 / -1 / 7" : "1 / 7 / -1 / -1"};
   `}
-  width: 480px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 `;
 
 export default Content;

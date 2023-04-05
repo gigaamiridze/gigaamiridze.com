@@ -65,9 +65,12 @@ export const ProfileImgWrapper = styled(ImageWrapper)`
 `;
 
 export const ProjectImgWrapper = styled(ImageWrapper)<ContentPosition>`
-  width: 560px;
   height: 100%;
-  position: absolute;
-  top: 0;
-  ${props => !props.isLeft ? "left" : "right"}: 0;
+  position: relative;
+  z-index: 1;
+  grid-column: 1 / 8;
+  ${({ theme, isLeft }) => css`
+    box-shadow: ${theme.boxShadow};
+    grid-area: ${isLeft ? "1 / 6 / -1 / -1" : "1 / 1 / -1 / 8"};
+  `}
 `;
