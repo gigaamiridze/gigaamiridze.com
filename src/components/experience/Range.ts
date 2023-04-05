@@ -12,6 +12,10 @@ const Range = styled.p`
   @media (max-width: 555px) {
     margin-bottom: 20px;
   }
+
+  @media (max-width: 375px) {
+    font-size: 11.5px;
+  }
 `;
 
 export default Range;

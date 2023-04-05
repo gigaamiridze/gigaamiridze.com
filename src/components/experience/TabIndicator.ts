@@ -23,6 +23,18 @@ const TabIndicator = styled.div<TabProps>`
     height: 2px;
     top: 40px;
   }
+
+  @media (max-width: 375px) {
+    ${({ isJobIndicator }) => css`
+      width: ${isJobIndicator ? "110px" : "calc(100% / 5)"};
+    `}
+  }
+
+  @media (max-width: 340px) {
+    ${({ isJobIndicator }) => css`
+      width: ${isJobIndicator ? "100px" : "calc(100% / 5)"};
+    `}
+  }
 `;
 
 export default TabIndicator;

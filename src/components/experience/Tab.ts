@@ -38,6 +38,15 @@ const Tab = styled.button<TabProps>`
     border-left: inherit;
     border-bottom: 2px solid ${({ theme }) => theme.colors.lightestNavy};
   }
+
+  @media (max-width: 375px) {
+    max-width: 110px;
+  }
+
+  @media (max-width: 340px) {
+    max-width: 100px;
+    font-size: 10px;
+  }
 `;
 
 export default Tab;
