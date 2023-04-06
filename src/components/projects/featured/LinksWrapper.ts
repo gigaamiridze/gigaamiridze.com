@@ -16,15 +16,31 @@ const LinksWrapper = styled.div<ContentPosition>`
 
     &:first-child {
       padding-left: ${props => props.isLeft ? 0 : "10px"};
+
+      @media (max-width: 768px) {
+        padding-right: 7px;
+        padding-left: 0;
+      }
     }
 
     &:last-child {
       padding-right: ${props => props.isLeft ? "10px" : 0};
+
+      @media (max-width: 768px) {
+        padding-right: 10px;
+        padding-left: 7px;
+      }
     }
 
     &:hover {
       color: ${({ theme }) => theme.colors.green};
     }
+  }
+
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
   }
 `;
 

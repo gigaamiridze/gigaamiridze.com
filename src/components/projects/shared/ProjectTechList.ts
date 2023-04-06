@@ -15,6 +15,12 @@ export const FeaturedTechList = styled(ProjectTechList)<ContentPosition>`
   justify-content: ${props => props.isLeft ? "flex-start" : "flex-end"};
   column-gap: 20px;
   margin: 25px 0 10px;
+  position: relative;
+  z-index: 2;
+
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+  }
   
   li {
     color: ${({ theme }) => theme.colors.lightSlate};

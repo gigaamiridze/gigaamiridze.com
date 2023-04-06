@@ -24,6 +24,25 @@ export const ProfileImgWrapper = styled(ImageWrapper)`
   height: 300px;
   position: relative;
 
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    outline: 2px solid ${({ theme }) => theme.colors.green};
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    z-index: -1;
+    transition: ${({ theme }) => theme.transition};
+  }
+
+  &:hover::after {
+    top: 13px;
+    left: 13px;
+  }
+
   @media (max-width: 500px) {
     max-width: 270px;
     height: 270px;
@@ -43,34 +62,22 @@ export const ProfileImgWrapper = styled(ImageWrapper)`
     max-width: 180px;
     height: 180px;
   }
-
-  &::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
-    outline: 2px solid ${({ theme }) => theme.colors.green};
-    position: absolute;
-    top: 18px;
-    left: 18px;
-    z-index: -1;
-    transition: ${({ theme }) => theme.transition};
-  }
-
-  &:hover::after {
-    top: 13px;
-    left: 13px;
-  }
 `;
 
-export const ProjectImgWrapper = styled(ImageWrapper)<ContentPosition>`
+export const ProjectImgWrapper = styled(ImageWrapper) <ContentPosition>`
   height: 100%;
   position: relative;
   z-index: 1;
   grid-column: 1 / 8;
-  ${({ theme, isLeft }) => css`
-    box-shadow: ${theme.boxShadow};
+  ${({ isLeft }) => css`
     grid-area: ${isLeft ? "1 / 6 / -1 / -1" : "1 / 1 / -1 / 8"};
   `}
+
+  @media (max-width: 768px) {
+    ${({ isLeft }) => css`
+      grid-area: ${isLeft ? "1 / 1 / -1 / -1" : "1 / 1 / -1 / 13"};
+    `}
+    filter: brightness(40%);
+    opacity: 0.25;
+  }
 `;

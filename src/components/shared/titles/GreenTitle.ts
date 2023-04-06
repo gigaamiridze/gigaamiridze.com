@@ -25,6 +25,10 @@ export const ContactTitle = styled(GreenTitle)`
 export const FeaturedTitle = styled(GreenTitle)`
   font-size: 12px;
   margin-bottom: 12px;
+
+  /* @media (max-width: 768px) {
+    margin-bottom: 0;
+  } */
 `;
 
 export const ViewArchiveTitle = styled(GreenTitle)`

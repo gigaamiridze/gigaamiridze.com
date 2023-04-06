@@ -8,7 +8,10 @@ function FeauturedProjects() {
   return (
     <ProjectsBlock>
       {featuredProjects.map((project) => {
-        const { id, image, title, description, designLink, githubLink, techList, isLeft } = project;
+        const { 
+          id, image, title, className, description, 
+          designLink, githubLink, techList, isLeft 
+        } = project;
 
         return (
           <Project
@@ -26,6 +29,7 @@ function FeauturedProjects() {
             />
             <ProjectContent
               title={title}
+              className={className}
               description={description}
               designLink={designLink}
               githubLink={githubLink}
