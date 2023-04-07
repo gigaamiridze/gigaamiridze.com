@@ -14,7 +14,7 @@ const BackDrop = styled.div<OpenProps>`
   width: 100vw;
   height: 100vh;
   backdrop-filter: blur(7px);
-  z-index: 1;
+  z-index: 10;
 `;
 
 export default BackDrop;

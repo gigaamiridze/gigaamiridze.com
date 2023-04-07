@@ -20,6 +20,7 @@ const Menu = styled.div<OpenProps>`
     top: 0;
     right: 0;
     padding: 70px 10px;
+    z-index: 12;
   }
 
   @media (max-width: 600px) {
