@@ -9,7 +9,7 @@ import {
 } from "../../../components";
 
 function ProjectContent(props: ProjectContentProps) {
-  const { title, className, description, designLink, githubLink, techList, isLeft } = props;
+  const { title, description, designLink, githubLink, techList, isLeft } = props;
 
   return (
     <Content isLeft={isLeft}>
@@ -19,7 +19,7 @@ function ProjectContent(props: ProjectContentProps) {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <h3 className={className}>{title}</h3>
+        {title}
       </FeaturedProjectTitle>
       <TextBox>
         <FeaturedDescription>{description}</FeaturedDescription>

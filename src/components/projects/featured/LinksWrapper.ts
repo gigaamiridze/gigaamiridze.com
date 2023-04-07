@@ -21,6 +21,10 @@ const LinksWrapper = styled.div<ContentPosition>`
         padding-right: 7px;
         padding-left: 0;
       }
+
+      @media (max-width: 375px) {
+        padding: 7px 7px 7px 0;
+      }
     }
 
     &:last-child {
@@ -29,6 +33,10 @@ const LinksWrapper = styled.div<ContentPosition>`
       @media (max-width: 768px) {
         padding-right: 10px;
         padding-left: 7px;
+      }
+
+      @media (max-width: 375px) {
+        padding: 7px;
       }
     }
 
@@ -39,8 +47,6 @@ const LinksWrapper = styled.div<ContentPosition>`
 
   @media (max-width: 768px) {
     justify-content: flex-start;
-    position: relative;
-    z-index: 1;
   }
 `;
 

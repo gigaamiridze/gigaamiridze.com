@@ -13,6 +13,22 @@ const Project = styled(motion.div)`
     height: 400px;
     column-gap: 0;
   }
+
+  @media (max-width: 700px) {
+    height: 365px;
+  }
+
+  @media (max-width: 570px) {
+    height: 400px;
+  }
+
+  @media (max-width: 340px) {
+    height: 420px;
+  }
+
+  @media (max-width: 320px) {
+    height: 440px;
+  }
 `;
 
 export default Project;

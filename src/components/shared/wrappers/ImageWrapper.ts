@@ -77,7 +77,7 @@ export const ProjectImgWrapper = styled(ImageWrapper) <ContentPosition>`
     ${({ isLeft }) => css`
       grid-area: ${isLeft ? "1 / 1 / -1 / -1" : "1 / 1 / -1 / 13"};
     `}
-    filter: brightness(40%);
+    filter: brightness(30%);
     opacity: 0.25;
   }
 `;

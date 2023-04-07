@@ -19,13 +19,17 @@ const Content = styled.div<ContentPosition>`
       grid-area: ${isLeft ? "1 / 1 / -1 / 13" : "1 / 1 / -1 / -1"};
     `}
     height: 100%;
-    padding: 0 40px 0;
+    padding: 40px 40px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
     position: relative;
     z-index: 1;
+  }
+
+  @media (max-width: 480px) {
+    padding: 25px 25px 20px;
   }
 `;
 

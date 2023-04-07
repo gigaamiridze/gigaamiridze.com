@@ -7,7 +7,6 @@ export interface ProjectImageProps {
 
 export interface ProjectContentProps {
   title: string;
-  className: string;
   description: string;
   designLink: string;
   githubLink: string;

@@ -14,8 +14,16 @@ const TextBox = styled.div`
   @media (max-width: 768px) {
     background-color: transparent;
     box-shadow: inherit;
-    margin-top: 60px;
-    padding: 0 0 5px;
+    margin-top: 40px;
+    padding: 0;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 30px;
+  }
+
+  @media (max-width: 375px) {
+    margin-top: 25px;
   }
 `;
 

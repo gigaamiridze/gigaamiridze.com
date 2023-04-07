@@ -9,6 +9,10 @@ const ProjectsBlock = styled.div`
   @media (max-width: 768px) {
     row-gap: 70px;
   }
+
+  @media (max-width: 480px) {
+    row-gap: 30px;
+  }
 `;
 
 export default ProjectsBlock;

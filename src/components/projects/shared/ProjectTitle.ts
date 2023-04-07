@@ -14,32 +14,8 @@ const ProjectTitle = styled.a`
 `;
 
 export const FeaturedProjectTitle = styled(ProjectTitle)`
-  font-size: 24px;
-
-  @media (max-width: 768px) {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-
-    h3 {
-      position: absolute;
-      left: 40px;
-    }
-
-    .book {
-      top: 85px;
-    }
-
-    .tip-calc {
-      top: 96px;
-    }
-
-    .devfinder {
-      top: 108px;
-    }
-  }
+  font-size: clamp(21px, 4.5vw, 24px);
+  width: fit-content;
 `;
 
 export const OtherProjectTitle = styled(ProjectTitle)`
