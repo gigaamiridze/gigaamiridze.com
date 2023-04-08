@@ -41,10 +41,15 @@ export const FeaturedTechList = styled(ProjectTechList)<ContentPosition>`
 
 export const OtherTechList = styled(ProjectTechList)`
   column-gap: 15px;
-  padding-top: 30px;
+  padding-top: 25px;
 
   li {
     color: ${({ theme }) => theme.colors.slate};
     font-size: 11px;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 375px) {
+    padding-top: 20px;
   }
 `;

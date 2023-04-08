@@ -17,4 +17,8 @@ export const OtherDescription = styled(ProjectDescription)`
   font-size: 14px;
   line-height: 20px;
   margin-top: 10px;
+
+  @media (max-width: 375px) {
+    margin-top: 7px;
+  }
 `;

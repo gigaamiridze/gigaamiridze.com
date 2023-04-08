@@ -12,7 +12,7 @@ function Contact() {
       variants={sectionVariants}
       initial="hidden"
       whileInView={"visible"}
-      viewport={{ once: false }}
+      viewport={{ once: true }}
     >
       <ContactTitle>
         <ContactGreenNumber>05.</ContactGreenNumber>

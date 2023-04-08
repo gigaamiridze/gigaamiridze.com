@@ -47,6 +47,10 @@ export const ViewArchiveTitle = styled(GreenTitle)`
     opacity: 0.5;
     margin-top: 2px;
   }
+
+  @media (max-width: 480px) {
+    margin-top: 15px;
+  }
 `;
 
 export const ArchiveSubtitle = styled(GreenTitle)`

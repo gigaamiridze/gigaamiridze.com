@@ -8,10 +8,12 @@ const ProjectsBlock = styled.div`
 
   @media (max-width: 768px) {
     row-gap: 70px;
+    margin-bottom: 160px;
   }
 
   @media (max-width: 480px) {
     row-gap: 30px;
+    margin-bottom: 120px;
   }
 `;
 

@@ -73,4 +73,12 @@ export const ShowButton = styled(SectionButton)`
   &:hover {
     background-color: ${({ theme }) => theme.colors.greenTint};
   }
+
+  @media (max-width: 480px) {
+    margin-top: 50px;
+  }
+
+  @media (max-width: 375px) {
+    margin-top: 40px;
+  }
 `;

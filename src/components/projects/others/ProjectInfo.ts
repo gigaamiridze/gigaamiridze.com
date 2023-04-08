@@ -6,7 +6,7 @@ const ProjectInfo = styled.div`
     box-shadow: ${theme.boxShadow};
     transition: ${theme.transition};
   `}
-  width: 312px;
+  width: 100%;
   height: 100%;
   padding: 2rem 1.75rem;
   border-radius: 4px;
@@ -21,6 +21,10 @@ const ProjectInfo = styled.div`
     #project-title {
       color: ${({ theme }) => theme.colors.green};
     }
+  }
+
+  @media (max-width: 320px) {
+    padding: 1.4rem 1.4rem;
   }
 `;
 

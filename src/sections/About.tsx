@@ -11,7 +11,7 @@ function About() {
       variants={sectionVariants}
       initial="hidden"
       whileInView={"visible"}
-      viewport={{ once: false }}
+      viewport={{ once: true }}
     >
       <HeadTitle queueNumber={1} title="About Me" />
       <AboutBlock>

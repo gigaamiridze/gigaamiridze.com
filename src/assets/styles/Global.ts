@@ -71,6 +71,9 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     margin: 0 auto;
     margin-bottom: 200px;
+
+    @media(max-width: 768px) { margin-bottom: 160px; }
+    @media(max-width: 480px) { margin-bottom: 120px; }
   }
 
   ::selection {
