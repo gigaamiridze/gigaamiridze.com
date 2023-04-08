@@ -1,12 +1,16 @@
 import React from "react";
 import { icons } from "../../data";
+import { SocialIconsProps } from "../../interfaces";
 import { verticalBlockVariants } from "../../animations";
 import { VerticalBlock, VerticalLine, IconWrapper } from "../../components";
 
-function SocialIcons() {
+function SocialIcons(props: SocialIconsProps) {
+  const { isFooterPart } = props;
+
   return (
     <VerticalBlock 
       orientation="left"
+      isFooterPart={isFooterPart}
       variants={verticalBlockVariants}
       initial="hidden"
       animate="visible"

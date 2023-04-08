@@ -3,6 +3,7 @@ export * from "./featuredProject";
 export * from "./switchableTabs";
 export * from "./verticalBlock";
 export * from "./projectLink";
+export * from "./socialIcons";
 export * from "./headTitle";
 export * from "./projects";
 export * from "./header";

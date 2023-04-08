@@ -1,13 +1,15 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { motion } from "framer-motion";
 import { VerticalBlockProps } from "../../interfaces";
 
 const VerticalBlock = styled(motion.div)<VerticalBlockProps>`
-  display: flex;
+  ${({ isFooterPart, orientation }) => css`
+    display: ${isFooterPart ? "none" : "flex"};
+    ${orientation}: 40px;
+  `}
   flex-direction: column;
   align-items: center;
   position: fixed;
-  ${props => props.orientation}: 40px;
   bottom: 0;
 
   @media (max-width: 1080px) {
@@ -15,7 +17,16 @@ const VerticalBlock = styled(motion.div)<VerticalBlockProps>`
   }
 
   @media (max-width: 768px) {
-    display: none;
+    display: ${({ isFooterPart }) => isFooterPart ? "flex" : "none"};
+    flex-direction: row;
+    column-gap: 15px;
+    position: inherit;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 375px) {
+    column-gap: 10px;
+    margin-bottom: 0;
   }
 `;
 

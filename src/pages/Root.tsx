@@ -8,7 +8,7 @@ function Root() {
     <>
       <Header />
       <ScrollToTop />
-      <SocialIcons />
+      <SocialIcons isFooterPart={false}/>
       <MailBox />
       <MainContent>
         <Outlet />

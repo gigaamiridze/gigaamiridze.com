@@ -13,6 +13,10 @@ const IconWrapper = styled.a`
       transform: translateY(-3px);
     }
   }
+
+  @media (max-width: 320px) {
+    padding: 7px;
+  }
 `;
 
 export default IconWrapper;
