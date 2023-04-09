@@ -18,6 +18,10 @@ const ProjectLinksWrapper = styled.div`
     &:hover {
       color: ${({ theme }) => theme.colors.green};
     }
+
+    @media (max-width: 375px) {
+      font-size: 22px;
+    }
   }
 `;
 

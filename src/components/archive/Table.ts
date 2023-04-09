@@ -18,6 +18,22 @@ const Table = styled.table`
 
     &:first-child {
       padding-left: 20px;
+
+      @media (max-width: 768px) { padding-left: 15px; }
+    }
+
+    @media (max-width: 768px) { padding: 13px; }
+    @media (max-width: 375px) { padding: 11px; }
+  }
+
+  th {
+    white-space: nowrap;
+
+    @media (max-width: 768px) {
+      &:nth-child(3),
+      &:nth-child(4) {
+        display: none;
+      }
     }
   }
 
@@ -43,6 +59,14 @@ const Table = styled.table`
       border-bottom-right-radius: 4px;
     }
   }
+
+  @media (max-width: 768px) {
+    margin-top: 50px;
+    transform: translateX(-15px);
+  }
+  
+  @media (max-width: 480px) { font-size: 15px; }
+  @media (max-width: 320px) { font-size: 14.5px; }
 `;
 
 export default Table;

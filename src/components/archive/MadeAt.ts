@@ -7,6 +7,10 @@ const MadeAt = styled.td`
   `}
   font-size: 15px;
   font-weight: 400;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export default MadeAt;

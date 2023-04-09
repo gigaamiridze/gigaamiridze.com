@@ -21,6 +21,10 @@ const Cursor = styled(motion.div)`
     background-color: ${({ theme }) => theme.colors.green};
     border-radius: 50%;
   }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export default Cursor;

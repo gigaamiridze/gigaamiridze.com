@@ -54,6 +54,11 @@ export const ViewArchiveTitle = styled(GreenTitle)`
 `;
 
 export const ArchiveSubtitle = styled(GreenTitle)`
-  font-size: 14px;
-  margin-top: 27px;
+  font-size: clamp(12px, 1.2vw, 14px);
+  line-height: 1.6;
+  margin-top: 23px;
+
+  @media (max-width: 768px) { margin-top: 18px; }
+  @media (max-width: 600px) { margin-top: 14px; }
+  @media (max-width: 480px) { margin-top: 12px; }
 `;
