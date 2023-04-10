@@ -7,7 +7,7 @@ const jobPanels = [
     range: "June - October 2022",
     texts: [
       "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, React, and Git",
+      "Work with a programming languages, platforms, frameworks, and version control system such as JavaScript, TypeScript, React, and Git",
       "Worked closely with designers and management team to develop, document, and manage the websites",
     ]
   },
