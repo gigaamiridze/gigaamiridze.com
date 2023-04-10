@@ -9,7 +9,7 @@ function ResumeButton() {
 
   return (
     <ResumeBtnWrapper
-      href="https://drive.google.com/file/d/1le7L2Zs5mk2UsD5Qphx6Ig1Tokq3DYqM/view"
+      href="/Resume.pdf"
       rel="noopener noreferrer"
       target="_blank"
       onClick={() => setIsOpen(false)}
