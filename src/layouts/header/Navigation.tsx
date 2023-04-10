@@ -3,11 +3,13 @@ import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../animations";
 import { navLinks } from "../../data";
+import { useOffset } from "../../hooks";
 import { useMenu } from "../../contexts";
 import { NavContainer, NavGreenNumber } from "../../components";
 
 function Navigation() {
   const { setIsOpen } = useMenu();
+  const offset = useOffset();
   const _ = undefined;
 
   return (
@@ -28,7 +30,7 @@ function Navigation() {
                 activeClass="active"
                 spy={true} 
                 smooth={true}
-                offset={-130}
+                offset={offset}
                 duration={1000}
                 onClick={() => setIsOpen(false)}
               >
