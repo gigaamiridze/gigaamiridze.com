@@ -16,7 +16,7 @@ const eduPanels = [
     position: "Full-Stack Development",
     company: "BitCamp",
     companyLink: "https://www.bitcamp.ge",
-    range: "—",
+    range: "September 2022 - February 2023",
     texts: [
       "I completed BitCamp Pro and BitCamp Reactor courses through the BitCamp YouTube channel",
       "During the BitCamp Pro course, I learned technologies such as HTML, CSS, JavaScript, React, Node, Express, and databases: PostgreSQL and MongoDB",
@@ -28,7 +28,7 @@ const eduPanels = [
     position: "JavaScript/Node.js",
     company: "Geolab",
     companyLink: "https://geolab.edu.ge",
-    range: "—",
+    range: "January - May 2022",
     texts: [
       "I completed the JavaScript/Node.js course through the Geolab YouTube channel",
       "In the first part of the course, I learned the basics of JavaScript, modern JavaScript (ES6+), object-oriented programming, and accessing data from third-party APIs",
