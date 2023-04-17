@@ -9,7 +9,7 @@ const skills = [
   },
   {
     id: 3,
-    skillsList: ["React Router", "Git", "MySQL"],
+    skillsList: ["React Router", "Git", "MongoDB"],
   }
 ]
 
