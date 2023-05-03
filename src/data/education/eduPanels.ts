@@ -19,7 +19,7 @@ const eduPanels = [
     range: "September 2022 - February 2023",
     texts: [
       "I completed BitCamp Pro and BitCamp Reactor courses through the BitCamp YouTube channel",
-      "During the BitCamp Pro course, I learned technologies such as HTML, CSS, JavaScript, React, Node, Express, and databases: PostgreSQL and MongoDB",
+      "During the BitCamp Pro course, I learned technologies such as HTML, CSS, JavaScript, React, Node, Express, Mongoose, and databases: PostgreSQL and MongoDB",
       "During the BitCamp Reactor course, I learned technologies such as React, TypeScript, React Router, React Hook Form, Styled Components, and Framer Motion",
     ]
   },
