@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, MouseEventHandler } from "react";
+import { useState, useEffect, useRef, MouseEventHandler } from "react";
 import { RouterProvider } from "react-router-dom";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { GlobalStyles } from "./assets";

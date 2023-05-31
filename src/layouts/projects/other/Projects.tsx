@@ -1,4 +1,3 @@
-import React from "react";
 import uuid from "react-uuid";
 import { motion } from "framer-motion";
 import { CiFolderOn } from "react-icons/ci";

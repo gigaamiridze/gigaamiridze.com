@@ -1,4 +1,3 @@
-import React from "react";
 import { FooterContainer, Link as GitHubLink } from "../../components";
 import { SocialIcons, GithubStatistic } from "../../layouts";
 

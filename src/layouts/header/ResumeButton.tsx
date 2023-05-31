@@ -1,4 +1,3 @@
-import React from "react";
 import { fadeIn } from "../../animations";
 import { useMenu } from "../../contexts";
 import { ResumeBtnWrapper, ResumeBtn } from "../../components";

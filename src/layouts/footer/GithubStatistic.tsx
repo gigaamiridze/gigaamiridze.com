@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { RiGitRepositoryLine } from "react-icons/ri";
 import axios from "axios";
 import { User } from "../../interfaces";

@@ -1,4 +1,3 @@
-import React from "react";
 import { useMousePosition } from "../../hooks";
 import { Cursor } from "../../components";
 

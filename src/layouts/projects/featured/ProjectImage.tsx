@@ -1,4 +1,3 @@
-import React from "react";
 import { ProjectImageProps } from "../../../interfaces";
 import { ProjectImgWrapper, ProjectLink, Image } from "../../../components";
 

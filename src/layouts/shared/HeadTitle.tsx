@@ -1,4 +1,3 @@
-import React from "react";
 import { HeadTitleProps } from "../../interfaces";
 import { SectionTitleBox, SectionGreenNumber, SectionTitle, HorizontalLine } from "../../components";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { sectionVariants } from "../animations";
 import { 
   ContactContainer, ContactTitle, TouchTitle,

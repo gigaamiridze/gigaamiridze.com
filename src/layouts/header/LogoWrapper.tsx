@@ -1,4 +1,3 @@
-import React from "react";
 import { LetterG } from "../../assets";
 import { logoVariants } from "../../animations";
 import { LogoImage } from "../../components";

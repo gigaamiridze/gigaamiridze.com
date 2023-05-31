@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { fadeIn } from "../../animations";
 import { SwitchableTabsProps } from "../../interfaces";
 import {

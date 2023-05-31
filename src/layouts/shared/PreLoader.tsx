@@ -1,4 +1,3 @@
-import React from "react";
 import { LoaderWrapper, Atom, FirstLine, SecondLine, ThirdLine } from "../../components";
 
 function PreLoader() {

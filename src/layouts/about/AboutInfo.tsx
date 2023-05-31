@@ -1,4 +1,3 @@
-import React from "react";
 import { aboutInfo } from "../../data";
 import Skills from "./Skills";
 import { TextContainer, AboutText } from "../../components";

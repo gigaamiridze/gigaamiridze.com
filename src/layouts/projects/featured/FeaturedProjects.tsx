@@ -1,4 +1,3 @@
-import React from "react";
 import { fadeIn } from "../../../animations";
 import { featuredProjects } from "../../../data";
 import { ProjectsBlock, Project } from "../../../components";

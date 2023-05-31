@@ -1,4 +1,3 @@
-import React from "react";
 import { jobTabs, jobPanels } from "../data";
 import { sectionVariants } from "../animations";
 import { ActionContainer } from "../components";

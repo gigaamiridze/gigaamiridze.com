@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { tabTitle } from "../utilities";
 import { Hello, About, Experience, Education, Projects, Contact } from "../sections";
 

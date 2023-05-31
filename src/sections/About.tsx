@@ -1,4 +1,3 @@
-import React from "react";
 import { Profile } from "../assets";
 import { sectionVariants } from "../animations";
 import { HeadTitle, AboutInfo } from "../layouts";

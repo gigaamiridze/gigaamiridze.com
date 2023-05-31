@@ -1,4 +1,3 @@
-import React from "react";
 import { BurgerProps } from "../../interfaces";
 import { logoVariants } from "../../animations";
 import { BurgerWrapper, BurgerButton } from "../../components";

@@ -1,4 +1,3 @@
-import React from "react";
 import { icons } from "../../data";
 import { SocialIconsProps } from "../../interfaces";
 import { verticalBlockVariants } from "../../animations";

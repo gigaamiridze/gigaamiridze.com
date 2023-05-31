@@ -1,4 +1,3 @@
-import React from "react";
 import { verticalBlockVariants } from "../../animations";
 import { VerticalBlock, VerticalLine, MailLink } from "../../components";
 
