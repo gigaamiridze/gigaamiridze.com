@@ -4,9 +4,9 @@ const archiveProjects = [
     year: "2023",
     title: "Table and Chart",
     madeAt: "—",
-    techList: "React · Node · Express · Zustand · Ant Design",
-    designLink: "https://client-callapp.vercel.app",
-    githubLink: "https://github.com/justtfelix/callapp-exercise",
+    techs: "React · Node · Express · Zustand · Ant Design",
+    designLink: "https://callapp-client.vercel.app",
+    githubLink: "https://github.com/justtfelix/callapp-test",
   },
   {
     id: 2,
