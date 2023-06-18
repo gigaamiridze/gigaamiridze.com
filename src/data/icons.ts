@@ -13,13 +13,13 @@ const icons = [
   },
   {
     id: 2,
-    url: "https://www.linkedin.com/in/giga-amiridze-755340263",
+    url: "https://www.linkedin.com/in/gigaamiridze",
     icon: FiLinkedin,
     title: "LinkedIn",
   },
   {
     id: 3,
-    url: "https://instagram.com/justttfelix",
+    url: "https://instagram.com/feliixxmj",
     icon: AiOutlineInstagram,
     title: "Instagram",
   },
@@ -31,7 +31,7 @@ const icons = [
   },
   {
     id: 5,
-    url: "https://facebook.com/justttfelix",
+    url: "https://facebook.com/feliixxmj",
     icon: SlSocialFacebook,
     title: "Facebook",
   },
