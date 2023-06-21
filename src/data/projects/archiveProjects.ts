@@ -2,11 +2,11 @@ const archiveProjects = [
   {
     id: 1,
     year: "2023",
-    title: "Table and Chart",
+    title: "Snappy Chat",
     madeAt: "—",
-    techs: "React · Node · Express · Zustand · Ant Design",
-    designLink: "https://callapp-client.vercel.app",
-    githubLink: "https://github.com/justtfelix/callapp-test",
+    techs: "React · Node · Express · MongoDB · Mongoose · Socket.io",
+    designLink: "https://snappy-chat-geo.vercel.app",
+    githubLink: "https://github.com/justtfelix/snappy-chat",
   },
   {
     id: 2,
