@@ -5,7 +5,7 @@ const featuredProjects = [
     id: 1,
     image: SnappyChat,
     title: "Snappy Chat",
-    description: "The real-time chat application I have developed using MERN stack is a dynamic and interactive platform for users to engage in live conversations seamlessly. the application is a feature-rich platform with real-time messaging updates, efficient backend operations, and visually appealing aesthetics and styling.",
+    description: "The real-time chat application I have developed using MERN stack is a dynamic and interactive platform for users to engage in live conversations seamlessly. the application is a feature-rich platform with real-time messaging updates, efficient backend operations, and visually appealing aesthetics and styles.",
     designLink: "https://snappy-chat-geo.vercel.app",
     githubLink: "https://github.com/justtfelix/snappy-chat",
     techList: ["React", "Node", "Express", "MongoDB", "Socket.io"],
