@@ -8,7 +8,7 @@ function ResumeButton() {
 
   return (
     <ResumeBtnWrapper
-      href="/Resume.pdf"
+      href="/resume.pdf"
       rel="noopener noreferrer"
       target="_blank"
       onClick={() => setIsOpen(false)}

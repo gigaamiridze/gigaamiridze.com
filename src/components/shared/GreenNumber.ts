@@ -6,6 +6,7 @@ const GreenNumber = styled.span`
     font-family: ${theme.fonts.secondary}; 
   `}
   font-weight: 300;
+  white-space: nowrap;
 `;
 
 export const NavGreenNumber = styled(GreenNumber)`
