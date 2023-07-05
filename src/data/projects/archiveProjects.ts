@@ -73,6 +73,15 @@ const archiveProjects = [
   },
   {
     id: 9,
+    year: "2023",
+    title: "Social Media App",
+    madeAt: "—",
+    techs: "React Native · TypeScript",
+    designLink: undefined,
+    githubLink: "https://github.com/justtfelix/social-media-app",
+  },
+  {
+    id: 10,
     year: "2022",
     title: "Accordion Card",
     madeAt: "—",
@@ -81,7 +90,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/accordion-card",
   },
   {
-    id: 10,
+    id: 11,
     year: "2022",
     title: "Registration Form",
     madeAt: "—",
@@ -90,7 +99,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/registration-form",
   },
   {
-    id: 11,
+    id: 12,
     year: "2023",
     title: "Interactive Card",
     madeAt: "—",
@@ -99,7 +108,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/interactive-card-details-form",
   },
   {
-    id: 12,
+    id: 13,
     year: "2023",
     title: "Interactive Rating Card",
     madeAt: "—",
@@ -108,7 +117,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/interactive-rating-component",
   },
   {
-    id: 13,
+    id: 14,
     year: "2023",
     title: "Advice Generator",
     madeAt: "—",
@@ -117,7 +126,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/advice-generator",
   },
   {
-    id: 14,
+    id: 15,
     year: "2022",
     title: "NFT Card",
     madeAt: "—",
@@ -126,7 +135,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/nft-preview-card",
   },
   {
-    id: 15,
+    id: 16,
     year: "2022",
     title: "Paradise",
     madeAt: "Unilab",
@@ -135,7 +144,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/Paradise",
   },
   {
-    id: 16,
+    id: 17,
     year: "2022",
     title: "Photolens",
     madeAt: "—",
@@ -144,7 +153,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/Photolens",
   },
   {
-    id: 17,
+    id: 18,
     year: "2022",
     title: "Travel",
     madeAt: "Unilab",
@@ -153,7 +162,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/Unilab-Project",
   },
   {
-    id: 18,
+    id: 19,
     year: "2022",
     title: "Hortensia",
     madeAt: "Unilab",
@@ -162,7 +171,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/AI_HortensIA/tree/back",
   },
   {
-    id: 19,
+    id: 20,
     year: "2022",
     title: "Tokyo",
     madeAt: "—",
@@ -171,7 +180,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/Tokyo",
   },
   {
-    id: 20,
+    id: 21,
     year: "2020",
     title: "Photography Portfolio",
     madeAt: "Unilab",
@@ -180,7 +189,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/Photography-Portfolio",
   },
   {
-    id: 21,
+    id: 22,
     year: "2022",
     title: "Delux",
     madeAt: "—",
@@ -189,7 +198,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/Delux",
   },
   {
-    id: 22,
+    id: 23,
     year: "2022",
     title: "Vaccination API",
     madeAt: "Unilab",
@@ -198,7 +207,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/Vaccination-API",
   },
   {
-    id: 23,
+    id: 24,
     year: "2022",
     title: "Magazine Manager API",
     madeAt: "Unilab",
@@ -207,7 +216,7 @@ const archiveProjects = [
     githubLink: "https://github.com/justtfelix/Manager-API",
   },
   {
-    id: 24,
+    id: 25,
     year: "2022",
     title: "Genius API",
     madeAt: "Unilab",
