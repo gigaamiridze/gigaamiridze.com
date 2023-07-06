@@ -4,7 +4,7 @@ const eduPanels = [
     position: "Cyber Security and Networks",
     company: "IT Step Academy",
     companyLink: "https://ge.itstep.org",
-    range: "October 2022 - Present",
+    range: "October 2022 - June 2023",
     texts: [
       "During my studies at the Academy, I will study 7 subjects, such as CompTIA A+, CCNA, Windows Server, Linux Server, Python, CCNP, and Cyber Security",
       "I complete interesting projects that are as close as possible to reality in the IT industry",
