@@ -1,15 +1,15 @@
 const skills = [
   {
     id: 1,
-    skillsList: ["TypeScript", "Node", "Mongoose"],
+    skillsList: ["TypeScript", "React", "NestJS"],
   },
   {
     id: 2,
-    skillsList: ["React", "Express", "Styled Components"],
+    skillsList: ["Python", "React Native", "Styled Components"],
   },
   {
     id: 3,
-    skillsList: ["React Native", "NestJS", "Git"],
+    skillsList: ["Django", "Node", "Git"],
   }
 ]
 
