@@ -7,7 +7,7 @@ import { SlSocialFacebook } from "react-icons/sl";
 const icons = [
   {
     id: 1,
-    url: "https://github.com/justtfelix",
+    url: "https://github.com/gigaamiridze",
     icon: TbBrandGithub,
     title: "GitHub",
   },
@@ -19,19 +19,19 @@ const icons = [
   },
   {
     id: 3,
-    url: "https://instagram.com/giga.amiridze",
+    url: "https://instagram.com/gigaamir",
     icon: AiOutlineInstagram,
     title: "Instagram",
   },
   {
     id: 4,
-    url: "https://twitter.com/justttfelix",
+    url: "https://twitter.com/giga_amiridze",
     icon: RxTwitterLogo,
     title: "Twitter",
   },
   {
     id: 5,
-    url: "https://facebook.com/feliixxmj",
+    url: "https://facebook.com/gigaamiridze",
     icon: SlSocialFacebook,
     title: "Facebook",
   },

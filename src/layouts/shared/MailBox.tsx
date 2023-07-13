@@ -9,8 +9,8 @@ function MailBox() {
       initial="hidden"
       animate="visible"
     >
-      <MailLink href="mailto:justttfelix@gmail.com" rel="noopener noreferrer">
-        justttfelix@gmail.com
+      <MailLink href="mailto:gigaamiridze@gmail.com" rel="noopener noreferrer">
+        gigaamiridze@gmail.com
       </MailLink>
       <VerticalLine />
     </VerticalBlock>
