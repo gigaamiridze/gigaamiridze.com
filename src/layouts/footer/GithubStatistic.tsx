@@ -8,7 +8,7 @@ function GithubStatistic() {
   const [user, setUser] = useState({} as User);
 
   const getUser = async () => {
-    const response = await axios.get('https://api.github.com/users/justtfelix');
+    const response = await axios.get('https://api.github.com/users/gigaamiridze');
     const data = await response.data;
     setUser(data);
   }
