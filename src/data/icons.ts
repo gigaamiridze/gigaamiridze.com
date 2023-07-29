@@ -19,7 +19,7 @@ const icons = [
   },
   {
     id: 3,
-    url: "https://instagram.com/gigaamir",
+    url: "https://instagram.com/gigaamiridzee",
     icon: AiOutlineInstagram,
     title: "Instagram",
   },

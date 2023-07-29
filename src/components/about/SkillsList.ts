@@ -5,14 +5,20 @@ const SkillsList = styled.div`
   column-gap: 25px;
   margin-top: 7px;
 
-  @media (max-width: 900px) { column-gap: 50px; }
+  @media (max-width: 900px) { 
+    column-gap: 50px;
+    justify-content: center;
+  }
+
   @media (max-width: 650px) { column-gap: 30px; }
   @media (max-width: 600px) { column-gap: 50px; }
   @media (max-width: 500px) { column-gap: 30px; }
+
   @media (max-width: 420px) {
-    justify-content: space-between;
+    justify-content: space-around;
     column-gap: 15px;
   }
+
   @media (max-width: 375px) { margin-top: 5px; }
   
   ul {
