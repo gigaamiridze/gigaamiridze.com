@@ -9,7 +9,7 @@ const skills = [
   },
   {
     id: 3,
-    skillsList: ["TypeScript", "NestJS", "Styled Components"],
+    skillsList: ["TypeScript", "Styled Components", "Docker"],
   }
 ]
 
