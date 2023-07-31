@@ -1,4 +1,4 @@
-import { SnappyChat, ElBook, NotesWallpaper } from "../../assets";
+import { SnappyChat, SpotifyProfile, NotesWallpaper } from "../../assets";
 
 const featuredProjects = [
   {
@@ -13,22 +13,22 @@ const featuredProjects = [
   },
   {
     id: 2,
+    image: SpotifyProfile,
+    title: "Spotify Profile",
+    description: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+    designLink: "https://spotify-profile-geo.vercel.app",
+    githubLink: "https://github.com/gigaamiridze/spotify-profile",
+    techList: ["React", "Styled Components", "Chart.js", "Docker", "Spotify API"],
+    isLeft: true,
+  },
+  {
+    id: 3,
     image: NotesWallpaper,
     title: "Notes App",
     description: "The notes app I built using Django and React is a powerful tool that allows users to create, update, and delete their notes efficiently. With this application, users can organize their thoughts, ideas, tasks, or any other important information in a digital format.",
     designLink: "https://notes-app-client.vercel.app",
     githubLink: "https://github.com/gigaamiridze/notes-app-server",
     techList: ["React", "Django", "Django REST Framework", "Styled Components"],
-    isLeft: true,
-  },
-  {
-    id: 3,
-    image: ElBook,
-    title: "Sandro's Book",
-    description: "This book is an online edition of the book. The stories told in this book are about technology and the magical abilities of modern man. There is no printed version of this book, the stories told in the book can be read and heard only thanks to technology.",
-    designLink: "https://nokak.github.io/Web-edition-of-Sandro-s-book",
-    githubLink: "https://github.com/gigaamiridze/Web-edition-of-Sandro-s-book",
-    techList: ["JavaScript", "HTML", "SCSS"],
     isLeft: false,
   },
 ]
