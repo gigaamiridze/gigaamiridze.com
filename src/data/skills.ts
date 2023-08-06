@@ -1,15 +1,15 @@
 const skills = [
   {
     id: 1,
-    skillsList: ["React", "React Native", "Node"],
+    skillsList: ["React", "React Native", "Redux Toolkit"],
   },
   {
     id: 2,
-    skillsList: ["Python", "Django", "Git"],
+    skillsList: ["Django", "Node", "Git"],
   },
   {
     id: 3,
-    skillsList: ["TypeScript", "Styled Components", "Docker"],
+    skillsList: ["TypeScript", "Python", "Docker"],
   }
 ]
 
