@@ -6,9 +6,8 @@ const eduPanels = [
     companyLink: "https://ge.itstep.org",
     range: "October 2022 - June 2023",
     texts: [
-      "During my studies at the Academy, I will study 7 subjects, such as CompTIA A+, CCNA, Windows Server, Linux Server, Python, CCNP, and Cyber Security",
-      "I complete interesting projects that are as close as possible to reality in the IT industry",
-      "The knowledge and skills I acquire are in line with the current requirements of employers",
+      "I studied Comptia A+ and CCNA. During my studies, I had deep contact with software, hardware, and network",
+      "I have been working on interesting projects that are as close as possible to reality in the IT industry",
     ]
   },
   {
