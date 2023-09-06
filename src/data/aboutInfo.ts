@@ -1,15 +1,15 @@
 const aboutInfo = [
   {
     id: 1,
-    text: "Hello! My name is Giga and I enjoy creating things that live on the internet. My interest in web development started in 2020 when I was a high school student. I'm looking to take on more work and increase my skills as a web developer.",
+    text: "Hello! My name is Giga and I'm an experienced Full-Stack Web and Mobile Developer specializing in React for web applications and React Native for cross-platform mobile app development. Proficient in building and optimizing mobile applications for both iOS and Android. Also experienced in server-side development using Node.js and Django.",
   },
   {
     id: 2,
-    text: "Something that I love about web development is the opportunity to work with people. The web development life cycle involves interacting with many professionals who are striving towards the same goal.",
+    text: "Strong problem-solving abilities and a commitment to staying up-to-date with industry trends. Proven track record of collaborating with cross-functional teams to deliver high-quality software solutions.",
   },
   {
     id: 3,
-    text: "I'm looking for a job and I'm open to any challenging developer position and want a highly rewarding career where I can use my skills and knowledge to help the company and my coworkers to be successful at a team level.",
+    text: "Something that I love about development is the opportunity to work with people. The development life cycle involves interacting with many professionals who are striving towards the same goal.",
   },
   {
     id: 4,

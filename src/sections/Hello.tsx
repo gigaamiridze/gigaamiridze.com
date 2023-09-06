@@ -20,15 +20,15 @@ function Hello() {
         initial="hidden"
         animate="visible"
       >
-        I build things for the web.
+        I build applications.
       </WorkTitle>
       <HelloText
         variants={fadeIn("up", _, 1.6)}
         initial="hidden"
         animate="visible"
       >
-        I'm a detail-oriented Full-Stack Developer with experience building websites and 
-        web applications. Currently, I’m focused on building accessible, human-centered products.
+        I’m a detail-oriented Full-Stack Web and Mobile Developer with experience building websites and 
+        mobile applications. Currently, I’m focused on building accessible, human-centered products.
       </HelloText>
     </HelloContainer>
   )
