@@ -17,7 +17,7 @@ const TabIndicator = styled.div<TabProps>`
 
   @media (max-width: 600px) {
     ${({ isJobIndicator, activeTab }) => css`
-      width: ${isJobIndicator ? "120px" : "calc(100% / 5)"};
+      width: ${isJobIndicator ? "120px" : "calc(100% / 6)"};
       transform: translateX(calc(${activeTab} * 100%));
     `}
     height: 2px;
@@ -26,13 +26,13 @@ const TabIndicator = styled.div<TabProps>`
 
   @media (max-width: 375px) {
     ${({ isJobIndicator }) => css`
-      width: ${isJobIndicator ? "110px" : "calc(100% / 5)"};
+      width: ${isJobIndicator ? "110px" : "calc(100% / 6)"};
     `}
   }
 
   @media (max-width: 340px) {
     ${({ isJobIndicator }) => css`
-      width: ${isJobIndicator ? "100px" : "calc(100% / 5)"};
+      width: ${isJobIndicator ? "100px" : "calc(100% / 6)"};
     `}
   }
 `;

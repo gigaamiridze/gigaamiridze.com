@@ -9,14 +9,18 @@ const eduTabs = [
   },
   {
     id: 2,
-    company: "Geolab",
+    company: "Udemy",
   },
   {
     id: 3,
-    company: "Unilab",
+    company: "Udemy",
   },
   {
     id: 4,
+    company: "Unilab",
+  },
+  {
+    id: 5,
     company: "Unilab",
   },
 ]
