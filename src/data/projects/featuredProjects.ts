@@ -1,4 +1,4 @@
-import { SnappyChat, SpotifyProfile, NotesWallpaper } from "../../assets";
+import { SnappyChat, SpotifyProfile, DonationApp } from "../../assets";
 
 const featuredProjects = [
   {
@@ -23,12 +23,12 @@ const featuredProjects = [
   },
   {
     id: 3,
-    image: NotesWallpaper,
-    title: "Notes App",
-    description: "The notes app I built using Django and React is a powerful tool that allows users to create, update, and delete their notes efficiently. With this application, users can organize their thoughts, ideas, tasks, or any other important information in a digital format.",
-    designLink: "https://notes-app-client.vercel.app",
-    githubLink: "https://github.com/gigaamiridze/notes-app-server",
-    techList: ["React", "Django", "Django REST Framework", "Styled Components"],
+    image: DonationApp,
+    title: "Donation App",
+    description: "Through the donation application, the user can log in, register, view the donation items, view their detailed information and, if desired, enter their own card details for donation and confirm payment.",
+    designLink: "https://clipchamp.com/watch/S6FgBBOxxLH/embed",
+    githubLink: "https://github.com/gigaamiridze/donation-app",
+    techList: ["React Native", "Redux Toolkit", "Firebase", "Stripe", "Express"],
     isLeft: false,
   },
 ]
