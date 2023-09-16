@@ -27,7 +27,7 @@ const eduPanels = [
     position: "React Native Development",
     company: "Udemy",
     companyLink: "https://www.udemy.com/course/react-native-mobile-app-development",
-    range: "July - September 2023",
+    range: "May - September 2023",
     texts: [
       "Mastered the essentials of React Native for iOS and Android app development, including cross-platform app creation. Completed two projects: Social Media App and Donation App.",
       "Proficiently implemented state management with React Hooks, handled side effects, and created seamless navigation and routing functionality within React Native applications.",
@@ -39,7 +39,7 @@ const eduPanels = [
     position: "Django Development",
     company: "Udemy",
     companyLink: "https://www.udemy.com/course/python-django-the-practical-guide",
-    range: "July - September 2023",
+    range: "May - September 2023",
     texts: [
       "Mastered Django basics, including installation, project creation, and core concepts like URLs, views, and handling requests and responses.",
       "Proficient in designing data models, establishing one-to-many, one-to-one, and many-to-many relationships, and harnessing Django's robust model system for data querying.",
