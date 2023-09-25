@@ -31,7 +31,7 @@ const icons = [
   },
   {
     id: 5,
-    url: "https://facebook.com/gigaamiridze",
+    url: "https://facebook.com/gigaamiridzee",
     icon: SlSocialFacebook,
     title: "Facebook",
   },
