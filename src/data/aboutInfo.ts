@@ -1,7 +1,7 @@
 const aboutInfo = [
   {
     id: 1,
-    text: "Hello! My name is Giga and I'm an experienced Full-Stack Web and Mobile Developer specializing in React for web applications and React Native for cross-platform mobile app development. Proficient in building and optimizing mobile applications for both iOS and Android. Also experienced in server-side development using Node.js and Django.",
+    text: "Hello! My name is Giga and I'm an experienced Full-Stack Web and Mobile Software Engineer specializing in React for web applications and React Native for cross-platform mobile app development. Proficient in building and optimizing mobile applications for both iOS and Android. Also experienced in server-side development using Spring Boot, Django, and Node.js.",
   },
   {
     id: 2,

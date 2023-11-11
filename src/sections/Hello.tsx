@@ -27,7 +27,7 @@ function Hello() {
         initial="hidden"
         animate="visible"
       >
-        I’m a detail-oriented Full-Stack Web and Mobile Developer with experience building websites and 
+        I’m a detail-oriented Full-Stack Web and Mobile Software Engineer with experience building websites and 
         mobile applications. Currently, I’m focused on building accessible, human-centered products.
       </HelloText>
     </HelloContainer>
