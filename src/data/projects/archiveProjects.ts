@@ -29,6 +29,24 @@ const archiveProjects = [
   {
     id: 4,
     year: "2023",
+    title: "Library Kiosk",
+    madeAt: "—",
+    techs: "React · TypeScript · Styled Components · React Query",
+    designLink: "https://library-kiosk.vercel.app",
+    githubLink: "https://github.com/gigaamiridze/library-kiosk",
+  },
+  {
+    id: 5,
+    year: "2023",
+    title: "Library Kiosk Mobile",
+    madeAt: "—",
+    techs: "React Native · TypeScript · React Navigation · React Query",
+    designLink: "https://clipchamp.com/watch/gWxH5UGRVou/embed",
+    githubLink: "https://github.com/gigaamiridze/library-kiosk-mobile-app",
+  },
+  {
+    id: 6,
+    year: "2023",
     title: "Job Finder App",
     madeAt: "—",
     techs: "React Native · TypeScript · Expo · JSearch API",
@@ -36,7 +54,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/job-finder-app",
   },
   {
-    id: 5,
+    id: 7,
     year: "2023",
     title: "NFT Marketplace",
     madeAt: "—",
@@ -45,7 +63,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/nft-marketplace",
   },
   {
-    id: 6,
+    id: 8,
     year: "2023",
     title: "Social Media App",
     madeAt: "—",
@@ -54,7 +72,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/social-media-app",
   },
   {
-    id: 7,
+    id: 9,
     year: "2023",
     title: "Notes App",
     madeAt: "—",
@@ -63,7 +81,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/notes-app-server",
   },
   {
-    id: 8,
+    id: 10,
     year: "2022",
     title: "Shopping Cart",
     madeAt: "—",
@@ -72,7 +90,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/shopping-cart-rc",
   },
   {
-    id: 9,
+    id: 11,
     year: "2022",
     title: "Sandro's Book",
     madeAt: "Unilab",
@@ -81,7 +99,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/Web-edition-of-Sandro-s-book",
   },
   {
-    id: 10,
+    id: 12,
     year: "2022",
     title: "Tic Tac Toe",
     madeAt: "—",
@@ -90,7 +108,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/tic-tac-toe",
   },
   {
-    id: 11,
+    id: 13,
     year: "2022",
     title: "Shopping Cart",
     madeAt: "—",
@@ -99,7 +117,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/shopping-cart",
   },
   {
-    id: 12,
+    id: 14,
     year: "2023",
     title: "Tip Calculator",
     madeAt: "—",
@@ -108,7 +126,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/tip-calculator",
   },
   {
-    id: 13,
+    id: 15,
     year: "2023",
     title: "Devfinder",
     madeAt: "—",
@@ -117,7 +135,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/github-user-search-app",
   },
   {
-    id: 14,
+    id: 16,
     year: "2022",
     title: "Todo List",
     madeAt: "—",
@@ -126,7 +144,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/todo-list",
   },
   {
-    id: 15,
+    id: 17,
     year: "2022",
     title: "Accordion Card",
     madeAt: "—",
@@ -135,7 +153,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/accordion-card",
   },
   {
-    id: 16,
+    id: 18,
     year: "2022",
     title: "Registration Form",
     madeAt: "—",
@@ -144,7 +162,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/registration-form",
   },
   {
-    id: 17,
+    id: 19,
     year: "2023",
     title: "Interactive Card",
     madeAt: "—",
@@ -153,7 +171,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/interactive-card-details-form",
   },
   {
-    id: 18,
+    id: 20,
     year: "2023",
     title: "Interactive Rating Card",
     madeAt: "—",
@@ -162,7 +180,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/interactive-rating-component",
   },
   {
-    id: 19,
+    id: 21,
     year: "2023",
     title: "Advice Generator",
     madeAt: "—",
@@ -171,7 +189,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/advice-generator",
   },
   {
-    id: 20,
+    id: 22,
     year: "2022",
     title: "NFT Card",
     madeAt: "—",
@@ -180,7 +198,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/nft-preview-card",
   },
   {
-    id: 21,
+    id: 23,
     year: "2022",
     title: "Paradise",
     madeAt: "Unilab",
@@ -189,7 +207,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/paradise",
   },
   {
-    id: 22,
+    id: 24,
     year: "2022",
     title: "Photolens",
     madeAt: "—",
@@ -198,7 +216,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/photolens",
   },
   {
-    id: 23,
+    id: 25,
     year: "2022",
     title: "Travel",
     madeAt: "Unilab",
@@ -207,7 +225,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/unilab-project",
   },
   {
-    id: 24,
+    id: 26,
     year: "2022",
     title: "Hortensia",
     madeAt: "Unilab",
@@ -216,7 +234,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/AI_HortensIA/tree/back",
   },
   {
-    id: 25,
+    id: 27,
     year: "2022",
     title: "Tokyo",
     madeAt: "—",
@@ -225,7 +243,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/tokyo",
   },
   {
-    id: 26,
+    id: 28,
     year: "2020",
     title: "Photography Portfolio",
     madeAt: "Unilab",
@@ -234,7 +252,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/photography-portfolio",
   },
   {
-    id: 27,
+    id: 29,
     year: "2022",
     title: "Delux",
     madeAt: "—",
@@ -243,7 +261,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/delux",
   },
   {
-    id: 28,
+    id: 30,
     year: "2022",
     title: "Vaccination API",
     madeAt: "Unilab",
@@ -252,7 +270,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/vaccination-api",
   },
   {
-    id: 29,
+    id: 31,
     year: "2022",
     title: "Magazine Manager API",
     madeAt: "Unilab",
@@ -261,7 +279,7 @@ const archiveProjects = [
     githubLink: "https://github.com/gigaamiridze/manager-api",
   },
   {
-    id: 30,
+    id: 32,
     year: "2022",
     title: "Genius API",
     madeAt: "Unilab",
