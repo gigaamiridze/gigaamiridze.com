@@ -1,7 +1,7 @@
 const skills = [
   {
     id: 1,
-    skillsList: ["React", "React Native", "Redux Toolkit"],
+    skillsList: ["React", "React Native", "Firebase"],
   },
   {
     id: 2,
